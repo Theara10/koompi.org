@@ -1,0 +1,69 @@
+.ant-row {
+  width: 1000px !important;
+  margin: auto;
+}
+
+.koompi-os h1 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 40px;
+}
+.intro {
+  padding-top: 50px;
+  height: 500px;
+  margin: auto;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.intro-title {
+  padding-top: 50px;
+}
+
+.intro-description {
+  font-size: 20px;
+}
+
+.intro-img {
+  padding-left: 30px;
+  /* padding-top: 80px; */
+  margin-top: 80px;
+}
+
+.open-source {
+  height: 500px;
+  background-color: #f1f2f6;
+  display: flex;
+  justify-content: center;
+}
+
+.decentralize {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.applications {
+  height: 500px;
+  width: 1000px !important;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.applications-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.application-bottom {
+  display: flex;
+  margin-top: 30px;
+}
+
+.application-bottom-card {
+  margin-right: 20px;
+  width: 200px;
+  height: 200px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}

@@ -4,6 +4,7 @@ import Partners from "../components/Partners";
 import ProjectCard from "../components/ProjectCard";
 import RecentNews from "../components/RecentNews";
 
+
 const img = require("../lib/img/docs.jpg");
 const img2 = require("../lib/img/Wifi-KOOMPI-2.png");
 const img3 = require("../lib/img/favicon.png");

@@ -14,7 +14,7 @@ function RecentNews() {
           />
         </Col>
         <Col span={15}>
-          <div>
+          <div className="recentnews-card-right">
             <div className="tag">
               <p>NEWS</p>
             </div>

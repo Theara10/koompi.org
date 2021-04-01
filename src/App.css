@@ -54,12 +54,6 @@
   box-shadow: rgba(158, 158, 158, 0.2) 0px 8px 24px;
 }
 
-/* .document-category h2 p {
-  margin-bottom: 0px;
-  text-align: center;
-  font-weight: 800;
-} */
-
 .projects-card {
   padding-top: 30px !important;
 }
@@ -101,9 +95,6 @@
 }
 
 /* Recent News */
-
-.recentnews {
-}
 
 .recentnews-card {
   margin-top: 20px;
@@ -156,12 +147,26 @@
 
 /* Footer */
 
-.ant-layout-footer {
+.footer {
   height: 200px;
   background: #001529 !important;
   margin-top: 50px;
+  padding-top: 50px;
 }
 
-.footer-title {
+.footer-container {
+  margin-top: 30px;
+  width: 80%;
+  margin: auto;
+}
+
+.footer p {
   color: white !important;
+}
+.footer h2 {
+  color: white !important;
+}
+
+.ant-col ant-col-8 {
+  text-align: center;
 }

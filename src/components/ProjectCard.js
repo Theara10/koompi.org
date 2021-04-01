@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function ProjectCard(props) {
   return (
@@ -11,8 +12,10 @@ function ProjectCard(props) {
         </div>
       </div>
       <div className="projects-card-container-bottom">
-        <p>{props.description}</p>
-        <p style={{ color: "#38a7c8" }}>Read more..</p>
+        <p className="card-description">{props.description}</p>
+        <p style={{ color: "#38a7c8" }}>
+          <Link to="/koompi-os">Read more..</Link>
+        </p>
       </div>
     </div>
   );

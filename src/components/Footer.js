@@ -1,20 +1,36 @@
 import { Col, Row } from "antd";
 import React from "react";
 
-function Footer() {
+function Foot() {
   return (
     <div className="footer">
-      <Row>
-        <Col span={8}>
-          <div>
-            <h2 className="footer-title">Footer</h2>
-          </div>
-        </Col>
-        <Col span={8}>Footer</Col>
-        <Col span={8}>Footer</Col>
-      </Row>
+      <div className="footer-container">
+        <Row>
+          <Col span={8}>
+            <div>
+              <h2 className="footer-title">Footer</h2>
+              <p>About</p>
+              <p>About</p>
+            </div>
+          </Col>
+          <Col span={8}>
+            <div>
+              <p>About</p>
+              <p>About</p>
+              <p>About</p>
+            </div>
+          </Col>
+          <Col span={8}>
+            <div>
+              <p>About</p>
+              <p>About</p>
+              <p>About</p>
+            </div>
+          </Col>
+        </Row>
+      </div>
     </div>
   );
 }
 
-export default Footer;
+export default Foot;
