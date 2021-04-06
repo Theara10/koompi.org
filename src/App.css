@@ -167,6 +167,10 @@
   color: white !important;
 }
 
-.ant-col ant-col-8 {
+.ant-col {
   text-align: center;
+}
+
+.copyright {
+  text-align: center !important;
 }

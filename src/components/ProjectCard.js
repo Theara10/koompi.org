@@ -5,7 +5,9 @@ function ProjectCard(props) {
   return (
     <div className="document-category">
       <div className="projects-card-container-top">
-        <img src={props.img} className="projects-img" />
+        <a href={props.link} target="_blank">
+          <img src={props.img} className="projects-img" />
+        </a>
         <div className="card-title-container">
           <p className="card-subtitle">{props.subtitle}</p>
           <h2 className="card-title">{props.title}</h2>
