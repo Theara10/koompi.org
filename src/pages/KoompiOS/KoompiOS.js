@@ -117,6 +117,15 @@ function KoompiOS() {
           </div>
         </div>
       </div>
+
+      <div className="contribute">
+        <div className="contribute-container">
+          <h1>What to be apart of our growing developer community?</h1>
+          <div className="contribute-button">
+            <p className="button">CONTRIBUTE NOW</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

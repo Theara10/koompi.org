@@ -1,5 +1,7 @@
 import React from "react";
-import { Row, Col } from "antd";
+import { Row, Col, Card } from "antd";
+
+const { Meta } = Card;
 
 function RecentNews() {
   return (
@@ -27,6 +29,45 @@ function RecentNews() {
             </p>
           </div>
         </Col>
+        {/* <Col span={8}>
+          <Card
+            style={{ width: 300 }}
+            cover={
+              <img
+                alt="example"
+                src="https://miro.medium.com/max/1400/1*BrrH41gDcqqEzDl_sn4agQ.jpeg"
+              />
+            }
+          >
+            <Meta title="Card title" description="This is the description" />
+          </Card>
+        </Col>
+        <Col span={8}>
+          <Card
+            style={{ width: 300 }}
+            cover={
+              <img
+                alt="example"
+                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+              />
+            }
+          >
+            <Meta title="Card title" description="This is the description" />
+          </Card>
+        </Col>
+        <Col span={8}>
+          <Card
+            style={{ width: 300 }}
+            cover={
+              <img
+                alt="example"
+                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+              />
+            }
+          >
+            <Meta title="Card title" description="This is the description" />
+          </Card>
+        </Col> */}
       </Row>
     </div>
   );

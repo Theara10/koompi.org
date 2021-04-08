@@ -1,38 +1,41 @@
 import { Row, Col } from "antd";
 import React from "react";
-import Partners from "../components/Partners";
-import ProjectCard from "../components/ProjectCard";
-import RecentNews from "../components/RecentNews";
+import Partners from "../../components/Partners";
+import ProjectCard from "../../components/ProjectCard";
+import RecentNews from "../../components/RecentNews";
+import "./Home.css";
 
-const img = require("../lib/img/docs.jpg");
-const img2 = require("../lib/img/Wifi-KOOMPI-2.png");
-const img3 = require("../lib/img/favicon.png");
+const img = require("../../lib/img/docs.jpg");
+const img2 = require("../../lib/img/Wifi-KOOMPI-2.png");
+const img3 = require("../../lib/img/favicon.png");
 
 function Home() {
   return (
     <div className="container">
-      <Row gutter={[24, 24]}>
-        <Col span={8}>
-          <img
-            src={img.default}
-            alt="koompi wiki docs"
-            className="img-responsive"
-          />
-        </Col>
-        <Col span={16}>
-          <div className="welcome-doc">
-            <h2 className="document-title">KOOMPI PROJECTS</h2>
-            <p className="document-content">
-              This website is a one-stop platform that gathering the instruction
-              installation, updating, FAQs, and problem-solving. You can learn
-              more about the Linux commands and information. Besides, you can
-              keep up with the latest releases for new features and environment
-              as our teams are always trying their best to deliver the optimal
-              user experience.
-            </p>
-          </div>
-        </Col>
-      </Row>
+      <div className="project-intro">
+        <Row gutter={[24, 24]}>
+          <Col span={8}>
+            <img
+              src={img.default}
+              alt="koompi wiki docs"
+              className="img-responsive"
+            />
+          </Col>
+          <Col span={16}>
+            <div className="welcome-doc">
+              <h2 className="document-title">KOOMPI PROJECTS</h2>
+              <p className="document-content">
+                This website is a one-stop platform that gathering the
+                instruction installation, updating, FAQs, and problem-solving.
+                You can learn more about the Linux commands and information.
+                Besides, you can keep up with the latest releases for new
+                features and environment as our teams are always trying their
+                best to deliver the optimal user experience.
+              </p>
+            </div>
+          </Col>
+        </Row>
+      </div>
 
       <div className="projects-card">
         <Row gutter={[24, 24]}>
@@ -48,6 +51,7 @@ function Home() {
 
           <Col span={12}>
             <ProjectCard
+              link={"/sala"}
               img={img3.default}
               title="SALA KOOMPI"
               subtitle="E-Learning"
@@ -84,8 +88,8 @@ function Home() {
       <div>
         <div className="partners">
           <h1 className="partners-header">Partners</h1>
+          <Partners />
         </div>
-        <Partners />
       </div>
     </div>
   );

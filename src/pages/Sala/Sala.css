@@ -1,0 +1,57 @@
+.sala-intro {
+  padding-top: 50px;
+  height: 500px;
+  margin: auto;
+}
+
+.sala-intro h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.ant-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sala-intro p {
+  font-size: 20px;
+}
+
+.sala-button {
+  background-color: #38a7c8;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  width: 150px;
+  color: white;
+  text-align: center;
+}
+
+.img {
+}
+
+.courses {
+  height: 500px;
+  background-color: #f1f2f6;
+  display: flex;
+  justify-content: center;
+}
+
+.schools {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.sala h1 {
+  font-size: 36px;
+}
+
+.upload {
+  height: 500px;
+  background-color: #f1f2f6;
+  display: flex;
+  justify-content: center;
+}
