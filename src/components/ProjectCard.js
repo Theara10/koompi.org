@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function ProjectCard(props) {
   return (
-    <div className="document-category">
+    <div className="project-cards">
       <div className="projects-card-container-top">
         <a href={props.link} target="_blank">
           <img src={props.img} className="projects-img" />

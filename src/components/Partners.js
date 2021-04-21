@@ -5,12 +5,7 @@ function Partners() {
   return (
     <div>
       <div>
-        <Row
-          className="partner"
-          align="middle"
-          justify="center"
-          gutter={{ xs: 0, md: 40 }}
-        >
+        <Row align="middle" justify="center" gutter={{ xs: 0, md: 40 }}>
           <Col
             xs={{ span: 12 }}
             sm={{ span: 7 }}

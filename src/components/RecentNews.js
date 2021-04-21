@@ -5,9 +5,9 @@ const { Meta } = Card;
 
 function RecentNews() {
   return (
-    <div className="recentnews-card">
+    <div className="">
       <Row>
-        <Col span={9}>
+        {/* <Col span={9}>
           <img
             src="https://miro.medium.com/max/1400/1*gNZXI1l5-CwTvsY_ltHxEw.jpeg"
             height="300"
@@ -28,8 +28,25 @@ function RecentNews() {
               more about the Linux commands and information.
             </p>
           </div>
+        </Col> */}
+
+        <Col span={8}>
+          <Card
+            style={{ width: 300 }}
+            cover={
+              <img
+                alt="example"
+                src="https://miro.medium.com/max/1400/1*2wGBfzUUCLvq4jmSBn_LXA.png"
+              />
+            }
+          >
+            <Meta
+              title="SALA KOOMPI: your very own classroom"
+              description="The SALA KOOMPI project, formally known as KOOMPI Academy, was initiated even before online learning became the norm. Seeing that students may lack access to learning resources"
+            />
+          </Card>
         </Col>
-        {/* <Col span={8}>
+        <Col span={8}>
           <Card
             style={{ width: 300 }}
             cover={
@@ -39,7 +56,10 @@ function RecentNews() {
               />
             }
           >
-            <Meta title="Card title" description="This is the description" />
+            <Meta
+              title="SALA KOOMPI: your very own classroom"
+              description="The SALA KOOMPI project, formally known as KOOMPI Academy, was initiated even before online learning became the norm. Seeing that students may lack access to learning resources"
+            />
           </Card>
         </Col>
         <Col span={8}>
@@ -48,26 +68,16 @@ function RecentNews() {
             cover={
               <img
                 alt="example"
-                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                src="https://miro.medium.com/max/1400/1*Op9OU3VhzLAA3Hz_ux_pQw.jpeg"
               />
             }
           >
-            <Meta title="Card title" description="This is the description" />
+            <Meta
+              title="SALA KOOMPI: your very own classroom"
+              description="The SALA KOOMPI project, formally known as KOOMPI Academy, was initiated even before online learning became the norm. Seeing that students may lack access to learning resources"
+            />
           </Card>
         </Col>
-        <Col span={8}>
-          <Card
-            style={{ width: 300 }}
-            cover={
-              <img
-                alt="example"
-                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-              />
-            }
-          >
-            <Meta title="Card title" description="This is the description" />
-          </Card>
-        </Col> */}
       </Row>
     </div>
   );
