@@ -35,12 +35,14 @@
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
+  padding-top: 50px;
+  padding-bottom: 60px;
 }
 
-.ant-row {
+/* .ant-row {
   padding-top: 55px;
   padding-bottom: 70px;
-}
+} */
 
 .projects-img {
   height: 56px;
