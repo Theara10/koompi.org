@@ -1,73 +1,45 @@
 import React from "react";
-import { Row, Col } from "antd";
+import { Row, Col, Carousel } from "antd";
 
 function Partners() {
   return (
     <div>
       <div>
-        <Row align="middle" justify="center" gutter={{ xs: 0, md: 40 }}>
-          <Col
-            xs={{ span: 12 }}
-            sm={{ span: 7 }}
-            xl={{ span: 4 }}
-            className="gutter-row"
-          >
+        <Row
+          align="middle"
+          justify="center"
+          gutter={{ xs: 0, md: 20 }}
+          onScroll
+        >
+          <Col>
             <img
-              width="100"
-              height="100"
-              src="https://ai.devoteam.com/wp-content/uploads/sites/91/2018/05/google-logo-icon-png-transparent-background.png"
+              width="auto"
+              height="180"
+              src="http://www.vitaminair.org/images/partner/smallworld.png"
               alt="logo"
             />
           </Col>
-          <Col
-            xs={{ span: 12 }}
-            sm={{ span: 7 }}
-            xl={{ span: 4 }}
-            className="gutter-row"
-          >
+          <Col>
             <img
-              width="100"
-              height="100"
-              src="https://ai.devoteam.com/wp-content/uploads/sites/91/2018/05/google-logo-icon-png-transparent-background.png"
+              width="auto"
+              height="180"
+              src="http://www.vitaminair.org/images/partner/sabay.png"
               alt="logo"
             />
           </Col>
-          <Col
-            xs={{ span: 12 }}
-            sm={{ span: 7 }}
-            xl={{ span: 4 }}
-            className="gutter-row"
-          >
+          <Col>
             <img
-              width="100"
-              height="100"
-              src="https://cryptologos.cc/logos/bitcoin-btc-logo.png"
+              width="auto"
+              height="180"
+              src="http://www.vitaminair.org/images/partner/isi-group.png"
               alt="logo"
             />
           </Col>
-          <Col
-            xs={{ span: 12 }}
-            sm={{ span: 7 }}
-            xl={{ span: 4 }}
-            className="gutter-row"
-          >
+          <Col>
             <img
-              width="100"
-              height="100"
-              src="https://cryptologos.cc/logos/bitcoin-btc-logo.png"
-              alt="logo"
-            />
-          </Col>
-          <Col
-            xs={{ span: 12 }}
-            sm={{ span: 5 }}
-            xl={{ span: 2 }}
-            className="gutter-row"
-          >
-            <img
-              width="100"
-              height="100"
-              src="https://ai.devoteam.com/wp-content/uploads/sites/91/2018/05/google-logo-icon-png-transparent-background.png"
+              width="auto"
+              height="180"
+              src="https://miro.medium.com/max/186/1*UBckoGkQZnm-qrL0hxCk1A.png"
               alt="logo"
             />
           </Col>

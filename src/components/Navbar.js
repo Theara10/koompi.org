@@ -12,10 +12,13 @@ function Navbar() {
 
       <Menu theme="dark" mode="horizontal">
         <Menu.Item key="2" className="header-menu-item">
-          Community
+          Projects
+        </Menu.Item>
+        <Menu.Item key="2" className="header-menu-item">
+          Wiki
         </Menu.Item>
         <Menu.Item key="3" className="header-menu-item">
-          Wiki
+          Community
         </Menu.Item>
       </Menu>
     </Header>
