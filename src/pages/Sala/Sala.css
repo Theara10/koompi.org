@@ -1,6 +1,6 @@
 .sala-intro {
   padding-top: 50px;
-  height: 500px;
+  height: 600px;
   margin: auto;
 }
 
@@ -18,15 +18,16 @@
   font-size: 20px;
 }
 
-.sala-button {
-  background-color: #38a7c8;
-  padding: 10px 20px 10px 20px;
-  border: none;
-  border-radius: 10px;
-  font-size: 18px;
-  width: 150px;
-  color: white;
-  text-align: center;
+.ant-btn-sala {
+  width: 250px !important;
+  height: 45px !important;
+  /* background: #ededf0 !important; */
+  color: #1b262c !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  border: 2px solid #1b262c !important;
+  position: relative;
+  transition: 0.3s;
 }
 
 .courses {

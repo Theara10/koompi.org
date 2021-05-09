@@ -71,6 +71,7 @@ function Home() {
           </Col>
           <Col span={12}>
             <ProjectCard
+              link={"/onelab"}
               img="https://cryptologos.cc/logos/bitcoin-btc-logo.png"
               title="KOOMPI ONELAB"
               subtitle="Lab Solution"

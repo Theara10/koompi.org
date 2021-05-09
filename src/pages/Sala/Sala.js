@@ -1,4 +1,4 @@
-import { Col, Row } from "antd";
+import { Col, Row, Button } from "antd";
 import React from "react";
 import "./Sala.css";
 
@@ -10,12 +10,14 @@ function Sala() {
       <div className="sala-intro">
         <Row>
           <Col span={10}>
-            <h1>Study Anywhere On VIRTUAL SCHOOL</h1>
+            <h1>SALA KOOMPI is a localize and global online course platform</h1>
             <p>
-              SALA KOOMPI is a virtual school that allows both students and
-              teachers to view and provide learning resources resources.
+              Learn and create your own online school. Unlimited courses, mainly
+              focusing on STEAM subjects.
             </p>
-            <p className="sala-button">Explore</p>
+            <Button size="large" type="sala">
+              Create your free account
+            </Button>
           </Col>
           <Col span={14}>
             <img src={img1.default} width="auto" height="400" className="img" />
@@ -33,12 +35,10 @@ function Sala() {
             />
           </Col>
           <Col span={12}>
-            <h1>Enroll In Good Courses For Free</h1>
+            <h1>Learn From the Best</h1>
             <p className="intro-description">
-              If you could not find any answers related to the problems,
-              <br /> let us know by. I'm Batman. If you could not find any
-              answers related to the problems, If you could not find any answers
-              related to the problems,
+              Learn valuable methods and techniques explained by different
+              creators.
             </p>
           </Col>
         </Row>

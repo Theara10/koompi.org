@@ -1,5 +1,6 @@
 .fifi-intro {
   height: 600px;
+  padding-top: 30px;
 }
 
 .fifi-intro > img {
@@ -8,11 +9,12 @@
 }
 
 .fifi-title {
-  font-size: 36px;
+  font-size: 44px;
   font-weight: bold;
   color: #38a7c8 !important;
   margin: 0;
   padding-top: 30px;
+  line-height: 1.4;
 }
 
 p {
@@ -20,34 +22,44 @@ p {
 }
 
 .fifi-features {
-  background-color: #f8f9fa;
-  text-align: center;
+  /* background-color: #f8f9fa; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding-top: 20px;
   padding-bottom: 50px;
 }
 
-.feature-card {
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  margin: 10px;
+.fiti-feature-container {
+  height: 400px;
+  width: 1200px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 8px;
   padding: 20px;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
-.card-feature-bottom {
-  padding-top: 20px;
-  color: rgba(0, 0, 0, 0.45);
+.feature-1 {
+  height: 500px;
+  /* background-color: #f1f2f6; */
+  display: flex;
+  justify-content: center;
 }
-
-.eature-card-description {
-  font-weight: 1;
-  color: rgba(0, 0, 0, 0.45);
+.feature-2 {
+  height: 500px;
+  background-color: #f1f2f6;
+  display: flex;
+  justify-content: center;
 }
 
 .fifi-application {
+  height: 801px;
+  background-color: #f1f2f6;
+}
+
+.fifi-application-container {
   height: 800px;
   width: 50%;
   margin: auto;
@@ -56,6 +68,7 @@ p {
   align-items: center;
   padding-top: 30px;
   text-align: center;
+  /* background-color: #f1f2f6; */
 }
 
 .img {
@@ -84,7 +97,7 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #f8f9fa;
+  /* background-color: #f8f9fa; */
 }
 
 .map-top {
