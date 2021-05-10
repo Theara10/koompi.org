@@ -118,10 +118,8 @@ function KoompiOS() {
                   Code of Conduct
                 </h2>
                 <p>
-                  If you want to contribute, our code of conducts is down below.
-                </p>
-                <p style={{ borderBottom: 1 }}>
-                  <a>Read More...</a>
+                  If you want to contribute,
+                  <br /> our code of conducts is down below.
                 </p>
               </div>
             </Col>
@@ -144,9 +142,9 @@ function KoompiOS() {
                 >
                   Donation
                 </h2>
-                <p>If you want to support us, you can donate.</p>
                 <p>
-                  <a>Read More...</a>
+                  If you want to support us, you can
+                  <br /> donate.
                 </p>
               </div>
             </Col>

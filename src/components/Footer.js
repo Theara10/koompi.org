@@ -11,14 +11,14 @@ function Foot() {
         <Row>
           <Col span={5} offset={1}>
             <div>
-              <h2 className="footer-title">LEGALS</h2>
+              <h2 className="footer-title">About</h2>
               <p>About</p>
               <p>About</p>
             </div>
           </Col>
           <Col span={6}>
             <div>
-              <h2 className="footer-title">Informations</h2>
+              <h2 className="footer-title">Resources</h2>
               <p>About</p>
               <p>About</p>
             </div>
@@ -26,8 +26,8 @@ function Foot() {
           <Col span={6}>
             <div>
               <h2 className="footer-title">Help</h2>
-              <p>About</p>
-              <p>About</p>
+              <p>Ask KOOMPI</p>
+              <p>FAQ</p>
             </div>
           </Col>
           <Col span={6}>

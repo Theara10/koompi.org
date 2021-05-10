@@ -87,7 +87,7 @@ function Home() {
             <Col span={7} offset={5}>
               <div className="charity-left">
                 <h1 style={{ fontSize: 36, lineHeight: 1, fontWeight: "bold" }}>
-                  Support a healthy internet.
+                  Donation
                 </h1>
                 <p>
                   The non-profit Mozilla Foundation supports online privacy &

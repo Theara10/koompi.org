@@ -1,26 +1,22 @@
 import React from "react";
 import "./Fifi.css";
 import { Row, Col, Button } from "antd";
-import {
-  ClockCircleOutlined,
-  GlobalOutlined,
-  WifiOutlined,
-} from "@ant-design/icons";
 import { TileLayer, MapContainer as LeafletMap } from "react-leaflet";
 
 function Fifi() {
   return (
-    <div>
+    <div className="fifi">
       <div className="fifi-intro">
         <Row>
           <Col span={12}>
             <div>
-              <h2 className="fifi-title">
+              <h1 className="fifi-title">
                 Anakin Skywalker Was Weak. I Destroyed Him
-              </h2>
-              <p style={{ paddingTop: 20 }}>
-                Part of the Internet-For-All initiative, KOOMPI Fi-Fi is a
-                school internet infrastructure provided by KOOMPI
+              </h1>
+              <p style={{ paddingTop: 20, fontSize: 24 }}>
+                Part of the Internet-For-All initiative,
+                <br /> KOOMPI Fi-Fi is a school internet <br />
+                infrastructure provided by KOOMPI
               </p>
               <div style={{ paddingTop: 20 }}>
                 <img
@@ -177,7 +173,7 @@ function Fifi() {
 
       <div className="fifi-application">
         <div className="fifi-application-container">
-          <h2 className="fifi-title">Download App</h2>
+          <h2 className="">Download App</h2>
           <p>
             Part of the Internet-For-All initiative, KOOMPI Fi-Fi is a school
             internet infrastructure provided by KOOMPI with fast fiber internet
