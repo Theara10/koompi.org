@@ -5,7 +5,7 @@ function ProjectCard(props) {
   return (
     <div className="project-cards">
       <div className="projects-card-container-top">
-        <a href={props.link} target="_blank">
+        <a href={props.link}>
           <img src={props.img} className="projects-img" />
         </a>
         <div className="card-title-container">
@@ -16,7 +16,7 @@ function ProjectCard(props) {
       <div className="projects-card-container-bottom">
         <p className="card-description">{props.description}</p>
         <p style={{ color: "#38a7c8" }}>
-          <Link to="/koompi-os">Read more..</Link>
+          <a href={props.link}>Read More..</a>
         </p>
       </div>
     </div>

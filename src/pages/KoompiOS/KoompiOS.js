@@ -11,7 +11,7 @@ function KoompiOS() {
             <div style={{ width: 500, paddingLeft: 30 }}>
               <h1 className="intro-title">KOOMPI OS</h1>
               <p className="intro-description">
-                A friendly-arch-based open-source Linux distribution. We aim to
+                A friendly Linux distribution derive from Achlinux. We aim to
                 deliver the best user experiences by providing a high
                 performance, stable, and reliable operating system.
               </p>

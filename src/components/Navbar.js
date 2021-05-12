@@ -9,77 +9,85 @@ const img = require("../lib/img/Koompi-White.png");
 const menu = (
   <Menu>
     <Menu.Item>
-      <div
-        style={{
-          paddingTop: 20,
-          paddingLeft: 20,
-          paddingRight: 20,
-          paddingBottom: 0,
-          display: "flex",
-        }}
-      >
-        <img
-          src="http://localhost:3000/static/media/favicon.727b64de.png"
-          height="30"
-          width="auto"
-        />
-        <div style={{ paddingLeft: 20 }}>
-          <h3 style={{ fontWeight: "bold" }}>SALA KOOMPI</h3>
-          <p style={{ fontSize: 12, lineHeight: 1.2 }}>
-            Anakin Skywalker had the potential
-            <br /> to become one of the most powerful <br />
-            Jedi ever
-          </p>
+      <Link to="/koompi-os">
+        <div
+          style={{
+            paddingTop: 20,
+            paddingLeft: 20,
+            paddingRight: 20,
+            paddingBottom: 0,
+            display: "flex",
+          }}
+        >
+          <img
+            src="https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo-sm.f2523d97cbe0.png"
+            height="30"
+            width="auto"
+          />
+          <div style={{ paddingLeft: 20 }}>
+            <h3 style={{ fontWeight: "bold" }}>KOOMPI OS</h3>
+            <p style={{ fontSize: 12, lineHeight: 1.2 }}>
+              A friendly Linux distribution derive <br />
+              from Achlinux.
+            </p>
+          </div>
         </div>
-      </div>
+      </Link>
     </Menu.Item>
     <Menu.Item>
-      <div style={{ paddingLeft: 20, paddingRight: 20, display: "flex" }}>
-        <img
-          src="http://localhost:3000/static/media/Wifi-KOOMPI-2.a28e9f89.png"
-          height="30"
-          width="auto"
-        />
-        <div style={{ paddingLeft: 20 }}>
-          <h3 style={{ fontWeight: "bold" }}>KOOMPI ONELAB</h3>
-          <p style={{ fontSize: 12, lineHeight: 1.2 }}>
-            Computer workstation with usability, <br />
-            minimal internet dependency, efficiency
-          </p>
+      <Link to="/sala">
+        <div style={{ paddingLeft: 20, paddingRight: 20, display: "flex" }}>
+          <img
+            src="https://www.mozilla.org/media/img/nav/icons/icon-fpn-beta.9e7bc3a29f6e.svg"
+            height="30"
+            width="auto"
+          />
+          <div style={{ paddingLeft: 20 }}>
+            <h3 style={{ fontWeight: "bold" }}>SALA KOOMPI</h3>
+            <p style={{ fontSize: 12, lineHeight: 1.2 }}>
+              Learn and create your own online <br />
+              school.
+            </p>
+          </div>
         </div>
-      </div>
+      </Link>
     </Menu.Item>
     <Menu.Item>
-      <div style={{ paddingLeft: 20, paddingRight: 20, display: "flex" }}>
-        <img
-          src="http://localhost:3000/static/media/Wifi-KOOMPI-2.a28e9f89.png"
-          height="30"
-          width="auto"
-        />
-        <div style={{ paddingLeft: 20 }}>
-          <h3 style={{ fontWeight: "bold" }}>KOOMPI FIFI</h3>
-          <p style={{ fontSize: 12, lineHeight: 1.2 }}>
-            Computer workstation with usability, <br />
-            minimal internet dependency, efficiency
-          </p>
+      <Link to="/fifi">
+        <div style={{ paddingLeft: 20, paddingRight: 20, display: "flex" }}>
+          <img
+            src="https://www.mozilla.org/media/img/nav/icons/icon-relay.aca61c9bb349.svg"
+            height="30"
+            width="auto"
+          />
+          <div style={{ paddingLeft: 20 }}>
+            <h3 style={{ fontWeight: "bold" }}>KOOMPI FIFI</h3>
+            <p style={{ fontSize: 12, lineHeight: 1.2 }}>
+              Convenient and affordable mobile WIFI <br />
+              anywhere.
+            </p>
+          </div>
         </div>
-      </div>
+      </Link>
     </Menu.Item>
     <Menu.Item>
-      <div style={{ paddingLeft: 20, paddingRight: 20, display: "flex" }}>
-        <img
-          src="https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo-sm.f2523d97cbe0.png"
-          height="30"
-          width="auto"
-        />
-        <div style={{ paddingLeft: 10 }}>
-          <h3 style={{ fontWeight: "bold" }}>KOOMPI OS</h3>
-          <p style={{ fontSize: 12, lineHeight: 1.2 }}>
-            Discovered as a slave on Tatooine by <br />
-            Qui-Gon Jinn and Obi-Wan Kenobi.
-          </p>
+      <Link to="/onelab">
+        <div style={{ paddingLeft: 20, paddingRight: 20, display: "flex" }}>
+          <img
+            src="https://www.mozilla.org/media/protocol/img/logos/pocket/pocket.f21f7a5dedba.svg"
+            height="30"
+            width="auto"
+          />
+          <div style={{ paddingLeft: 20 }}>
+            <h3 style={{ fontWeight: "bold" }}>KOOMPI ONELAB</h3>
+            <p style={{ fontSize: 12, lineHeight: 1.2 }}>
+              Computer workstation with usability,
+              <br /> minimal internet dependency
+              <br /> and efficiency.
+            </p>
+          </div>
         </div>
-      </div>
+      </Link>
     </Menu.Item>
   </Menu>
 );
@@ -87,7 +95,9 @@ const menu = (
 function Navbar() {
   return (
     <Header className="header">
-      <img src={img.default} width="auto" height="40" className="logo" />
+      <Link to="/">
+        <img src={img.default} width="auto" height="40" className="logo" />
+      </Link>
 
       <Menu theme="dark" mode="horizontal">
         <Menu.Item key="2" className="header-menu-item">
@@ -101,10 +111,14 @@ function Navbar() {
           </Dropdown>
         </Menu.Item>
         <Menu.Item key="2" className="header-menu-item">
-          Wiki
+          <a href="https://wiki.koompi.org/en/index.md" target="_blank">
+            Wiki
+          </a>
         </Menu.Item>
         <Menu.Item key="3" className="header-menu-item">
-          Community
+          <a href=" https://t.me/koompicom" target="_blank">
+            Community
+          </a>
         </Menu.Item>
       </Menu>
     </Header>
