@@ -1,5 +1,6 @@
 import { Row, Col, Card, Button } from "antd";
 import React from "react";
+import { Link } from "react-router-dom";
 import Partners from "../../components/Partners";
 import ProjectCard from "../../components/ProjectCard";
 import RecentNews from "../../components/RecentNews";
@@ -23,9 +24,6 @@ function Home() {
                 This website is a one-stop platform that gathering the
                 instruction installation.
               </p>
-              <Button size="large" type="intro">
-                Explore
-              </Button>
             </div>
           </Col>
           <Col span={12}>
@@ -162,7 +160,9 @@ function Home() {
             </Col>
           </Row>
           <div style={{ textAlign: "center" }}>
-            <p>More...</p>
+            <p>
+              <Link to="/blog">More...</Link>
+            </p>
           </div>
         </div>
       </div>

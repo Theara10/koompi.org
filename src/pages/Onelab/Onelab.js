@@ -9,7 +9,7 @@ function Onelab() {
         <Row>
           <Col span={12}>
             <div style={{ width: 500, paddingLeft: 30, paddingTop: 50 }}>
-              <h1 className="intro-title">KOOMPI Onelab</h1>
+              <h1>KOOMPI Onelab</h1>
               <p className="intro-description">
                 Computer workstation with usability, minimal internet
                 dependency, efficiency, and affordable cost.
@@ -63,9 +63,7 @@ function Onelab() {
           </Col>
           <Col span={12}>
             <h3 style={{ marginTop: 80 }}>Work Station</h3>
-            <p className="intro-description">
-              High effective and affordable consisted workstations.
-            </p>
+            <p>High effective and affordable consisted workstations.</p>
           </Col>
         </Row>
       </div>
@@ -74,7 +72,7 @@ function Onelab() {
         <Row>
           <Col span={10} offset={2}>
             <h3 style={{ marginTop: 80 }}>Content Server</h3>
-            <p className="intro-description">
+            <p>
               Checking our last release notes for the version you are
               downloading.
             </p>
@@ -100,9 +98,7 @@ function Onelab() {
           </Col>
           <Col span={12}>
             <h3 style={{ marginTop: 80 }}>Network</h3>
-            <p className="intro-description">
-              KOOMPI FIFI, the very own network product.
-            </p>
+            <p>KOOMPI FIFI, the very own network product.</p>
           </Col>
         </Row>
       </div>

@@ -5,18 +5,39 @@ import "./KoompiOS.css";
 function KoompiOS() {
   return (
     <div className="koompi-os">
+      <div
+        style={{
+          height: 40,
+          width: "100%",
+          backgroundColor: "#38a7c8",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <p
+          style={{
+            fontWeight: "bold",
+            color: "white",
+            margin: 0,
+            fontSize: 18,
+          }}
+        >
+          Get the latest version! KOOMPI OS 3.0.5 is now available!{" "}
+        </p>
+      </div>
       <div className="intro">
         <Row>
           <Col span={12}>
             <div style={{ width: 500, paddingLeft: 30 }}>
               <h1 className="intro-title">KOOMPI OS</h1>
-              <p className="intro-description">
+              <p style={{ color: "white" }}>
                 A friendly Linux distribution derive from Achlinux. We aim to
                 deliver the best user experiences by providing a high
                 performance, stable, and reliable operating system.
               </p>
               <Button size="large" type="os-version">
-                Get the latest release version!
+                Download
               </Button>
             </div>
           </Col>
