@@ -189,26 +189,3 @@
   transition: 0.3s;
 }
 
-.footer {
-  height: 300px;
-  background: #001529 !important;
-  padding-top: 30px;
-}
-
-.footer-container {
-  margin-top: 30px;
-  width: 80%;
-  margin: auto;
-}
-
-.footer p {
-  color: white !important;
-  /* text-align: center; */
-}
-.footer h2 {
-  padding-top: 20px;
-  color: #38a7c8 !important;
-  font-weight: bold;
-  font-size: 24px;
-  /* text-align: center; */
-}

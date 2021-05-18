@@ -43,9 +43,9 @@ function KoompiOS() {
           </Col>
           <Col span={12}>
             <img
-              src="https://www.mozilla.org/media/img/firefox/developer/stylo-engine.svg"
+              src="https://camo.githubusercontent.com/b605d014b47fa0c2ee05a987a94b8f3b4647fe176c78201f2c6bcffe03aae366/68747470733a2f2f63646e2e706c696e672e636f6d2f696d672f382f342f382f642f6261356132323931363765656265646266613265656338323237333231353865323564372e706e67"
               width="auto"
-              height="400"
+              height="300"
               className="intro-img"
             />
           </Col>

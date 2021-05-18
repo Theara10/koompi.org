@@ -7,7 +7,7 @@ function Onelab() {
     <div className="onelab">
       <div className="onelab-intro">
         <Row>
-          <Col span={12}>
+          <Col span={10}>
             <div style={{ width: 500, paddingLeft: 30, paddingTop: 50 }}>
               <h1>KOOMPI Onelab</h1>
               <p className="intro-description">
@@ -19,11 +19,11 @@ function Onelab() {
               </Button>
             </div>
           </Col>
-          <Col span={12}>
+          <Col span={14}>
             <img
-              src="https://www.mozilla.org/media/img/home/2020/pocket-hero-high-res.025fe785851e.jpg"
+              src="https://koompi.com/assets/images/koompi-onelab/banner.jpg"
               width="auto"
-              height="400"
+              height="300"
               className="intro-img"
             />
           </Col>

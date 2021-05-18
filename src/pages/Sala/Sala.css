@@ -1,3 +1,6 @@
+.sala h1 {
+  font-size: 36px;
+}
 .sala-intro {
   padding-top: 50px;
   height: 600px;
@@ -43,13 +46,18 @@
   justify-content: center;
 }
 
-.sala h1 {
-  font-size: 36px;
-}
-
-.upload {
+.courses-category {
   height: 500px;
   background-color: #f1f2f6;
   display: flex;
   justify-content: center;
+}
+
+.courses-category-card {
+  height: 200;
+  width: 150;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
