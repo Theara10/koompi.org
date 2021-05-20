@@ -5,6 +5,8 @@ import { DownOutlined } from "@ant-design/icons";
 
 const { Header } = Layout;
 const img = require("../lib/img/Koompi-White.png");
+const img2 = require("../lib/img/KOOMPI-Wifi-1.png");
+const sala = require("../lib/img/sala-logo.png");
 
 const menu = (
   <Menu>
@@ -37,11 +39,7 @@ const menu = (
     <Menu.Item>
       <Link to="/sala">
         <div style={{ paddingLeft: 20, paddingRight: 20, display: "flex" }}>
-          <img
-            src="https://www.mozilla.org/media/img/nav/icons/icon-fpn-beta.9e7bc3a29f6e.svg"
-            height="30"
-            width="auto"
-          />
+          <img src={sala.default} height="30" width="auto" />
           <div style={{ paddingLeft: 20 }}>
             <h3 style={{ fontWeight: "bold" }}>SALA KOOMPI</h3>
             <p style={{ fontSize: 12, lineHeight: 1.2 }}>
@@ -55,11 +53,7 @@ const menu = (
     <Menu.Item>
       <Link to="/fifi">
         <div style={{ paddingLeft: 20, paddingRight: 20, display: "flex" }}>
-          <img
-            src="https://www.mozilla.org/media/img/nav/icons/icon-relay.aca61c9bb349.svg"
-            height="30"
-            width="auto"
-          />
+          <img src={img2.default} height="30" width="auto" />
           <div style={{ paddingLeft: 20 }}>
             <h3 style={{ fontWeight: "bold" }}>KOOMPI FIFI</h3>
             <p style={{ fontSize: 12, lineHeight: 1.2 }}>
@@ -89,6 +83,25 @@ const menu = (
         </div>
       </Link>
     </Menu.Item>
+    <Menu.Item>
+      <Link to="/robotic">
+        <div style={{ paddingLeft: 20, paddingRight: 20, display: "flex" }}>
+          <img
+            src="https://qf7s26sxazr7uwqlogrl311.blob.core.windows.net/sys-master-root/hae/h45/9722305249310/7448929222296_main_480Wx480H"
+            height="30"
+            width="auto"
+          />
+          <div style={{ paddingLeft: 20 }}>
+            <h3 style={{ fontWeight: "bold" }}>KOOMPI Robotic Program</h3>
+            <p style={{ fontSize: 12, lineHeight: 1.2 }}>
+              Computer workstation with usability,
+              <br /> minimal internet dependency
+              <br /> and efficiency.
+            </p>
+          </div>
+        </div>
+      </Link>
+    </Menu.Item>
   </Menu>
 );
 
@@ -100,7 +113,7 @@ function Navbar() {
       </Link>
 
       <Menu theme="dark" mode="horizontal">
-        <Menu.Item key="2" className="header-menu-item">
+        <Menu.Item key="4" className="header-menu-item">
           <Dropdown overlay={menu}>
             <a
               className="ant-dropdown-link"

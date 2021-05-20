@@ -76,20 +76,74 @@ function Sala() {
       </div>
 
       <div className="courses-category">
-        <h1 style={{ textAlign: "center" }}>Courses</h1>
-        <Row>
-          <Col>
+        <h1>Courses</h1>
+        <Row
+          gutter={[8, 16]}
+          style={{ alignItems: "center", justifyContent: "center" }}
+        >
+          <Col span={5}>
             <div className="courses-category-card">
-              <Col>
+              <div className="courses-category-card-top">
                 <img
-                  src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2018%2F01%2F06_vrt_gallerybb2.jpg"
-                  height="150"
-                  width="auto"
+                  src="https://www.transparentpng.com/thumb/science/INpKTj-logo-clipart-science-logo-science-transparent-free-for.png"
+                  height="100"
+                  width="100"
                 />
-              </Col>
-              <Col>
-                <h2>Science</h2>
-              </Col>
+              </div>
+
+              <h2 className="courses-category-card-bottom">Science</h2>
+            </div>
+          </Col>
+          <Col span={5}>
+            <div className="courses-category-card">
+              <div className="courses-category-card-top">
+                <img
+                  src="https://www.transparentpng.com/thumb/science/INpKTj-logo-clipart-science-logo-science-transparent-free-for.png"
+                  height="100"
+                  width="100"
+                />
+              </div>
+
+              <h2 className="courses-category-card-bottom">Science</h2>
+            </div>
+          </Col>
+          <Col span={5}>
+            <div className="courses-category-card">
+              <div className="courses-category-card-top">
+                <img
+                  src="https://www.transparentpng.com/thumb/science/INpKTj-logo-clipart-science-logo-science-transparent-free-for.png"
+                  height="100"
+                  width="100"
+                />
+              </div>
+
+              <h2 className="courses-category-card-bottom">Science</h2>
+            </div>
+          </Col>
+          <Col span={5}>
+            <div className="courses-category-card">
+              <div className="courses-category-card-top">
+                <img
+                  src="https://www.transparentpng.com/thumb/science/INpKTj-logo-clipart-science-logo-science-transparent-free-for.png"
+                  height="100"
+                  width="100"
+                />
+              </div>
+
+              <h2 className="courses-category-card-bottom">Science</h2>
+            </div>
+          </Col>
+          <Col span={4}>
+            <div className="courses-category-card">
+              <div className="courses-category-card-top">
+                <img
+                  src="https://www.transparentpng.com/thumb/science/INpKTj-logo-clipart-science-logo-science-transparent-free-for.png"
+                  height="100"
+                  width="100"
+                />
+              </div>
+
+              <h2 className="courses-category-card-bottom">Science</h2>
             </div>
           </Col>
         </Row>

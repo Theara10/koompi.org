@@ -7,8 +7,9 @@ import RecentNews from "../../components/RecentNews";
 import "./Home.css";
 
 const img = require("../../lib/img/docs.jpg");
-const img2 = require("../../lib/img/Wifi-KOOMPI-2.png");
+const img2 = require("../../lib/img/KOOMPI-Wifi-1.png");
 const img3 = require("../../lib/img/favicon.png");
+const sala = require("../../lib/img/sala-logo.png");
 
 function Home() {
   return (
@@ -52,7 +53,7 @@ function Home() {
           <Col span={12}>
             <ProjectCard
               link={"/sala"}
-              img={img3.default}
+              img={sala.default}
               title="SALA KOOMPI"
               subtitle="E-Learning"
               description="This website is a one-stop platform that gathering the instruction installation, updating, FAQs, and problem-solving."
@@ -73,6 +74,15 @@ function Home() {
               img="https://cryptologos.cc/logos/bitcoin-btc-logo.png"
               title="KOOMPI ONELAB"
               subtitle="Lab Solution"
+              description="This website is a one-stop platform that gathering the instruction installation, updating, FAQs, and problem-solving."
+            />
+          </Col>
+          <Col span={12}>
+            <ProjectCard
+              link={"/robotic"}
+              img="https://qf7s26sxazr7uwqlogrl311.blob.core.windows.net/sys-master-root/hae/h45/9722305249310/7448929222296_main_480Wx480H"
+              title="KOOMPI Robotic Program"
+              subtitle="Robotic"
               description="This website is a one-stop platform that gathering the instruction installation, updating, FAQs, and problem-solving."
             />
           </Col>

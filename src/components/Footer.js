@@ -17,18 +17,7 @@ function Foot() {
       <div className="footer-container">
         <img src={img.default} width="auto" height="60" className="logo" />
         <Row>
-          <Col span={9}>
-            <div>
-              <h2 className="footer-title">About</h2>
-              <p>
-                KOOMPI, together with KOOMPI OS, <br />
-                are value-added learning and productivity
-                <br /> tools built upon the acclaimed <br />
-                Linux operating system.
-              </p>
-            </div>
-          </Col>
-          <Col span={5}>
+          <Col span={8}>
             <div>
               <h2 className="footer-title">Projects</h2>
               <p>KOOMPI OS</p>
@@ -37,14 +26,14 @@ function Foot() {
               <p>KOOMPI ONELAB</p>
             </div>
           </Col>
-          <Col span={5}>
+          <Col span={8}>
             <div>
               <h2 className="footer-title">Help</h2>
               <p>Community</p>
               <p>User manual</p>
             </div>
           </Col>
-          <Col span={5}>
+          <Col span={8}>
             <div>
               <h2 className="footer-title">Connect With Us</h2>
               <div className="footer-social-media">

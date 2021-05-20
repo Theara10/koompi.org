@@ -1,0 +1,79 @@
+.robotic h1 {
+  font-size: 46px;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+.robotic h2 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 40px;
+}
+.robotic h3 {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+.robotic h4 {
+  font-size: 26px;
+}
+
+.robotic-intro {
+  height: 600px;
+  margin: auto;
+  background-image: url("https://miro.medium.com/max/3840/1*SSABfkBUeXyoqAArPfuHNg.jpeg");
+  text-align: center;
+  padding-top: 100px;
+}
+
+.how-it-works {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.how-it-works-container {
+  height: 450px;
+  width: 1201px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.robot-type {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.robot-type-container {
+  width: 1201px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.ideas {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.ideas-container {
+  height: 450px;
+  width: 1201px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* width: 700px; */
+}

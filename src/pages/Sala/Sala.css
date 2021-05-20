@@ -47,17 +47,33 @@
 }
 
 .courses-category {
-  height: 500px;
+  padding-top: 30px;
+  text-align: center;
+  height: 450px;
   background-color: #f1f2f6;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
 .courses-category-card {
-  height: 200;
-  width: 150;
+  text-align: center;
+  height: 200px;
+  width: 180px;
+  border-radius: 10px !important;
   background-color: white;
-  border: 1px solid white;
-  border-radius: 10;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.courses-category-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  width: auto;
+  background-color: #f1f2f6;
+}
+
+.courses-category-card-bottom {
+  color: rgb(95, 99, 104);
 }

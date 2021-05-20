@@ -10,6 +10,7 @@ import Sala from "./pages/Sala/Sala";
 import Fifi from "./pages/Fifi/Fifi";
 import Onelab from "./pages/Onelab/Onelab";
 import Blog from "./pages/Blog/Blog";
+import Robotic from "./pages/Robotic/Robotic";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/fifi" component={Fifi} />
           <Route path="/onelab" component={Onelab} />
           <Route path="/blog" component={Blog} />
+          <Route path="/robotic" component={Robotic} />
         </Switch>
         <Foot />
       </Router>
