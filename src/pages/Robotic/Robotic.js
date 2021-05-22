@@ -104,6 +104,10 @@ function Robotic() {
         </div>
       </div>
 
+      <div className="robot-display">
+        <div></div>
+      </div>
+
       <div className="ideas">
         <div className="ideas-container">
           {/* <h1 style={{ textAlign: "center" }}>
