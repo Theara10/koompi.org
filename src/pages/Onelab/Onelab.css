@@ -2,7 +2,6 @@
   font-size: 46px;
   font-weight: bold;
   line-height: 40px;
-  padding-top: 50px;
 }
 
 .onelab h2 {
@@ -23,17 +22,18 @@
 }
 
 .onelab-intro {
-  /* padding-top: 50px; */
-  height: 600px;
+  padding-top: 40px;
+  height: 550px;
   margin: auto;
   /* background-image: url("https://media.istockphoto.com/vectors/abstract-technology-background-vector-id842945754"); */
-  /* display: flex;
-    justify-content: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   /* background: #151b24 no-repeat center; */
 }
 
 .intro-title {
-  padding-top: 50px;
   width: 400px;
 }
 .ant-btn-onelab {
@@ -48,14 +48,14 @@
   transition: 0.3s;
 }
 
-.intro-description {
-  font-size: 20px;
+.onelab-intro-description {
+  font-size: 26px;
+  text-align: center;
 }
 
 .intro-img {
   padding-left: 30px;
-  /* padding-top: 80px; */
-  margin-top: 80px;
+  margin-top: 10px;
 }
 
 .how-it-works {

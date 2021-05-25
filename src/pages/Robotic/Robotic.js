@@ -63,8 +63,8 @@ function Robotic() {
       <div className="robot-type">
         <div className="robot-type-container">
           <h2>Our Robots</h2>
-          <Row gutter={[16, 6]} style={{ paddingTop: 20 }}>
-            <Col span={12}>
+          <Row gutter={[18, 8]} className="robot-type-row">
+            <Col span={12} className="robot-type-col">
               <div
                 style={{
                   backgroundColor: " #f1f2f6",
@@ -82,7 +82,7 @@ function Robotic() {
                 />
               </div>
             </Col>
-            <Col span={12}>
+            <Col span={12} className="robot-type-col">
               <div
                 style={{
                   backgroundColor: " #f1f2f6",

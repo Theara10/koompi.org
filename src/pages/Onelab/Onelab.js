@@ -6,28 +6,24 @@ function Onelab() {
   return (
     <div className="onelab">
       <div className="onelab-intro">
-        <Row>
-          <Col span={10}>
-            <div style={{ width: 500, paddingLeft: 30, paddingTop: 50 }}>
-              <h1>KOOMPI Onelab</h1>
-              <p className="intro-description">
-                Computer workstation with usability, minimal internet
-                dependency, efficiency, and affordable cost.
-              </p>
-              <Button size="large" type="onelab">
-                Explore!
-              </Button>
-            </div>
-          </Col>
-          <Col span={14}>
-            <img
-              src="https://koompi.com/assets/images/koompi-onelab/banner.jpg"
-              width="auto"
-              height="300"
-              className="intro-img"
-            />
-          </Col>
-        </Row>
+        {/* <div style={{ textAlign: "center" }}> */}
+        <h1>KOOMPI Onelab</h1>
+        <p className="onelab-intro-description">
+          Computer workstation with usability, minimal internet dependency,
+          <br />
+          efficiency, and affordable cost.
+        </p>
+        {/* <Button size="large" type="onelab">
+            Explore!
+          </Button> */}
+        {/* </div> */}
+
+        <img
+          src="https://koompi.com/assets/images/koompi-onelab/banner.jpg"
+          width="auto"
+          height="300"
+          className="intro-img"
+        />
       </div>
 
       <div className="how-it-works">
@@ -37,14 +33,18 @@ function Onelab() {
           </h2>
 
           <p style={{ paddingLeft: 100, paddingRight: 100 }}>
-            Discovered as a slave on Tatooine by Qui-Gon Jinn and Obi-Wan
-            Kenobi, Anakin Skywalker had the potential to become one of the most
-            powerful Jedi ever, and was believed by some to be the prophesied
-            Chosen One who would bring balance to the Force. Discovered as a
-            slave on Tatooine by Qui-Gon Jinn and Obi-Wan Kenobi, Anakin
-            Skywalker had the potential to become one of the most powerful Jedi
-            ever, and was believed by some to be the prophesied Chosen One who
-            would bring balance to the Force.
+            KOOMPI Onelab Workstation is a computer laboratory with hardware and
+            software solution that enables teachers and administrators to
+            facilitate and monitor students' progress in real time. There are
+            three main components that makes the labs functional: hardware,
+            content server, and internet connection. Schools can easily invest
+            in Workstations due to its affordability and utilization of
+            essential tools: monitors, keyboards, mouses, and Raspberry Pis. The
+            labs are powered by a content server that runs independently,
+            meaning information is stored in an offline cache and gets updated
+            when connected to the internet (KOOMPI Fi-Fi). All Workstations are
+            connected to one central machine hosting a samba server database,
+            making a convenient management system.
           </p>
         </div>
       </div>

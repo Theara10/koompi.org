@@ -1,10 +1,22 @@
 .koompi-os h1 {
-  font-size: 36px;
+  font-size: 46px;
   font-weight: bold;
   line-height: 40px;
 }
+.koompi-os h2 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 40px;
+  color: #38a7c8;
+}
+.koompi-os h3 {
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 40px;
+  color: #38a7c8;
+}
 .intro {
-  /* padding-top: 50px; */
+  padding-top: 60px;
   height: 600px;
   margin: auto;
   /* background-image: url("https://media.istockphoto.com/vectors/abstract-technology-background-vector-id842945754"); */
@@ -16,19 +28,21 @@
 .intro-title {
   margin-top: 50px;
   width: 300px;
-  color: white;
+  color: #38a7c8;
 }
 .ant-btn-os-version {
-  width: 180px !important;
+  border-radius: 8px !important;
+  width: 142px !important;
   height: 45px !important;
-  /* background: #ededf0 !important; */
-  color: white !important;
+  background: #fce34b !important;
+  background: linear-gradient(180deg, #fce34b, #eac101) !important;
+  color: #1b262c !important;
   font-weight: 600 !important;
-  font-size: 18px !important;
-  border: 2px solid #38a7c8 !important;
+  font-size: 15px !important;
+  border: none !important;
+  filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.1));
   position: relative;
   transition: 0.3s;
-  background-color: #001529 !important;
 }
 
 .intro-img {
@@ -37,19 +51,24 @@
   margin-top: 80px;
 }
 
-.open-source {
+.software {
   height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.security {
+  height: 500px;
+  display: flex;
+  justify-content: center;
   background-color: #f1f2f6;
-  display: flex;
-  justify-content: center;
 }
 
-.decentralize {
+.desktop-environment {
   height: 500px;
   display: flex;
   justify-content: center;
 }
-
 .documentation {
   height: 500px;
   display: flex;
@@ -57,20 +76,21 @@
   background-color: #f1f2f6;
 }
 
-.applications {
+.community {
   height: 500px;
   width: 1000px !important;
   margin: auto;
   padding-top: 50px;
+  /* background-color: #f1f2f6; */
 }
 
-.applications-top {
+.community-top {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.application-bottom {
+.community-bottom {
   display: flex;
   margin-top: 30px;
 }
@@ -81,14 +101,14 @@
   align-items: center;
 }
 
-.ideas {
+.goal {
   height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.ideas-container {
+.goal-container {
   height: 450px;
   width: 1201px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
