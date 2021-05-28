@@ -6,15 +6,16 @@ function Robotic() {
   return (
     <div className="robotic">
       <div className="robotic-intro">
-        <h1 style={{ color: "white" }}>
+        <h1>
           KOOMPI Robotic
           <br /> Program
         </h1>
-        <p style={{ color: "white", fontSize: 30 }}>
+        <p style={{ color: "black", fontSize: 30 }}>
           Computer workstation with usability, minimal internet <br />
           dependency, efficiency, and affordable cost.
         </p>
       </div>
+
       <div className="how-it-works">
         <div className="how-it-works-container">
           <h2 style={{ textAlign: "center" }}>How It Works</h2>
@@ -60,52 +61,76 @@ function Robotic() {
         </div>
       </div>
 
-      <div className="robot-type">
-        <div className="robot-type-container">
-          <h2>Our Robots</h2>
-          <Row gutter={[18, 8]} className="robot-type-row">
-            <Col span={12} className="robot-type-col">
-              <div
-                style={{
-                  backgroundColor: " #f1f2f6",
-                  height: 600,
-                  paddingTop: 30,
-                }}
-              >
-                <h4>Robot 1</h4>
-                <p>Learn More..</p>
-                <img
-                  style={{ marginTop: 70 }}
-                  src="https://www.bostondynamics.com/sites/default/files/2021-02/left-column-660x480.png"
-                  height="400"
-                  width="auto"
-                />
-              </div>
-            </Col>
-            <Col span={12} className="robot-type-col">
-              <div
-                style={{
-                  backgroundColor: " #f1f2f6",
-                  height: 600,
-                  paddingTop: 30,
-                }}
-              >
-                <h4>Robot 2</h4>
-                <p>Learn More..</p>
-                <img
-                  src="https://www.bostondynamics.com/sites/default/files/2021-02/right-column-660x480.png"
-                  height="400"
-                  width="auto"
-                  style={{ marginTop: 70 }}
-                />
-              </div>
-            </Col>
-          </Row>
+      <div>
+        <h2 style={{ textAlign: "center" }}>Our Programs</h2>
+        <div className="program">
+          <div className="program-container">
+            <h3>Program 1</h3>
+            <p style={{ color: "white" }}>
+              All the work is to gear up the <br />
+              performance of open-source.
+            </p>
+            <Button size="large" type="program-button">
+              Read More
+            </Button>
+          </div>
+        </div>
+
+        <div className="program">
+          <div className="program-container-2">
+            <h3>Program 1</h3>
+            <p style={{ color: "white" }}>
+              All the work is to gear up the <br />
+              performance of open-source.
+            </p>
+            <Button size="large" type="program-button">
+              Read More
+            </Button>
+          </div>
         </div>
       </div>
 
-      <div className="robot-display">
-        <div></div>
+      <div className="robot-type">
+        <h2 style={{ marginBottom: 50 }}>Program Robots</h2>
+        <div className="robot-type-container">
+          <div
+            style={{
+              backgroundColor: " #f1f2f6",
+              height: 600,
+              paddingTop: 30,
+              width: 600,
+              marginRight: 10,
+            }}
+          >
+            <h4>Optimus Prime</h4>
+            <p>Learn More..</p>
+            <img
+              style={{ marginTop: 70 }}
+              src="https://www.bostondynamics.com/sites/default/files/2021-02/left-column-660x480.png"
+              height="400"
+              width="auto"
+            />
+          </div>
+
+          <div
+            style={{
+              backgroundColor: " #f1f2f6",
+              height: 600,
+              paddingTop: 30,
+              width: 600,
+              marginLeft: 10,
+            }}
+          >
+            <h4>Megatron</h4>
+            <p>Learn More..</p>
+            <img
+              src="https://www.bostondynamics.com/sites/default/files/2021-02/right-column-660x480.png"
+              height="400"
+              width="auto"
+              style={{ marginTop: 70 }}
+            />
+          </div>
+        </div>
       </div>
 
       <div className="ideas">

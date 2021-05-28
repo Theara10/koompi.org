@@ -2,6 +2,11 @@ import React from "react";
 import { Row, Col, Button } from "antd";
 import "./KoompiOS.css";
 
+const software_img = require("../../lib/img/koompi-os-software.png");
+const idea = require("../../lib/img/Idea.png");
+const goal = require("../../lib/img/Goal.png");
+const target = require("../../lib/img/Target.png");
+
 function KoompiOS() {
   return (
     <div className="koompi-os">
@@ -55,17 +60,14 @@ function KoompiOS() {
       <div className="software">
         <Row>
           <Col span={10} offset={2}>
-            <img
-              src="https://getpocket.com/marketing-assets/web-discover/_next/static/images/internet-save-button.ef8b9e03cc561fe33f68bdf0db61c5fe.svg"
-              height="300"
-              width="auto"
-            />
+            <img src={software_img.default} height="380" width="auto" />
           </Col>
-          <Col span={10} offset={2}>
+          <Col span={11} offset={1}>
             <h2 style={{ marginTop: 80 }}>Software</h2>
             <p className="intro-description">
-              All packages of the software are available for the <br />
-              latest version, using pi and pix as a package manager.
+              All packages of the software are available <br />
+              for the latest version, using pi and pix as <br />a package
+              manager.
             </p>
           </Col>
         </Row>
@@ -135,11 +137,7 @@ function KoompiOS() {
           <Row gutter={18}>
             <Col span={7} offset={1}>
               <div>
-                <img
-                  src="https://icons.getbootstrap.com/assets/img/icons-hero.png"
-                  height="100"
-                  width="auto"
-                />
+                <img src={idea.default} height="100" width="auto" />
                 <h3>Idea</h3>
                 <p>
                   The idea behind KOOMPI OS is to create a free operating system
@@ -149,11 +147,7 @@ function KoompiOS() {
             </Col>
             <Col span={7} offset={1}>
               <div>
-                <img
-                  src="https://icons.getbootstrap.com/assets/img/icons-hero.png"
-                  height="100"
-                  width="auto"
-                />
+                <img src={goal.default} height="100" width="auto" />
                 <h3>Goal</h3>
                 <p>
                   The idea behind KOOMPI OS is to create a free operating system
@@ -163,11 +157,7 @@ function KoompiOS() {
             </Col>
             <Col span={7} offset={1}>
               <div>
-                <img
-                  src="https://icons.getbootstrap.com/assets/img/icons-hero.png"
-                  height="100"
-                  width="auto"
-                />
+                <img src={target.default} height="100" width="auto" />
                 <h3>Target</h3>
                 <p>
                   Users who seek out an operating system that allows them to use

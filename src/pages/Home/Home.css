@@ -1,5 +1,12 @@
-.container {
+.home {
   padding-top: 30px;
+}
+
+.home h1 {
+  font-size: 46px;
+  font-weight: bold;
+  line-height: 1;
+  color: #38a7c8;
 }
 
 .project-intro {
@@ -167,15 +174,19 @@
 }
 
 .ant-btn-secondary {
-  width: 162px !important;
+  border-radius: 8px !important;
+  width: 142px !important;
   height: 45px !important;
-  background: #ededf0 !important;
+  background: #fce34b !important;
+  background: linear-gradient(180deg, #fce34b, #eac101) !important;
   color: #1b262c !important;
   font-weight: 600 !important;
-  font-size: 18px !important;
-  border: 2px solid #1b262c !important;
+  font-size: 15px !important;
+  border: none !important;
+  filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.1));
   position: relative;
   transition: 0.3s;
+  margin-top: 30px;
 }
 .ant-btn-intro {
   width: 162px !important;
@@ -188,4 +199,3 @@
   position: relative;
   transition: 0.3s;
 }
-

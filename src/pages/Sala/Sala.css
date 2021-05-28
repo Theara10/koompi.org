@@ -1,36 +1,38 @@
 .sala h1 {
-  font-size: 36px;
+  font-size: 46px;
+  font-weight: bold;
+  color: #38a7c8;
+  margin-bottom: 5px !important;
 }
+.sala h2 {
+  font-size: 36px;
+  color: #38a7c8;
+}
+
 .sala-intro {
-  padding-top: 50px;
+  padding-top: 100px;
   height: 600px;
   margin: auto;
 }
 
-.sala-intro h1 {
-  font-size: 36px;
-  font-weight: bold;
-}
-
-/* .ant-row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 .sala-intro p {
   font-size: 20px;
 }
 
 .ant-btn-sala {
+  border-radius: 8px !important;
   width: 250px !important;
   height: 45px !important;
-  /* background: #ededf0 !important; */
+  background: #fce34b !important;
+  background: linear-gradient(180deg, #fce34b, #eac101) !important;
   color: #1b262c !important;
   font-weight: 600 !important;
-  font-size: 18px !important;
-  border: 2px solid #1b262c !important;
+  font-size: 15px !important;
+  border: none !important;
+  filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.1));
   position: relative;
   transition: 0.3s;
+  margin-top: 30px;
 }
 
 .courses {

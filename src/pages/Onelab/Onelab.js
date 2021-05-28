@@ -122,8 +122,8 @@ function Onelab() {
                   Idea
                 </h2>
                 <p>
-                  The idea behind KOOMPI OS is to create a free operating system
-                  for all kind of users without breaching their personal data.
+                  Build an advanced learning, teaching, working, and studying
+                  environment.
                 </p>
               </div>
             </Col>
@@ -140,9 +140,9 @@ function Onelab() {
                   Goal
                 </h2>
                 <p>
-                  All the work is to gear up the performance of open-source and
-                  deliver the reliable operating system to all users, who use
-                  it.
+                  To provide energy efficient, low maintenance, easy-to-use,
+                  cost effective information technology solutions for students,
+                  teachers, and administrators.
                 </p>
               </div>
             </Col>
@@ -159,9 +159,8 @@ function Onelab() {
                   Target
                 </h2>
                 <p>
-                  The users who are exhausted with change an operating system
-                  and desktop environments that are not available for all
-                  resources they need.
+                  We aim to provide uniform computer workstations in over 10,
+                  000 high and junior high schools in Cambodia.
                 </p>
               </div>
             </Col>
@@ -188,7 +187,7 @@ function Onelab() {
                   The non-profit Mozilla Foundation supports online privacy &
                   security, trustworthy artificial intelligence.
                 </p>
-                <Button size="large" type="secondary">
+                <Button size="large" type="contact">
                   Contact
                 </Button>
               </div>

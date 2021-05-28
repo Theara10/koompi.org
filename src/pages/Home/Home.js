@@ -1,6 +1,7 @@
 import { Row, Col, Card, Button } from "antd";
 import React from "react";
 import { Link } from "react-router-dom";
+import Contact from "../../components/Contact";
 import Partners from "../../components/Partners";
 import ProjectCard from "../../components/ProjectCard";
 import RecentNews from "../../components/RecentNews";
@@ -13,14 +14,12 @@ const sala = require("../../lib/img/sala-logo.png");
 
 function Home() {
   return (
-    <div className="container">
+    <div className="home">
       <div className="project-intro">
         <Row gutter={[24, 24]}>
           <Col span={12}>
             <div style={{ width: 400 }}>
-              <h2 style={{ fontSize: 40, fontWeight: "bold", lineHeight: 1.4 }}>
-                It's not who I am underneath, but what I do that defines me.
-              </h2>
+              <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
               <p className="document-content">
                 This website is a one-stop platform that gathering the
                 instruction installation.
@@ -29,7 +28,7 @@ function Home() {
           </Col>
           <Col span={12}>
             <img
-              src="https://www.mozilla.org/media/img/firefox/browsers/hero-high-res.f6ccea9e3fd0.jpg"
+              src="https://image.freepik.com/free-vector/communication-flat-icon_1262-18771.jpg"
               alt="koompi wiki docs"
               className="img-responsive"
             />
@@ -46,7 +45,7 @@ function Home() {
               img="https://ai.devoteam.com/wp-content/uploads/sites/91/2018/05/google-logo-icon-png-transparent-background.png"
               title="KOOMPI OS"
               subtitle="Operating System"
-              description="This website is a one-stop platform that gathering the instruction installation, updating, FAQs, and problem-solving."
+              description="A friendly Linux distribution derive from Achlinux. We aim to deliver the best user experiences by providing a high performance, stable, and reliable operating system."
             />
           </Col>
 
@@ -56,7 +55,7 @@ function Home() {
               img={sala.default}
               title="SALA KOOMPI"
               subtitle="E-Learning"
-              description="This website is a one-stop platform that gathering the instruction installation, updating, FAQs, and problem-solving."
+              description="A virtual school that allows both students and teachers to view and provide learning resources. School admins and teachers can sign up as members of a virtual school on the platform and distribute lessons exclusively to their students as well."
             />
           </Col>
           <Col span={12}>
@@ -187,34 +186,7 @@ function Home() {
           <Partners />
         </div>
       </div>
-
-      <div className="contact">
-        <div className="contact-container">
-          <Row>
-            <Col span={12} offset={2}>
-              <img
-                src="https://images.ctfassets.net/s8m4aa37zxb2/1AVcSoraPugyYCmwAEQsWW/364264f8b37d29aabc91766263d52227/Sign_Up_2x.png"
-                height="400"
-                width="auto"
-              />
-            </Col>
-            <Col span={10}>
-              <div style={{ width: 300, paddingTop: 40 }}>
-                <h1 style={{ fontWeight: "bold", fontSize: 32, lineHeight: 1 }}>
-                  Interested? Contact us now!
-                </h1>
-                <p>
-                  The non-profit Mozilla Foundation supports online privacy &
-                  security, trustworthy artificial intelligence.
-                </p>
-                <Button size="large" type="secondary">
-                  Contact
-                </Button>
-              </div>
-            </Col>
-          </Row>
-        </div>
-      </div>
+      <Contact />
     </div>
   );
 }

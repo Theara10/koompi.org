@@ -9,16 +9,11 @@ function Sala() {
     <div className="sala">
       <div className="sala-intro">
         <Row>
-          <Col span={12}>
-            <h1>
-              SALA KOOMPI is a localize <br />
-              and global online course <br />
-              platform
-            </h1>
+          <Col span={11} offset={1}>
+            <h1>SALA KOOMPI</h1>
             <p>
-              Learn and create your own online school. <br />
-              Unlimited courses, mainly focusing on <br />
-              STEAM subjects.
+              A virtual school that allows both students and <br />
+              teachers to view and provide learning resources.
             </p>
             <Button size="large" type="sala">
               Create your free account
@@ -37,7 +32,7 @@ function Sala() {
 
       <div className="courses">
         <Row>
-          <Col span={12}>
+          <Col span={10} offset={2}>
             <img
               src="https://uploads-ssl.webflow.com/5d7cbf81500ecce115c776f7/5da76c5de0a68b7ba5c164bc_circology_opensourcespotglass.png"
               height="300"
@@ -45,10 +40,10 @@ function Sala() {
             />
           </Col>
           <Col span={12}>
-            <h1>Learn From the Best</h1>
+            <h2>Learn From the Best</h2>
             <p className="intro-description">
-              Learn valuable methods and techniques explained by different
-              creators.
+              Learn valuable methods and techniques explained <br />
+              by different creators.
             </p>
           </Col>
         </Row>
@@ -56,8 +51,8 @@ function Sala() {
 
       <div className="schools">
         <Row>
-          <Col span={12}>
-            <h1>Create Your Own School </h1>
+          <Col span={11} offset={1}>
+            <h2>Create Your Own School </h2>
             <p className="intro-description">
               If you could not find any answers related to the problems,
               <br /> let us know by. I'm Batman. If you could not find any
@@ -65,7 +60,7 @@ function Sala() {
               related to the problems,
             </p>
           </Col>
-          <Col span={12}>
+          <Col span={11} offset={1}>
             <img
               src="https://uploads-ssl.webflow.com/5d7cbf81500ecce115c776f7/5da76c5de0a68b7ba5c164bc_circology_opensourcespotglass.png"
               height="300"
@@ -76,7 +71,7 @@ function Sala() {
       </div>
 
       <div className="courses-category">
-        <h1>Courses</h1>
+        <h2>Courses</h2>
         <Row
           gutter={[8, 16]}
           style={{ alignItems: "center", justifyContent: "center" }}

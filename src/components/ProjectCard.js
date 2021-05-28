@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 function ProjectCard(props) {
   return (
     <div className="project-cards">
-      <div className="projects-card-container-top">
+      {/* <Link to={props.link}> */}
+      <div className="projects-card-container-top" lin>
         <a href={props.link}>
           <img src={props.img} className="projects-img" />
         </a>
@@ -13,6 +14,7 @@ function ProjectCard(props) {
           <h2 className="card-title">{props.title}</h2>
         </div>
       </div>
+      {/* </Link> */}
       <div className="projects-card-container-bottom">
         <p className="card-description">{props.description}</p>
         <p style={{ color: "#38a7c8" }}>

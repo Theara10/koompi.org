@@ -2,17 +2,20 @@
   font-size: 46px;
   font-weight: bold;
   line-height: 40px;
+  color: #38a7c8;
 }
 
 .onelab h2 {
   font-size: 36px;
   font-weight: bold;
   line-height: 40px;
+  color: #38a7c8;
 }
 .onelab h3 {
   font-size: 28px;
   font-weight: bold;
   line-height: 40px;
+  color: #38a7c8;
 }
 
 .ant-col ant-col-12 {
@@ -35,17 +38,6 @@
 
 .intro-title {
   width: 400px;
-}
-.ant-btn-onelab {
-  width: 150px !important;
-  height: 45px !important;
-  /* background: #ededf0 !important; */
-  color: #1b262c !important;
-  font-weight: 600 !important;
-  font-size: 18px !important;
-  border: 2px solid #1b262c !important;
-  position: relative;
-  transition: 0.3s;
 }
 
 .onelab-intro-description {
@@ -114,4 +106,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.ant-btn-contact {
+  border-radius: 8px !important;
+  width: 142px !important;
+  height: 45px !important;
+  background: #fce34b !important;
+  background: linear-gradient(180deg, #fce34b, #eac101) !important;
+  color: #1b262c !important;
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  border: none !important;
+  filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.1));
+  position: relative;
+  transition: 0.3s;
 }
