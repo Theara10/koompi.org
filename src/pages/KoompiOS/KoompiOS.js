@@ -32,7 +32,7 @@ function KoompiOS() {
         </p>
       </div>
       <div className="intro">
-        <Row>
+        <Row className="container">
           <Col span={12}>
             <div style={{ width: 500, paddingLeft: 30 }}>
               <h1 className="intro-title">KOOMPI OS</h1>
@@ -58,7 +58,7 @@ function KoompiOS() {
       </div>
 
       <div className="software">
-        <Row>
+        <Row className="container">
           <Col span={10} offset={2}>
             <img src={software_img.default} height="380" width="auto" />
           </Col>
@@ -94,7 +94,7 @@ function KoompiOS() {
       </div>
 
       <div className="desktop-environment">
-        <Row>
+        <Row className="container">
           <Col span={10} offset={2}>
             <img
               src="https://getpocket.com/marketing-assets/web-discover/_next/static/images/features-phone.6f0f4c65c5892b24aa553e79b07dd444.png"
@@ -114,7 +114,7 @@ function KoompiOS() {
       </div>
 
       <div className="documentation">
-        <Row>
+        <Row className="container">
           <Col span={10} offset={2}>
             <h2 style={{ marginTop: 80 }}>Read the documentation</h2>
             <p className="intro-description">
@@ -134,7 +134,7 @@ function KoompiOS() {
 
       <div className="goal">
         <div className="goal-container">
-          <Row gutter={18}>
+          <Row gutter={18} className="container">
             <Col span={7} offset={1}>
               <div>
                 <img src={idea.default} height="100" width="auto" />
@@ -177,7 +177,7 @@ function KoompiOS() {
           </p>
         </div>
         <div className="community-bottom">
-          <Row>
+          <Row className="container">
             <Col span={12}>
               <div
                 style={{

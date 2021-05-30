@@ -51,31 +51,53 @@
 .courses-category {
   padding-top: 30px;
   text-align: center;
-  height: 450px;
+  height: 600px;
   background-color: #f1f2f6;
   display: flex;
+  justify-self: center;
   flex-direction: column;
-  justify-content: center;
-}
-
-.courses-category-card {
-  text-align: center;
-  height: 200px;
-  width: 180px;
-  border-radius: 10px !important;
-  background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-}
-
-.courses-category-card-top {
-  display: flex;
   align-items: center;
-  justify-content: center;
-  height: 150px;
-  width: auto;
-  background-color: #f1f2f6;
 }
 
-.courses-category-card-bottom {
+.courses-row {
+  width: 1000px !important;
+  height: 400px;
+  /* background-color: red; */
+}
+
+.courses-batman {
+  border-radius: 10px;
+  padding: 0px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: black; */
+  height: 150px;
+  /* width: 100px; */
+  background-image: url("https://www.dccomics.com/sites/default/files/Char_Gallery_Batman_DTC1018_6053f2162bdf03.97426416.jpg");
+}
+
+.batman {
+  width: 1000px !important;
+}
+
+.courses-batman p {
+  font-size: 26px;
+  color: white;
+}
+
+.users {
+  padding-top: 50px;
+  height: 500px;
+  text-align: center;
+}
+
+.user-title {
+  margin-bottom: 0px !important;
+  font-weight: bold;
   color: rgb(95, 99, 104);
+}
+
+.number {
+  font-size: 46px;
 }

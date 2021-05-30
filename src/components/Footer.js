@@ -15,25 +15,36 @@ function Foot() {
   return (
     <div className="footer">
       <div className="footer-container">
-        <img src={img.default} width="auto" height="60" className="logo" />
+        <img src={img.default} width="auto" height="50" className="logo" />
         <Row>
-          <Col span={8}>
-            <div>
-              <h2 className="footer-title">Projects</h2>
-              <p>KOOMPI OS</p>
-              <p>KOOMPI FIFI</p>
-              <p>SALA KOOMPI </p>
-              <p>KOOMPI ONELAB</p>
+          <Col span={8} offset={1}>
+            <div style={{ paddingRight: 80 }}>
+              <h2 className="footer-title">About</h2>
+              <p>
+                If you could not find any answers related to the problems, let
+                us know by. I'm Batman. If you could not find any I'm Batman. If
+                you could not find any. If you could not find any I'm Batman. If
+                you could not find any.
+              </p>
             </div>
           </Col>
-          <Col span={8}>
+          <Col span={5}>
+            <div>
+              <h2 className="footer-title">Projects</h2>
+              <p>OS</p>
+              <p>Fifi</p>
+              <p>Sala </p>
+              <p>Onelab</p>
+            </div>
+          </Col>
+          <Col span={5}>
             <div>
               <h2 className="footer-title">Help</h2>
               <p>Community</p>
               <p>User manual</p>
             </div>
           </Col>
-          <Col span={8}>
+          <Col span={5}>
             <div>
               <h2 className="footer-title">Connect With Us</h2>
               <div className="footer-social-media">
@@ -62,15 +73,13 @@ function Foot() {
                   <FaTwitter />
                 </a>
               </div>
+              <p style={{ fontWeight: 400 }}>
+                The content of this site is copyright protected and is the
+                property of KOOMPI&#169;2021
+              </p>
             </div>
           </Col>
         </Row>
-        <div style={{ textAlign: "center", paddingTop: 20 }}>
-          <p style={{ fontWeight: 400 }}>
-            The content of this site is copyright protected and is the property
-            of KOOMPI&#169;2021
-          </p>
-        </div>
       </div>
     </div>
   );

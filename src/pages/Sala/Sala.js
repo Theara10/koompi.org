@@ -1,5 +1,6 @@
 import { Col, Row, Button } from "antd";
 import React from "react";
+import Contact from "../../components/Contact";
 import "./Sala.css";
 
 const img1 = require("../../lib/img/online-class3.jpg");
@@ -72,77 +73,96 @@ function Sala() {
 
       <div className="courses-category">
         <h2>Courses</h2>
-        <Row
-          gutter={[8, 16]}
-          style={{ alignItems: "center", justifyContent: "center" }}
-        >
-          <Col span={5}>
-            <div className="courses-category-card">
-              <div className="courses-category-card-top">
-                <img
-                  src="https://www.transparentpng.com/thumb/science/INpKTj-logo-clipart-science-logo-science-transparent-free-for.png"
-                  height="100"
-                  width="100"
-                />
+        <p>
+          If you could not find any answers related to the problems, let us know
+          by. I'm Batman. If you could not find any <br /> I'm Batman. If you
+          could not find any.
+        </p>
+        <div className="courses-row">
+          <Row gutter={[16, 16]} className="batman">
+            <Col span={6}>
+              <div className="courses-batman">
+                <p>Math</p>
               </div>
-
-              <h2 className="courses-category-card-bottom">Science</h2>
-            </div>
-          </Col>
-          <Col span={5}>
-            <div className="courses-category-card">
-              <div className="courses-category-card-top">
-                <img
-                  src="https://www.transparentpng.com/thumb/science/INpKTj-logo-clipart-science-logo-science-transparent-free-for.png"
-                  height="100"
-                  width="100"
-                />
+            </Col>
+            <Col span={6}>
+              <div className="courses-batman">
+                <p>Math</p>
               </div>
-
-              <h2 className="courses-category-card-bottom">Science</h2>
-            </div>
-          </Col>
-          <Col span={5}>
-            <div className="courses-category-card">
-              <div className="courses-category-card-top">
-                <img
-                  src="https://www.transparentpng.com/thumb/science/INpKTj-logo-clipart-science-logo-science-transparent-free-for.png"
-                  height="100"
-                  width="100"
-                />
+            </Col>
+            <Col span={6}>
+              <div className="courses-batman">
+                <p>Math</p>
               </div>
-
-              <h2 className="courses-category-card-bottom">Science</h2>
-            </div>
-          </Col>
-          <Col span={5}>
-            <div className="courses-category-card">
-              <div className="courses-category-card-top">
-                <img
-                  src="https://www.transparentpng.com/thumb/science/INpKTj-logo-clipart-science-logo-science-transparent-free-for.png"
-                  height="100"
-                  width="100"
-                />
+            </Col>
+            <Col span={6}>
+              <div className="courses-batman">
+                <p>Math</p>
               </div>
-
-              <h2 className="courses-category-card-bottom">Science</h2>
-            </div>
-          </Col>
-          <Col span={4}>
-            <div className="courses-category-card">
-              <div className="courses-category-card-top">
-                <img
-                  src="https://www.transparentpng.com/thumb/science/INpKTj-logo-clipart-science-logo-science-transparent-free-for.png"
-                  height="100"
-                  width="100"
-                />
+            </Col>
+            <Col span={6}>
+              <div className="courses-batman">
+                <p>Math</p>
               </div>
-
-              <h2 className="courses-category-card-bottom">Science</h2>
-            </div>
-          </Col>
-        </Row>
+            </Col>
+            <Col span={6}>
+              <div className="courses-batman">
+                <p>Math</p>
+              </div>
+            </Col>
+            <Col span={6}>
+              <div className="courses-batman">
+                <p>Math</p>
+              </div>
+            </Col>
+            <Col span={6}>
+              <div className="courses-batman">
+                <p>Math</p>
+              </div>
+            </Col>
+          </Row>
+        </div>
       </div>
+
+      <div className="users">
+        <h2>Users</h2>
+        <p>
+          If you could not find any answers related to the problems, let us know
+          by. I'm Batman. If you could not find any <br /> I'm Batman. If you
+          could not find any.
+        </p>
+        <div className="container">
+          <div>
+            <Row>
+              <Col span={6}>
+                <div>
+                  <p className="user-title">Users</p>
+                  <h3 className="number">10000+</h3>
+                </div>
+              </Col>
+              <Col span={6}>
+                <div>
+                  <p className="user-title">Courses</p>
+                  <h3 className="number">3000+</h3>
+                </div>
+              </Col>
+              <Col span={6}>
+                <div>
+                  <p className="user-title">Schools</p>
+                  <h3 className="number">200+</h3>
+                </div>
+              </Col>
+              <Col span={6}>
+                <div>
+                  <p className="user-title">Instructors</p>
+                  <h3 className="number">5000+</h3>
+                </div>
+              </Col>
+            </Row>
+          </div>
+        </div>
+      </div>
+      <Contact />
     </div>
   );
 }

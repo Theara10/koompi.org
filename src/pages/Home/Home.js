@@ -37,8 +37,8 @@ function Home() {
       </div>
 
       <div className="projects">
-        <div className="projects-container"></div>
-        <Row gutter={[24, 24]}>
+        <div></div>
+        <Row gutter={[24, 24]} className="container">
           <Col span={12}>
             <ProjectCard
               link={"/koompi-os"}

@@ -1,3 +1,8 @@
+.container {
+  width: 1160px !important;
+  margin: auto;
+}
+
 .header {
   display: flex;
   flex-direction: row;
@@ -115,7 +120,7 @@
 
 /* Footer */
 .footer {
-  height: 450px;
+  height: 400px;
   background: #001529 !important;
   padding-top: 30px;
   display: flex;
@@ -131,6 +136,7 @@
 
 .footer p {
   color: white !important;
+  margin-bottom: 0px !important;
   /* text-align: center; */
 }
 .footer h2 {
