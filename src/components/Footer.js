@@ -17,18 +17,14 @@ function Foot() {
       <div className="footer-container">
         <img src={img.default} width="auto" height="50" className="logo" />
         <Row>
-          <Col span={8} offset={1}>
+          <Col span={6}>
             <div style={{ paddingRight: 80 }}>
-              <h2 className="footer-title">About</h2>
-              <p>
-                If you could not find any answers related to the problems, let
-                us know by. I'm Batman. If you could not find any I'm Batman. If
-                you could not find any. If you could not find any I'm Batman. If
-                you could not find any.
-              </p>
+              <h2 className="footer-title">LEGALS</h2>
+              <p>Privacy Policy</p>
+              <p>Sale Policy</p>
             </div>
           </Col>
-          <Col span={5}>
+          <Col span={6}>
             <div>
               <h2 className="footer-title">Projects</h2>
               <p>OS</p>
@@ -37,14 +33,14 @@ function Foot() {
               <p>Onelab</p>
             </div>
           </Col>
-          <Col span={5}>
+          <Col span={6}>
             <div>
               <h2 className="footer-title">Help</h2>
               <p>Community</p>
               <p>User manual</p>
             </div>
           </Col>
-          <Col span={5}>
+          <Col span={6}>
             <div>
               <h2 className="footer-title">Connect With Us</h2>
               <div className="footer-social-media">
@@ -73,13 +69,12 @@ function Foot() {
                   <FaTwitter />
                 </a>
               </div>
-              <p style={{ fontWeight: 400 }}>
-                The content of this site is copyright protected and is the
-                property of KOOMPI&#169;2021
-              </p>
             </div>
           </Col>
         </Row>
+        <p style={{ fontWeight: 400, textAlign: "center", marginTop: 40 }}>
+          KOOMPI © 2021 All Rights Reserved.
+        </p>
       </div>
     </div>
   );

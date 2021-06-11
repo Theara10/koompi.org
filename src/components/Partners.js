@@ -22,7 +22,7 @@ function Partners() {
           <Col>
             <img
               width="auto"
-              height="180"
+              height="150"
               src="http://www.vitaminair.org/images/partner/sabay.png"
               alt="logo"
             />
@@ -30,7 +30,7 @@ function Partners() {
           <Col>
             <img
               width="auto"
-              height="180"
+              height="150"
               src="http://www.vitaminair.org/images/partner/isi-group.png"
               alt="logo"
             />
@@ -38,7 +38,7 @@ function Partners() {
           <Col>
             <img
               width="auto"
-              height="180"
+              height="150"
               src="https://miro.medium.com/max/186/1*UBckoGkQZnm-qrL0hxCk1A.png"
               alt="logo"
             />

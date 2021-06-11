@@ -19,10 +19,11 @@ function Home() {
         <Row gutter={[24, 24]}>
           <Col span={12}>
             <div style={{ width: 400 }}>
-              <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+              <h1>KOOMPI Projects</h1>
               <p className="document-content">
                 This website is a one-stop platform that gathering the
-                instruction installation.
+                instruction installation. This website is a one-stop platform
+                that gathering the instruction installation.
               </p>
             </div>
           </Col>
@@ -37,7 +38,6 @@ function Home() {
       </div>
 
       <div className="projects">
-        <div></div>
         <Row gutter={[24, 24]} className="container">
           <Col span={12}>
             <ProjectCard
@@ -117,10 +117,8 @@ function Home() {
       <div className="recentnews">
         <div className="recentnews-container">
           <div className="recentnews-header">
-            <h1 style={{ fontSize: 32 }}>
-              Creating opportunities for more students
-            </h1>
-            <p style={{ color: "#5f6368", marginBottom: 20 }}>
+            <h1 style={{ fontSize: 36 }}>News And Events</h1>
+            <p style={{ color: "#5f6368", marginBottom: 30 }}>
               Through community-based programs and philanthropy.
             </p>
           </div>

@@ -3,13 +3,28 @@ import React from "react";
 import Contact from "../../components/Contact";
 import "./Sala.css";
 
-const img1 = require("../../lib/img/online-class3.jpg");
+const img1 = require("../../lib/img/sala-intro-img.png");
 
 function Sala() {
   return (
     <div className="sala">
       <div className="sala-intro">
-        <Row>
+        <img
+          src={img1.default}
+          width="auto"
+          height="300"
+          // className="img"
+        />
+        <h1>SALA KOOMPI</h1>
+        <p>
+          A virtual school that allows both students and <br />
+          teachers to view and provide learning resources.
+        </p>
+        <Button size="large" type="sala">
+          Create your free account
+        </Button>
+
+        {/* <Row>
           <Col span={11} offset={1}>
             <h1>SALA KOOMPI</h1>
             <p>
@@ -28,7 +43,7 @@ function Sala() {
               // className="img"
             />
           </Col>
-        </Row>
+        </Row> */}
       </div>
 
       <div className="courses">
@@ -52,7 +67,7 @@ function Sala() {
 
       <div className="schools">
         <Row>
-          <Col span={11} offset={1}>
+          <Col span={10} offset={2}>
             <h2>Create Your Own School </h2>
             <p className="intro-description">
               If you could not find any answers related to the problems,
@@ -63,8 +78,8 @@ function Sala() {
           </Col>
           <Col span={11} offset={1}>
             <img
-              src="https://uploads-ssl.webflow.com/5d7cbf81500ecce115c776f7/5da76c5de0a68b7ba5c164bc_circology_opensourcespotglass.png"
-              height="300"
+              src="https://image.freepik.com/free-vector/online-school-platform-abstract-concept-illustration-homeschooling-online-education-platform-digital-classes-virtual-courses-lms-school_335657-3486.jpg"
+              height="400"
               width="auto"
             />
           </Col>
