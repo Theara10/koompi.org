@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Button } from "antd";
 
 function ProjectCard(props) {
   return (
@@ -16,9 +17,9 @@ function ProjectCard(props) {
 
       <div className="projects-card-container-bottom">
         <p className="card-description">{props.description}</p>
-        <p style={{ color: "#38a7c8" }}>
-          <a href={props.link}>Read More..</a>
-        </p>
+        <a href={props.link} className="more">
+          Read More..
+        </a>
       </div>
     </div>
   );

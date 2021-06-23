@@ -30,11 +30,11 @@
 
 .projects-card-container-top {
   display: flex;
-  margin: 20px 0 0 20px;
+  margin: 16px 0 0 20px;
 }
 .projects-card-container-bottom {
   font-size: 16px;
-  margin: 20px 0 20px 20px;
+  margin: 10px 0 20px 28px !important;
 }
 
 .ant-row {
@@ -44,16 +44,16 @@
 
 .project-cards {
   height: 250px;
-
   background-color: white !important;
   border: 4px solid #ffffff;
-  margin-top: 15px;
+  margin-top: 20px;
   margin-right: 18px;
 }
 
 .card-subtitle {
   margin: 0px;
   font-weight: bold;
+  /* color: #fce24a; */
 }
 .card-title-container {
   display: flex;
@@ -64,7 +64,7 @@
 
 .card-title {
   margin: 0px;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 28px;
   padding: 0px;
   margin-top: -5px;
@@ -84,6 +84,12 @@
 
 .projects-card-container-bottom a {
   color: rgb(95, 99, 104);
+  padding-top: 50px;
+}
+
+.more {
+  color: "#007bff";
+  margin-top: 80px !important;
 }
 
 /* Recent News */

@@ -9,7 +9,7 @@ import "./Home.css";
 
 const img = require("../../lib/img/docs.jpg");
 const img2 = require("../../lib/img/KOOMPI-Wifi-1.png");
-const img3 = require("../../lib/img/favicon.png");
+const koompi_logo = require("../../lib/img/koompi-logo-black.png");
 const sala = require("../../lib/img/sala-logo.png");
 
 function Home() {
@@ -42,7 +42,7 @@ function Home() {
           <Col span={12}>
             <ProjectCard
               link={"/koompi-os"}
-              img="https://ai.devoteam.com/wp-content/uploads/sites/91/2018/05/google-logo-icon-png-transparent-background.png"
+              img={koompi_logo.default}
               title="KOOMPI OS"
               subtitle="Operating System"
               description="A friendly Linux distribution derive from Achlinux. We aim to deliver the best user experiences by providing a high performance, stable, and reliable operating system."
@@ -70,7 +70,7 @@ function Home() {
           <Col span={12}>
             <ProjectCard
               link={"/onelab"}
-              img="https://cryptologos.cc/logos/bitcoin-btc-logo.png"
+              img="https://image.freepik.com/free-vector/computer-lab-abstract-concept-illustration_335657-3876.jpg"
               title="KOOMPI ONELAB"
               subtitle="Lab Solution"
               description="This website is a one-stop platform that gathering the instruction installation, updating, FAQs, and problem-solving."

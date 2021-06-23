@@ -6,15 +6,17 @@ const software_img = require("../../lib/img/koompi-os-software.png");
 const idea = require("../../lib/img/Idea.png");
 const goal = require("../../lib/img/Goal.png");
 const target = require("../../lib/img/Target.png");
+const security = require("../../lib/img/Security.png");
+const docs = require("../../lib/img/Read-Doc.png");
 
 function KoompiOS() {
   return (
     <div className="koompi-os">
-      <div
+      {/* <div
         style={{
           height: 40,
           width: "100%",
-          backgroundColor: "#38a7c8",
+          backgroundColor: " #fce34b",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
@@ -23,14 +25,14 @@ function KoompiOS() {
         <p
           style={{
             fontWeight: "bold",
-            color: "white",
+            color: "black",
             margin: 0,
             fontSize: 18,
           }}
         >
           Get the latest version! KOOMPI OS 3.0.5 is now available!{" "}
         </p>
-      </div>
+      </div> */}
       <div className="intro">
         <Row className="container">
           <Col span={12}>
@@ -84,11 +86,7 @@ function KoompiOS() {
             </p>
           </Col>
           <Col span={10} offset={2}>
-            <img
-              src="https://getpocket.com/marketing-assets/web-discover/_next/static/images/private-nook.adda9d99ef9f132c9d613f520e300fea.png"
-              height="400"
-              width="auto"
-            />
+            <img src={security.default} height="400" width="auto" />
           </Col>
         </Row>
       </div>
@@ -123,11 +121,7 @@ function KoompiOS() {
             </p>
           </Col>
           <Col span={10} offset={2}>
-            <img
-              src="https://getpocket.com/marketing-assets/web-discover/_next/static/images/private-nook.adda9d99ef9f132c9d613f520e300fea.png"
-              height="400"
-              width="auto"
-            />
+            <img src={docs.default} height="400" width="auto" />
           </Col>
         </Row>
       </div>

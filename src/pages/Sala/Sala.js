@@ -9,7 +9,7 @@ function Sala() {
   return (
     <div className="sala">
       <div className="sala-intro">
-        <img
+        {/* <img
           src={img1.default}
           width="auto"
           height="300"
@@ -22,9 +22,9 @@ function Sala() {
         </p>
         <Button size="large" type="sala">
           Create your free account
-        </Button>
+        </Button> */}
 
-        {/* <Row>
+        <Row>
           <Col span={11} offset={1}>
             <h1>SALA KOOMPI</h1>
             <p>
@@ -43,7 +43,7 @@ function Sala() {
               // className="img"
             />
           </Col>
-        </Row> */}
+        </Row>
       </div>
 
       <div className="courses">

@@ -34,7 +34,7 @@
   border-radius: 8px !important;
   width: 142px !important;
   height: 45px !important;
-  background: #fce34b !important;
+  /* background: #fce34b !important; */
   background: linear-gradient(180deg, #fce34b, #eac101) !important;
   color: #1b262c !important;
   font-weight: 600 !important;
