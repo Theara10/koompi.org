@@ -32,18 +32,102 @@ function Sala() {
               teachers to view and provide learning resources.
             </p>
             <Button size="large" type="sala">
-              Create your free account
+              Explore
+            </Button>
+            <Button size="large" type="sala-acc" style={{ marginLeft: 20 }}>
+              Create Free Account
             </Button>
           </Col>
-          <Col span={12}>
+          <Col span={10} offset={2}>
             <img
-              src="https://koompi.com/assets/images/projects/sala-koompi.png"
+              // src="https://koompi.com/assets/images/projects/sala-koompi.png"
+              src={
+                "https://global-uploads.webflow.com/5fbb75c0795486e7856db4c8/5fbe0514081ed96e60b08aa8_Illustration.svg"
+              }
               width="auto"
               height="300"
-              // className="img"
             />
           </Col>
         </Row>
+      </div>
+
+      <div className="why-sala">
+        <h2 style={{ marginBottom: 50 }}>Why Sala KOOMPI?</h2>
+        <div className="why-sala-container">
+          <Row gutter={18}>
+            <Col span={7} offset={1}>
+              <div>
+                <img
+                  src="https://icons.getbootstrap.com/assets/img/icons-hero.png"
+                  height="80"
+                  width="auto"
+                />
+                <h2
+                  style={{
+                    fontSize: 24,
+                    fontWeight: "bold",
+                    marginBottom: 0,
+                    marginTop: 20,
+                  }}
+                >
+                  Feature 1
+                </h2>
+                <p>
+                  The idea behind KOOMPI OS is to create a free operating system
+                  for all kind of users without breaching their personal data.
+                </p>
+              </div>
+            </Col>
+            <Col span={7} offset={1}>
+              <div>
+                <img
+                  src="https://icons.getbootstrap.com/assets/img/icons-hero.png"
+                  height="80"
+                  width="auto"
+                />
+                <h2
+                  style={{
+                    fontSize: 24,
+                    fontWeight: "bold",
+                    marginBottom: 0,
+                    marginTop: 20,
+                  }}
+                >
+                  Feature 3
+                </h2>
+                <p>
+                  All the work is to gear up the performance of open-source and
+                  deliver the reliable operating system to all users, who use
+                  it.
+                </p>
+              </div>
+            </Col>
+            <Col span={7} offset={1}>
+              <div>
+                <img
+                  src="https://icons.getbootstrap.com/assets/img/icons-hero.png"
+                  height="80"
+                  width="auto"
+                />
+                <h2
+                  style={{
+                    fontSize: 24,
+                    fontWeight: "bold",
+                    marginBottom: 0,
+                    marginTop: 20,
+                  }}
+                >
+                  Feature 3
+                </h2>
+                <p>
+                  The users who are exhausted with change an operating system
+                  and desktop environments that are not available for all
+                  resources they need.
+                </p>
+              </div>
+            </Col>
+          </Row>
+        </div>
       </div>
 
       <div className="courses">
@@ -56,7 +140,7 @@ function Sala() {
             />
           </Col>
           <Col span={12}>
-            <h2>Learn From the Best</h2>
+            <h2>Learn Variety Of Subjects</h2>
             <p className="intro-description">
               Learn valuable methods and techniques explained <br />
               by different creators.
