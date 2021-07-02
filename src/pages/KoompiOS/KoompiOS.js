@@ -8,6 +8,7 @@ const goal = require("../../lib/img/Goal.png");
 const target = require("../../lib/img/Target.png");
 const security = require("../../lib/img/Security.png");
 const docs = require("../../lib/img/Read-Doc.png");
+const os = require("../../lib/img/os-image.png");
 
 function KoompiOS() {
   return (
@@ -38,7 +39,7 @@ function KoompiOS() {
           <Col span={12}>
             <div style={{ width: 500, paddingLeft: 30 }}>
               <h1 className="intro-title">KOOMPI OS</h1>
-              <p style={{ color: "white" }}>
+              <p style={{ color: "white", fontSize: 24 }}>
                 A friendly Linux distribution derive from Achlinux. We aim to
                 deliver the best user experiences by providing a high
                 performance, stable, and reliable operating system.
@@ -48,13 +49,9 @@ function KoompiOS() {
               </Button>
             </div>
           </Col>
-          <Col span={12}>
-            <img
-              src="https://camo.githubusercontent.com/b605d014b47fa0c2ee05a987a94b8f3b4647fe176c78201f2c6bcffe03aae366/68747470733a2f2f63646e2e706c696e672e636f6d2f696d672f382f342f382f642f6261356132323931363765656265646266613265656338323237333231353865323564372e706e67"
-              width="auto"
-              height="300"
-              className="intro-img"
-            />
+          <Col span={12} style={{ textAlign: "center" }}>
+            <img src={os.default} width="auto" height="360" />
+            <p style={{ color: "white" }}> KOOMPI OS V3.3.5</p>
           </Col>
         </Row>
       </div>

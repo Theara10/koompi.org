@@ -2,6 +2,7 @@
   font-size: 56px;
   font-weight: bold;
   line-height: 40px;
+  padding-top: 20px;
 }
 .koompi-os h2 {
   font-size: 36px;
@@ -16,7 +17,7 @@
   color: #38a7c8;
 }
 .intro {
-  padding-top: 60px;
+  padding-top: 50px;
   height: 600px;
   margin: auto;
   /* background-image: url("https://media.istockphoto.com/vectors/abstract-technology-background-vector-id842945754"); */
@@ -44,12 +45,6 @@
   position: relative;
   transition: 0.3s;
   margin-top: 30px;
-}
-
-.intro-img {
-  padding-left: 30px;
-  /* padding-top: 80px; */
-  margin-top: 80px;
 }
 
 .software {

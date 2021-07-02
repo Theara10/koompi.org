@@ -3,10 +3,13 @@
   font-weight: bold;
   color: #38a7c8;
   margin-bottom: 5px !important;
+  line-height: 1.2;
 }
 .sala h2 {
   font-size: 36px;
   color: #38a7c8;
+  font-weight: bold;
+  line-height: 1.2;
 }
 
 .sala-intro {
@@ -54,9 +57,24 @@
   /* margin-top: 30px; */
 }
 
+.sala-purpose {
+  height: 700px;
+  padding-top: 50px;
+  /* background-color: #2f73b8; */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.sala-purpose-container {
+  width: 800px;
+  /* text-align: center; */
+}
+
 .why-sala {
   height: 600px;
-  /* background-color: #2f73b8; */
+  background-color: #2f73b8;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -76,28 +94,31 @@
   align-items: center;
 }
 
+.sala-purpose-subtitle {
+  font-size: 32px;
+  color: rgb(95, 99, 104);
+}
+
 .courses {
-  height: 500px;
+  height: 550px;
   background-color: #f1f2f6;
   display: flex;
   justify-content: center;
 }
 
 .schools {
-  height: 500px;
+  height: 550px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #f1f2f6;
 }
 
-.courses-category {
-  padding-top: 30px;
-  text-align: center;
-  height: 600px;
-  background-color: #f1f2f6;
+.easy-to-manage {
+  height: 550px;
+
   display: flex;
-  justify-self: center;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
@@ -130,8 +151,14 @@
 
 .users {
   padding-top: 50px;
-  height: 500px;
-  text-align: center;
+  height: 700px;
+  /* text-align: center; */
+  /* background-color: #001529; */
+}
+
+.users-container {
+  width: 1000px;
+  margin: auto;
 }
 
 .user-title {

@@ -3,7 +3,7 @@ import React from "react";
 import Contact from "../../components/Contact";
 import "./Sala.css";
 
-const img1 = require("../../lib/img/sala-intro-img.png");
+const student = require("../../lib/img/student.png");
 
 function Sala() {
   return (
@@ -51,82 +51,21 @@ function Sala() {
         </Row>
       </div>
 
-      <div className="why-sala">
-        <h2 style={{ marginBottom: 50 }}>Why Sala KOOMPI?</h2>
-        <div className="why-sala-container">
-          <Row gutter={18}>
-            <Col span={7} offset={1}>
-              <div>
-                <img
-                  src="https://icons.getbootstrap.com/assets/img/icons-hero.png"
-                  height="80"
-                  width="auto"
-                />
-                <h2
-                  style={{
-                    fontSize: 24,
-                    fontWeight: "bold",
-                    marginBottom: 0,
-                    marginTop: 20,
-                  }}
-                >
-                  Feature 1
-                </h2>
-                <p>
-                  The idea behind KOOMPI OS is to create a free operating system
-                  for all kind of users without breaching their personal data.
-                </p>
-              </div>
-            </Col>
-            <Col span={7} offset={1}>
-              <div>
-                <img
-                  src="https://icons.getbootstrap.com/assets/img/icons-hero.png"
-                  height="80"
-                  width="auto"
-                />
-                <h2
-                  style={{
-                    fontSize: 24,
-                    fontWeight: "bold",
-                    marginBottom: 0,
-                    marginTop: 20,
-                  }}
-                >
-                  Feature 3
-                </h2>
-                <p>
-                  All the work is to gear up the performance of open-source and
-                  deliver the reliable operating system to all users, who use
-                  it.
-                </p>
-              </div>
-            </Col>
-            <Col span={7} offset={1}>
-              <div>
-                <img
-                  src="https://icons.getbootstrap.com/assets/img/icons-hero.png"
-                  height="80"
-                  width="auto"
-                />
-                <h2
-                  style={{
-                    fontSize: 24,
-                    fontWeight: "bold",
-                    marginBottom: 0,
-                    marginTop: 20,
-                  }}
-                >
-                  Feature 3
-                </h2>
-                <p>
-                  The users who are exhausted with change an operating system
-                  and desktop environments that are not available for all
-                  resources they need.
-                </p>
-              </div>
-            </Col>
-          </Row>
+      <div className="sala-purpose">
+        <div className="sala-purpose-container">
+          <p style={{ fontSize: 26, color: "rgb(95, 99, 104)" }}>
+            Why join Sala?
+          </p>
+          <h2 style={{ fontSize: 56, lineHeight: 1.2 }}>
+            Virtual School for the next generation of learners
+          </h2>
+          <p className="sala-purpose-subtitle">
+            Sala KOOMPI is created to .. the idea behind KOOMPI OS is to create
+            a free operating system for all kind of users without breaching
+            their personal data. the idea behind KOOMPI OS is to create a free
+            operating system for all kind of users without breaching their
+            personal data.
+          </p>
         </div>
       </div>
 
@@ -134,17 +73,40 @@ function Sala() {
         <Row>
           <Col span={10} offset={2}>
             <img
-              src="https://uploads-ssl.webflow.com/5d7cbf81500ecce115c776f7/5da76c5de0a68b7ba5c164bc_circology_opensourcespotglass.png"
+              src="https://www.mozilla.org/media/img/firefox/new/desktop/block-mr1-high-res.2dabc380db76.jpg"
               height="300"
               width="auto"
             />
           </Col>
-          <Col span={12}>
+          <Col span={10} offset={2}>
             <h2>Learn Variety Of Subjects</h2>
             <p className="intro-description">
-              Learn valuable methods and techniques explained <br />
-              by different creators.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
             </p>
+          </Col>
+        </Row>
+      </div>
+
+      <div className="easy-to-manage">
+        <Row>
+          <Col span={10} offset={2}>
+            <h2>Manage and study at your own pace </h2>
+            <p className="intro-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </Col>
+          <Col span={10} offset={2}>
+            <img
+              src="https://www.mozilla.org/media/img/firefox/new/desktop/block-mr1-high-res.2dabc380db76.jpg"
+              height="300"
+              width="auto"
+            />
           </Col>
         </Row>
       </div>
@@ -152,113 +114,45 @@ function Sala() {
       <div className="schools">
         <Row>
           <Col span={10} offset={2}>
-            <h2>Create Your Own School </h2>
-            <p className="intro-description">
-              If you could not find any answers related to the problems,
-              <br /> let us know by. I'm Batman. If you could not find any
-              answers related to the problems, If you could not find any answers
-              related to the problems,
-            </p>
-          </Col>
-          <Col span={11} offset={1}>
             <img
-              src="https://image.freepik.com/free-vector/online-school-platform-abstract-concept-illustration-homeschooling-online-education-platform-digital-classes-virtual-courses-lms-school_335657-3486.jpg"
-              height="400"
+              src="https://www.mozilla.org/media/img/firefox/new/desktop/block-mr1-high-res.2dabc380db76.jpg"
+              height="300"
               width="auto"
             />
+          </Col>
+          <Col span={10} offset={2}>
+            <h2>Create Your Own School </h2>
+            <p className="intro-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
           </Col>
         </Row>
       </div>
 
-      <div className="courses-category">
-        <h2>Courses</h2>
-        <p>
-          If you could not find any answers related to the problems, let us know
-          by. I'm Batman. If you could not find any <br /> I'm Batman. If you
-          could not find any.
-        </p>
-        <div className="courses-row">
-          <Row gutter={[16, 16]} className="batman">
-            <Col span={6}>
-              <div className="courses-batman">
-                <p>Math</p>
-              </div>
+      <div className="users">
+        <div className="users-container">
+          <Row>
+            <Col span={12} style={{ paddingRight: 100, paddingTop: 50 }}>
+              <h1>
+                Join more than <br />
+                10000 users <br />
+                on Sala
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <Button size="large" type="sala">
+                Explore
+              </Button>
             </Col>
-            <Col span={6}>
-              <div className="courses-batman">
-                <p>Math</p>
-              </div>
-            </Col>
-            <Col span={6}>
-              <div className="courses-batman">
-                <p>Math</p>
-              </div>
-            </Col>
-            <Col span={6}>
-              <div className="courses-batman">
-                <p>Math</p>
-              </div>
-            </Col>
-            <Col span={6}>
-              <div className="courses-batman">
-                <p>Math</p>
-              </div>
-            </Col>
-            <Col span={6}>
-              <div className="courses-batman">
-                <p>Math</p>
-              </div>
-            </Col>
-            <Col span={6}>
-              <div className="courses-batman">
-                <p>Math</p>
-              </div>
-            </Col>
-            <Col span={6}>
-              <div className="courses-batman">
-                <p>Math</p>
-              </div>
+            <Col span={12}>
+              <img src={student.default} width="auto" height="500" />
             </Col>
           </Row>
-        </div>
-      </div>
-
-      <div className="users">
-        <h2>Users</h2>
-        <p>
-          If you could not find any answers related to the problems, let us know
-          by. I'm Batman. If you could not find any <br /> I'm Batman. If you
-          could not find any.
-        </p>
-        <div className="container">
-          <div>
-            <Row>
-              <Col span={6}>
-                <div>
-                  <p className="user-title">Users</p>
-                  <h3 className="number">10000+</h3>
-                </div>
-              </Col>
-              <Col span={6}>
-                <div>
-                  <p className="user-title">Courses</p>
-                  <h3 className="number">3000+</h3>
-                </div>
-              </Col>
-              <Col span={6}>
-                <div>
-                  <p className="user-title">Schools</p>
-                  <h3 className="number">200+</h3>
-                </div>
-              </Col>
-              <Col span={6}>
-                <div>
-                  <p className="user-title">Instructors</p>
-                  <h3 className="number">5000+</h3>
-                </div>
-              </Col>
-            </Row>
-          </div>
         </div>
       </div>
       <Contact />
