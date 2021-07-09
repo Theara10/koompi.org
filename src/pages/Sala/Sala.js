@@ -60,11 +60,11 @@ function Sala() {
             Virtual School for the next generation of learners
           </h2>
           <p className="sala-purpose-subtitle">
-            Sala KOOMPI is created to .. the idea behind KOOMPI OS is to create
-            a free operating system for all kind of users without breaching
-            their personal data. the idea behind KOOMPI OS is to create a free
-            operating system for all kind of users without breaching their
-            personal data.
+            Sala KOOMPI is created to Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.
           </p>
         </div>
       </div>
@@ -93,7 +93,7 @@ function Sala() {
       <div className="easy-to-manage">
         <Row>
           <Col span={10} offset={2}>
-            <h2>Manage and study at your own pace </h2>
+            <h2>Learn Anywhere Anytime at Your Own Pace </h2>
             <p className="intro-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -135,7 +135,7 @@ function Sala() {
       <div className="users">
         <div className="users-container">
           <Row>
-            <Col span={12} style={{ paddingRight: 100, paddingTop: 50 }}>
+            <Col span={10} style={{ paddingRight: 60, paddingTop: 50 }}>
               <h1>
                 Join more than <br />
                 10000 users <br />
@@ -149,7 +149,7 @@ function Sala() {
                 Explore
               </Button>
             </Col>
-            <Col span={12}>
+            <Col span={14}>
               <img src={student.default} width="auto" height="500" />
             </Col>
           </Row>

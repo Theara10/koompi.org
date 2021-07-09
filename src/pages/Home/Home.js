@@ -7,7 +7,6 @@ import ProjectCard from "../../components/ProjectCard";
 import RecentNews from "../../components/RecentNews";
 import "./Home.css";
 
-const img = require("../../lib/img/docs.jpg");
 const img2 = require("../../lib/img/KOOMPI-Wifi-1.png");
 const koompi_logo = require("../../lib/img/koompi-logo-black.png");
 const sala = require("../../lib/img/sala-logo.png");

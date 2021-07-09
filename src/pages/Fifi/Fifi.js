@@ -10,9 +10,7 @@ function Fifi() {
         <Row>
           <Col span={12}>
             <div>
-              <h1 className="fifi-title">
-                Anakin Skywalker Was Weak. I Destroyed Him
-              </h1>
+              <h1 className="fifi-title">Easy Access And Low Cost Internet</h1>
               <p style={{ paddingTop: 20, fontSize: 24 }}>
                 Part of the Internet-For-All initiative,
                 <br /> KOOMPI Fi-Fi is a school internet <br />
@@ -53,11 +51,11 @@ function Fifi() {
                   height="100"
                   width="auto"
                 />
-                <h2
-                  style={{ fontSize: 28, fontWeight: "bold", marginBottom: 0 }}
+                <h3
+                  style={{ fontSize: 24, fontWeight: "bold", marginBottom: 0 }}
                 >
-                  Feature 1
-                </h2>
+                  Modern Internet
+                </h3>
                 <p>
                   The idea behind KOOMPI OS is to create a free operating system
                   for all kind of users without breaching their personal data.
@@ -71,11 +69,11 @@ function Fifi() {
                   height="100"
                   width="auto"
                 />
-                <h2
-                  style={{ fontSize: 28, fontWeight: "bold", marginBottom: 0 }}
+                <h3
+                  style={{ fontSize: 24, fontWeight: "bold", marginBottom: 0 }}
                 >
-                  Feature 3
-                </h2>
+                  Blockchain Based Payment System
+                </h3>
                 <p>
                   All the work is to gear up the performance of open-source and
                   deliver the reliable operating system to all users, who use
@@ -90,11 +88,11 @@ function Fifi() {
                   height="100"
                   width="auto"
                 />
-                <h2
-                  style={{ fontSize: 28, fontWeight: "bold", marginBottom: 0 }}
+                <h3
+                  style={{ fontSize: 24, fontWeight: "bold", marginBottom: 0 }}
                 >
-                  Feature 3
-                </h2>
+                  Wifi At Places
+                </h3>
                 <p>
                   The users who are exhausted with change an operating system
                   and desktop environments that are not available for all
@@ -116,9 +114,9 @@ function Fifi() {
             />
           </Col>
           <Col span={12}>
-            <h1 style={{ marginTop: 40, fontSize: 32, fontWeight: "bold" }}>
-              Feature 1
-            </h1>
+            <h2 style={{ marginTop: 40, fontSize: 36, fontWeight: "bold" }}>
+              Spend as Low as 0.50$ a Month
+            </h2>
             <p className="intro-description">
               All packages of the software are available
               <br /> for the latest version, <br />
@@ -132,7 +130,7 @@ function Fifi() {
         <Row>
           <Col span={10} offset={2}>
             <h1 style={{ marginTop: 50, fontSize: 32, fontWeight: "bold" }}>
-              Feature 2
+              Speed Up to 50Mbps
             </h1>
             <p className="intro-description">
               All packages of the software are available for the <br />
@@ -160,7 +158,7 @@ function Fifi() {
           </Col>
           <Col span={12}>
             <h1 style={{ marginTop: 40, fontSize: 32, fontWeight: "bold" }}>
-              Feature 3
+              10 Minutes to Fully Set Up
             </h1>
             <p className="intro-description">
               All packages of the software are available

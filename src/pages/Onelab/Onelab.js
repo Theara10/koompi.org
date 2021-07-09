@@ -63,7 +63,12 @@ function Onelab() {
           </Col>
           <Col span={12}>
             <h3 style={{ marginTop: 80 }}>Work Station</h3>
-            <p>High effective and affordable consisted workstations.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.
+            </p>
           </Col>
         </Row>
       </div>
@@ -73,8 +78,10 @@ function Onelab() {
           <Col span={10} offset={2}>
             <h3 style={{ marginTop: 80 }}>Content Server</h3>
             <p>
-              Checking our last release notes for the version you are
-              downloading.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </Col>
           <Col span={10} offset={2}>
@@ -98,9 +105,58 @@ function Onelab() {
           </Col>
           <Col span={12}>
             <h3 style={{ marginTop: 80 }}>Network</h3>
-            <p>KOOMPI FIFI, the very own network product.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.
+            </p>
           </Col>
         </Row>
+      </div>
+
+      <div className="uses">
+        <div className="uses-container">
+          <h2>Who is it for?</h2>
+          <Row className="uses-bottom">
+            <Col span={8}>
+              <img
+                src="https://image.freepik.com/free-vector/company-concept-illustration_114360-2721.jpg"
+                height="200"
+                width="200"
+              />
+              <h3>School</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+              </p>
+            </Col>
+            <Col span={8}>
+              <img
+                src="https://image.freepik.com/free-vector/company-concept-illustration_114360-2721.jpg"
+                height="200"
+                width="200"
+              />
+              <h3>Company</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+              </p>
+            </Col>
+            <Col span={8}>
+              <img
+                src="https://image.freepik.com/free-vector/company-concept-illustration_114360-2721.jpg"
+                height="200"
+                width="200"
+              />
+              <h3>Organization</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+              </p>
+            </Col>
+          </Row>
+        </div>
       </div>
 
       <div className="ideas">
