@@ -1,25 +1,35 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { Button } from "antd";
+import { Col, Row } from 'antd';
+import React from 'react';
 
 function ProjectCard(props) {
   return (
     <div className="project-cards">
-      <div className="projects-card-container-top" lin>
-        <a href={props.link}>
-          <img src={props.img} className="projects-img" />
-        </a>
-        <div className="card-title-container">
-          <p className="card-subtitle">{props.subtitle}</p>
-          <h2 className="card-title">{props.title}</h2>
-        </div>
+      <div>
+        <img
+          src="/images/sala.png"
+          className="img-responsive img-project"
+          alt={props.title}
+        />
+      </div>
+      <div className="card-title-container">
+        <Row gutter={[12, 12]}>
+          <Col>
+            <img
+              src="/images/logo.svg"
+              height="40px"
+              alt="koompi"
+              className="project-logo"
+            />
+          </Col>
+          <Col>
+            <p className="card-subtitle">{props.subtitle}</p>
+            <h2 className="card-title">{props.title}</h2>
+          </Col>
+        </Row>
       </div>
 
       <div className="projects-card-container-bottom">
         <p className="card-description">{props.description}</p>
-        <a href={props.link} className="more">
-          Read More..
-        </a>
       </div>
     </div>
   );
