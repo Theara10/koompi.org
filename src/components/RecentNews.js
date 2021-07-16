@@ -1,5 +1,5 @@
-import React from "react";
-import { Row, Col, Card } from "antd";
+import React from 'react';
+import { Row, Col, Card } from 'antd';
 
 const { Meta } = Card;
 
@@ -32,7 +32,6 @@ function RecentNews() {
 
         <Col span={8}>
           <Card
-            style={{ width: 300 }}
             cover={
               <img
                 alt="example"
@@ -48,7 +47,6 @@ function RecentNews() {
         </Col>
         <Col span={8}>
           <Card
-            style={{ width: 300 }}
             cover={
               <img
                 alt="example"
@@ -64,7 +62,6 @@ function RecentNews() {
         </Col>
         <Col span={8}>
           <Card
-            style={{ width: 300 }}
             cover={
               <img
                 alt="example"

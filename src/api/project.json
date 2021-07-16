@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "KOOMPI OS",
+    "subtitle": "Operating System",
+    "desc": "A friendly Linux distribution derive from Achlinux. We aim to deliver the best user experiences by providing a high performance, stable, and reliable operating system.",
+    "image": "/images/sala.png",
+    "logo": "/images/logo.svg",
+    "link": "koompi-os"
+  },
+  {
+    "id": 2,
+    "title": "SALA KOOMPI",
+    "subtitle": "E-Learning",
+    "desc": "A virtual school that allows both students and teachers to view and provide learning resources. School admins and teachers can sign up as members of a virtual school on the platform and distribute lessons exclusively to their students as well.",
+    "image": "/images/sala.png",
+    "logo": "/images/logo.svg",
+    "link": "sala-koompi"
+  },
+  {
+    "id": 3,
+    "title": "KOOMPI FIFI",
+    "subtitle": "Network",
+    "desc": "This website is a one-stop platform that gathering the instruction installation, updating, FAQs, and problem-solving.",
+    "image": "/images/sala.png",
+    "logo": "/images/logo.svg",
+    "link": "koompi-os"
+  },
+  {
+    "id": 4,
+    "title": "KOOMPI ONELAB",
+    "subtitle": "Lab Solution",
+    "desc": "This website is a one-stop platform that gathering the instruction installation, updating, FAQs, and problem-solving.",
+    "image": "/images/sala.png",
+    "logo": "/images/logo.svg",
+    "link": "koompi-os"
+  },
+  {
+    "id": 5,
+    "title": "KOOMPI Robotic Program",
+    "subtitle": "Robotic",
+    "desc": "This website is a one-stop platform that gathering the instruction installation, updating, FAQs, and problem-solving.",
+    "image": "/images/sala.png",
+    "logo": "/images/logo.svg",
+    "link": "koompi-os"
+  }
+]

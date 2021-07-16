@@ -47,6 +47,66 @@ function KoompiOS() {
       </div>
 
       <div className="container">
+        <div className="goal">
+          <div className="goal-container">
+            <Row gutter={[32, 32]}>
+              <Col span={8}>
+                <div>
+                  <center>
+                    <img
+                      src={idea.default}
+                      alt="koompi.org"
+                      className="image-koompi"
+                    />
+                    <h3>Idea</h3>
+                    <p>
+                      The idea behind KOOMPI OS is to create a free operating
+                      system for all kind of users without breaching their
+                      personal data.
+                    </p>
+                  </center>
+                </div>
+              </Col>
+              <Col span={8}>
+                <div>
+                  <center>
+                    <img
+                      src={goal.default}
+                      alt="koompi.org"
+                      className="image-koompi"
+                    />
+                    <h3>Goal</h3>
+                    <p>
+                      The idea behind KOOMPI OS is to create a free operating
+                      system for all kinds of users without breaching their
+                      personal data.
+                    </p>
+                  </center>
+                </div>
+              </Col>
+              <Col span={8}>
+                <div>
+                  <center>
+                    <img
+                      src={target.default}
+                      alt="koompi.org"
+                      className="image-koompi"
+                    />
+                    <h3>Target</h3>
+                    <p>
+                      Users who seek out an operating system that allows them to
+                      use all essential applications without breaking their
+                      budget.
+                    </p>
+                  </center>
+                </div>
+              </Col>
+            </Row>
+          </div>
+        </div>
+      </div>
+
+      <div className="container">
         <div className="os-section-height">
           <Row gutter={[24, 24]}>
             <Col span={12}>
@@ -135,98 +195,6 @@ function KoompiOS() {
                 alt="koompi.org"
                 className="img-responsive"
               />
-            </Col>
-          </Row>
-        </div>
-      </div>
-
-      <div className="goal">
-        <div className="goal-container">
-          <Row gutter={18} className="container">
-            <Col span={7} offset={1}>
-              <div>
-                <img src={idea.default} height="100" width="auto" />
-                <h3>Idea</h3>
-                <p>
-                  The idea behind KOOMPI OS is to create a free operating system
-                  for all kind of users without breaching their personal data.
-                </p>
-              </div>
-            </Col>
-            <Col span={7} offset={1}>
-              <div>
-                <img src={goal.default} height="100" width="auto" />
-                <h3>Goal</h3>
-                <p>
-                  The idea behind KOOMPI OS is to create a free operating system
-                  for all kinds of users without breaching their personal data.
-                </p>
-              </div>
-            </Col>
-            <Col span={7} offset={1}>
-              <div>
-                <img src={target.default} height="100" width="auto" />
-                <h3>Target</h3>
-                <p>
-                  Users who seek out an operating system that allows them to use
-                  all essential applications without breaking their budget.
-                </p>
-              </div>
-            </Col>
-          </Row>
-        </div>
-      </div>
-
-      <div className="community">
-        <div className="community-top">
-          <h2 style={{ textAlign: 'center' }}>Community Collaboration</h2>
-          <p style={{ textAlign: 'center' }}>
-            Be a part of our community to be a part of our family.
-          </p>
-        </div>
-        <div className="community-bottom">
-          <Row className="container">
-            <Col span={12}>
-              <div
-                style={{
-                  display: 'flex',
-                  flexDirection: 'column',
-                  alignItems: 'center',
-                  textAlign: 'center',
-                }}
-              >
-                <img
-                  src="https://icons.getbootstrap.com/assets/img/icons-hero.png"
-                  height="100"
-                  width="auto"
-                />
-                <h3>Code of Conduct</h3>
-                <p>
-                  If you want to contribute,
-                  <br /> our code of conducts is down below.
-                </p>
-              </div>
-            </Col>
-            <Col span={12}>
-              <div
-                style={{
-                  display: 'flex',
-                  flexDirection: 'column',
-                  alignItems: 'center',
-                  textAlign: 'center',
-                }}
-              >
-                <img
-                  src="https://icons.getbootstrap.com/assets/img/icons-hero.png"
-                  height="100"
-                  width="auto"
-                />
-                <h3>Donation</h3>
-                <p>
-                  If you want to support us, you can
-                  <br /> donate.
-                </p>
-              </div>
             </Col>
           </Row>
         </div>

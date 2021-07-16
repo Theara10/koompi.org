@@ -43,50 +43,13 @@ function Home() {
             </p>
           </center>
           <Row gutter={[24, 24]}>
-            <Col span={8}>
+            <Col span={24}>
               <ProjectCard
                 link={'/koompi-os'}
                 img={koompi_logo.default}
                 title="KOOMPI OS"
                 subtitle="Operating System"
                 description="A friendly Linux distribution derive from Achlinux. We aim to deliver the best user experiences by providing a high performance, stable, and reliable operating system."
-              />
-            </Col>
-
-            <Col span={8}>
-              <ProjectCard
-                link={'/sala'}
-                img={sala.default}
-                title="SALA KOOMPI"
-                subtitle="E-Learning"
-                description="A virtual school that allows both students and teachers to view and provide learning resources. School admins and teachers can sign up as members of a virtual school on the platform and distribute lessons exclusively to their students as well."
-              />
-            </Col>
-            <Col span={8}>
-              <ProjectCard
-                link={'/fifi'}
-                img={img2.default}
-                title="KOOMPI FIFI"
-                subtitle="Network"
-                description="This website is a one-stop platform that gathering the instruction installation, updating, FAQs, and problem-solving."
-              />
-            </Col>
-            <Col span={8}>
-              <ProjectCard
-                link={'/onelab'}
-                img="https://image.freepik.com/free-vector/computer-lab-abstract-concept-illustration_335657-3876.jpg"
-                title="KOOMPI ONELAB"
-                subtitle="Lab Solution"
-                description="This website is a one-stop platform that gathering the instruction installation, updating, FAQs, and problem-solving."
-              />
-            </Col>
-            <Col span={8}>
-              <ProjectCard
-                link={'/robotic'}
-                img="https://qf7s26sxazr7uwqlogrl311.blob.core.windows.net/sys-master-root/hae/h45/9722305249310/7448929222296_main_480Wx480H"
-                title="KOOMPI Robotic Program"
-                subtitle="Robotic"
-                description="This website is a one-stop platform that gathering the instruction installation, updating, FAQs, and problem-solving."
               />
             </Col>
           </Row>

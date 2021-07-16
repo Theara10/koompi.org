@@ -60,11 +60,9 @@ p {
 }
 
 .project-cards {
-  background-color: rgba(255, 255, 255, 0.561) !important;
   padding: 15px;
   border-radius: 8px;
   height: 100%;
-  box-shadow: rgba(149, 157, 165, 0.041) 0px 8px 10px;
 }
 
 .card-subtitle {
@@ -77,25 +75,39 @@ p {
 .card-title {
   margin: 0px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 24px;
   padding: 0px;
-  margin-top: -5px;
+  margin-top: 0px;
   color: var(--primary-color);
 }
 
 .card-description {
-  font-size: 16px;
-  color: #1b262c88;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  display: -webkit-box;
-  margin-top: 10px;
+  font-size: 18px;
+  color: #1b262ce0;
+  margin-top: 20px;
 }
 .project-logo {
   position: relative;
   top: 3px;
+}
+
+.project-learn-more {
+  font-size: 14px !important;
+  height: 40px !important;
+  line-height: 0px !important;
+  font-weight: bold !important;
+  padding: 0px 35px !important;
+  margin-top: 30px !important;
+  border-radius: 8px !important;
+  background: #fff !important;
+  border: 2.5px solid #1b262c !important;
+  color: #1b262c !important;
+}
+
+.project-learn-more:hover {
+  background: #1b262c !important;
+  color: #fff !important;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
 }
 
 .projects-card-container-bottom a {
@@ -228,7 +240,6 @@ p {
 }
 .project-desc {
   width: 60%;
-  margin-bottom: 60px;
   font-size: 20px;
   color: #5f6368;
 }
@@ -280,10 +291,6 @@ p {
 .recentnews-header p {
   width: 60%;
   margin-bottom: 60px;
-}
-
-.recentnews-container {
-  width: 1160px;
 }
 .recentnews-date {
   color: #5f6368;
@@ -373,8 +380,10 @@ p {
   color: var(--primary-color);
 }
 .img-project {
-  border-radius: 12px;
-  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.project-section {
+  margin: 80px 0px;
 }
 .banner-desc {
   font-size: 20px !important;
@@ -568,29 +577,180 @@ p {
   display: flex;
   margin-top: 30px;
 }
-
-.ant-col ant-col-12 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.image-koompi {
+  width: 70%;
+  height: 260px;
 }
-
 .goal {
+  margin-top: 40px !important;
+}
+
+.sala h1 {
+  font-size: 56px;
+  font-weight: bold;
+  color: #38a7c8;
+  margin-bottom: 5px !important;
+  line-height: 1.2;
+}
+.sala h2 {
+  font-size: 36px;
+  color: #38a7c8;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.sala-intro {
+  padding-top: 80px;
   height: 600px;
+  margin: auto;
+  background-color: #1b262c;
+  /* text-align: center; */
+}
+
+.sala-intro p {
+  font-size: 26px;
+  color: white;
+}
+
+.ant-btn-sala {
+  border-radius: 8px !important;
+  width: 200px !important;
+  height: 45px !important;
+  background: #fce34b !important;
+  background: linear-gradient(180deg, #fce34b, #eac101) !important;
+  color: #1b262c !important;
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  border: none !important;
+  filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.1));
+  position: relative;
+  transition: 0.3s;
+  /* margin-top: 30px; */
+}
+.ant-btn-sala-acc {
+  border-radius: 8px !important;
+  width: 200px !important;
+  height: 45px !important;
+  background: #001529 !important;
+  /* background: linear-gradient(180deg, #fce34b, #eac101) !important; */
+  color: #fce34b !important;
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  border: 2px solid #fce34b !important;
+  border-width: 2px;
+  filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.1));
+  position: relative;
+  transition: 0.3s;
+  /* margin-top: 30px; */
+}
+
+.sala-purpose {
+  height: 700px;
+  padding-top: 50px;
+  /* background-color: #2f73b8; */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+.sala-purpose-container {
+  padding: 120px 0px;
+}
+.why-sala {
+  height: 600px;
+  background-color: #2f73b8;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
-.goal-container {
-  height: 450px;
-  width: 1201px;
+.why-sala-container {
+  height: 400px;
+  width: 1100px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
   border-radius: 8px;
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
 
-  /* width: 700px; */
+.sala-purpose-subtitle {
+  font-size: 32px;
+  color: rgb(95, 99, 104);
+}
+
+.courses {
+  height: 550px;
+  background-color: #f1f2f6;
+  display: flex;
+  justify-content: center;
+}
+
+.schools {
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f2f6;
+}
+
+.easy-to-manage {
+  height: 550px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.courses-row {
+  width: 1000px !important;
+  height: 400px;
+  /* background-color: red; */
+}
+
+.courses-batman {
+  border-radius: 10px;
+  padding: 0px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: black; */
+  height: 150px;
+  /* width: 100px; */
+  background-image: url('https://www.dccomics.com/sites/default/files/Char_Gallery_Batman_DTC1018_6053f2162bdf03.97426416.jpg');
+}
+
+.batman {
+  width: 1000px !important;
+}
+
+.courses-batman p {
+  font-size: 26px;
+  color: white;
+}
+
+.users {
+  padding-top: 50px;
+  height: 700px;
+  /* text-align: center; */
+  /* background-color: #001529; */
+}
+
+.users-container {
+  width: 1000px;
+  margin: auto;
+}
+
+.user-title {
+  margin-bottom: 0px !important;
+  font-weight: bold;
+  color: rgb(95, 99, 104);
+}
+
+.number {
+  font-size: 46px;
 }
