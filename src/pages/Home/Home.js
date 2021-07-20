@@ -1,27 +1,22 @@
-import { Row, Col, Card, Button } from 'antd';
-import React from 'react';
-import { Link } from 'react-router-dom';
-import BlogCard from '../../components/Card';
-import Contact from '../../components/Contact';
-import Partners from '../../components/Partners';
-import ProjectCard from '../../components/ProjectCard';
-import RecentNews from '../../components/RecentNews';
+import { Row, Col, Button } from "antd";
+import React from "react";
+import BlogCard from "../../components/Card";
+import Contact from "../../components/Contact";
+import ProjectCard from "../../components/ProjectCard";
 
-const img2 = require('../../lib/img/KOOMPI-Wifi-1.png');
-const koompi_logo = require('../../lib/img/koompi-logo-black.png');
-const sala = require('../../lib/img/sala-logo.png');
+const koompi_logo = require("../../lib/img/koompi-logo-black.png");
 
 function Home() {
   return (
     <React.Fragment>
-      <div className="container">
-        <div className="home-banner">
+      <div className="home-banner">
+        <div className="container">
           <div className="banner-contents">
             {/* <h1 className="banner-sub-title">KOOMPI</h1> */}
-            <h1 className="banner-title">
-              <div>No license fees. No limitations.</div>{' '}
-              <div>Always Open-Source.</div>
-            </h1>
+            <div className="banner-title">
+              <h1>No license fees. No limitations.</h1>
+              <h1>Always Open-Source.</h1>
+            </div>
 
             <p className="banner-desc">
               Welcome to your new favorite browser. Get the latest features,
@@ -45,7 +40,7 @@ function Home() {
           <Row gutter={[24, 24]}>
             <Col span={24}>
               <ProjectCard
-                link={'/koompi-os'}
+                link={"/koompi-os"}
                 img={koompi_logo.default}
                 title="KOOMPI OS"
                 subtitle="Operating System"
@@ -67,35 +62,15 @@ function Home() {
               </p>
             </div>
           </center>
-          <Row gutter={[16, 16]}>
-            <Col span={6}>
-              <BlogCard />
-            </Col>
-            <Col span={6}>
-              <BlogCard />
-            </Col>
-            <Col span={6}>
-              <BlogCard />
-            </Col>
-            <Col span={6}>
-              <BlogCard />
-            </Col>
-            <Col span={6}>
-              <BlogCard />
-            </Col>
-            <Col span={6}>
-              <BlogCard />
-            </Col>
-            <Col span={6}>
-              <BlogCard />
-            </Col>
-            <Col span={6}>
-              <BlogCard />
-            </Col>
-          </Row>
+
+          {/* -----------blog posts ------------ */}
+          <div>
+            <BlogCard />
+          </div>
+
           <br />
           <br />
-          <div style={{ textAlign: 'center' }}>
+          <div style={{ textAlign: "center" }}>
             <Button type="primary">Load More</Button>
           </div>
         </div>

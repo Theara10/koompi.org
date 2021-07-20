@@ -1,5 +1,5 @@
-import React from 'react';
-import { Row, Col, Card, Button } from 'antd';
+import React from "react";
+import { Row, Col, Button } from "antd";
 
 function Contact() {
   return (
@@ -16,7 +16,7 @@ function Contact() {
           </Col>
           <Col span={12}>
             <div className="contact-us-section">
-              <h1 style={{ fontWeight: 'bold', fontSize: 32, lineHeight: 1 }}>
+              <h1 style={{ fontWeight: "bold", fontSize: 32, lineHeight: 1 }}>
                 Interested? Contact us now!
               </h1>
               <p>

@@ -1,13 +1,13 @@
-import React from 'react';
-import { Row, Col, Button } from 'antd';
+import React from "react";
+import { Row, Col, Button } from "antd";
 
-const software_img = require('../../lib/img/koompi-os-software.png');
-const idea = require('../../lib/img/Idea.png');
-const goal = require('../../lib/img/Goal.png');
-const target = require('../../lib/img/Target.png');
-const security = require('../../lib/img/Security.png');
-const docs = require('../../lib/img/Read-Doc.png');
-const os = require('../../lib/img/os-image.png');
+const software_img = require("../../lib/img/koompi-os-software.png");
+const idea = require("../../lib/img/Idea.png");
+const goal = require("../../lib/img/Goal.png");
+const target = require("../../lib/img/Target.png");
+const security = require("../../lib/img/Security.png");
+const docs = require("../../lib/img/Read-Doc.png");
+const os = require("../../lib/img/KOOMPI-Os.png");
 
 function KoompiOS() {
   return (
@@ -17,14 +17,14 @@ function KoompiOS() {
           <div className="os-banner-section">
             <Row gutter={[24, 24]}>
               <Col span={10}>
-                <div>
+                <div className="koompi-os-details">
                   <h1 className="intro-title">KOOMPI OS</h1>
                   <p>
                     A friendly Linux distribution derive from Achlinux. We aim
                     to deliver the best user experiences by providing a high
                     performance, stable, and reliable operating system.
                   </p>
-                  <Button size="large" type="os-version">
+                  <Button className="btn-download" size="large" type="primary">
                     Download
                   </Button>
                 </div>
@@ -36,9 +36,7 @@ function KoompiOS() {
                   className="img-responsive"
                 />
                 <center>
-                  <b>
-                    <p style={{ color: 'white' }}> KOOMPI OS V3.3.5</p>
-                  </b>
+                  <p> KOOMPI OS V3.3.5</p>
                 </center>
               </Col>
             </Row>

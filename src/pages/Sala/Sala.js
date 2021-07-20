@@ -1,60 +1,49 @@
-import { Col, Row, Button } from 'antd';
-import React from 'react';
-import Contact from '../../components/Contact';
+import { Col, Row, Button } from "antd";
+import React from "react";
+import Contact from "../../components/Contact";
 
-const student = require('../../lib/img/student.png');
+const student = require("../../lib/img/student.png");
+const sala = require("../../lib/img/Mode.png");
 
 function Sala() {
   return (
     <div className="sala">
-      <div className="sala-intro">
+      <div className="koompi-os-intro">
         <div className="container">
-          {/* <img
-          src={img1.default}
-          width="auto"
-          height="300"
-          // className="img"
-        />
-        <h1>SALA KOOMPI</h1>
-        <p>
-          A virtual school that allows both students and <br />
-          teachers to view and provide learning resources.
-        </p>
-        <Button size="large" type="sala">
-          Create your free account
-        </Button> */}
-
-          <Row>
-            <Col span={11}>
-              <h1>SALA KOOMPI</h1>
-              <p>
-                A virtual school that allows both students and <br />
-                teachers to view and provide learning resources.
-              </p>
-              <Button size="large" type="sala">
-                Explore
-              </Button>
-              <Button size="large" type="sala-acc" style={{ marginLeft: 20 }}>
-                Create Free Account
-              </Button>
-            </Col>
-            <Col span={10} offset={2}>
-              <img
-                // src="https://koompi.com/assets/images/projects/sala-koompi.png"
-                src={
-                  'https://global-uploads.webflow.com/5fbb75c0795486e7856db4c8/5fbe0514081ed96e60b08aa8_Illustration.svg'
-                }
-                width="auto"
-                height="300"
-              />
-            </Col>
-          </Row>
+          <div className="os-banner-section">
+            <Row>
+              <Col span={8}>
+                <div className="sala-koompi-details">
+                  <h1>SALA KOOMPI</h1>
+                  <p>
+                    A virtual school that allows both students and <br />
+                    teachers to view and provide learning resources.
+                  </p>
+                  <div className="btn-container">
+                    <Button size="large" type="primary">
+                      Explore
+                    </Button>
+                    <Button size="large" className="btn-create-account-sala">
+                      Create Free Account
+                    </Button>
+                  </div>
+                </div>
+              </Col>
+              <Col span={10} offset={2}>
+                <img
+                  src={sala.default}
+                  alt="sala koompi"
+                  className="sala-koompi-banner-pic"
+                />
+              </Col>
+            </Row>
+          </div>
         </div>
       </div>
 
       <div className="container">
         <div className="sala-purpose-container">
-          <p style={{ fontSize: 26, color: 'rgb(95, 99, 104)' }}>
+          <p style={{ fontSize: 26, color: "rgb(95, 99, 104)" }}>
             Why join Sala?
           </p>
           <h2 style={{ fontSize: 56, lineHeight: 1.2 }}>
