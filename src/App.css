@@ -277,9 +277,9 @@ p {
 }
 
 /* .ant-row {
-  padding-top: 55px;
-  padding-bottom: 70px;
-} */
+    padding-top: 55px;
+    padding-bottom: 70px;
+  } */
 
 .projects-img {
   height: 56px;
@@ -372,20 +372,20 @@ p {
 }
 
 /* .recentnews {
-  width: 70%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #f8f9fa;
-} */
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f8f9fa;
+  } */
 
 /* .recentnews-header h1 {
-  font-size: 33px;
-}
-.recentnews-header p {
-  font-size: 18px;
-} */
+    font-size: 33px;
+  }
+  .recentnews-header p {
+    font-size: 18px;
+  } */
 .home-banner {
   position: relative;
   height: 90vh;
@@ -534,7 +534,7 @@ p {
   min-height: 80vh;
   /* background-image: url("https://media.istockphoto.com/vectors/abstract-technology-background-vector-id842945754"); */
   /* display: flex;
-  justify-content: center; */
+    justify-content: center; */
   background: #1b262c;
 }
 .os-banner-section {
@@ -726,18 +726,11 @@ p {
 }
 
 .sala-purpose-subtitle {
-  font-size: 32px;
+  font-size: 18px;
   color: rgb(95, 99, 104);
 }
 
-.courses {
-  height: 550px;
-  background-color: #f1f2f6;
-  display: flex;
-  justify-content: center;
-}
-
-.schools {
+.sala-gray-back {
   height: 550px;
   display: flex;
   justify-content: center;
@@ -745,57 +738,11 @@ p {
   background-color: #f1f2f6;
 }
 
-.easy-to-manage {
+.sala-white-back {
   height: 550px;
-
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.courses-row {
-  width: 1000px !important;
-  height: 400px;
-  /* background-color: red; */
-}
-
-.courses-batman {
-  border-radius: 10px;
-  padding: 0px !important;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* background-color: black; */
-  height: 150px;
-  /* width: 100px; */
-  background-image: url("https://www.dccomics.com/sites/default/files/Char_Gallery_Batman_DTC1018_6053f2162bdf03.97426416.jpg");
-}
-
-.batman {
-  width: 1000px !important;
-}
-
-.courses-batman p {
-  font-size: 26px;
-  color: white;
-}
-
-.users {
-  padding-top: 50px;
-  height: 700px;
-  /* text-align: center; */
-  /* background-color: #001529; */
-}
-
-.users-container {
-  width: 1000px;
-  margin: auto;
-}
-
-.user-title {
-  margin-bottom: 0px !important;
-  font-weight: bold;
-  color: rgb(95, 99, 104);
 }
 
 .number {
@@ -853,4 +800,169 @@ p {
 }
 .btn-container {
   margin-top: 35px;
+}
+.why-join-sala {
+  width: 17%;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #f2d124;
+  font-weight: bold;
+  font-size: 16px;
+}
+.why-join-salakoompi {
+  width: 100%;
+}
+.sala-koompi-user-details {
+  margin-top: 20%;
+}
+.fifi h1 {
+  font-size: 46px;
+  font-weight: bold;
+  line-height: 56px;
+  color: #38a7c8;
+}
+
+.fifi h2 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 40px;
+  color: #38a7c8;
+}
+.fifi h3 {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 40px;
+}
+.fifi p {
+  font-size: 18px;
+}
+.fifi-intro {
+  height: 600px;
+  padding-top: 30px;
+}
+
+.fifi-intro > img {
+  height: 300px;
+  width: auto;
+}
+
+p {
+  font-size: 18px;
+}
+
+.fifi-features {
+  /* background-color: #f8f9fa; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.fiti-feature-container {
+  height: 400px;
+  width: 1200px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-1 {
+  height: 500px;
+  /* background-color: #f1f2f6; */
+  display: flex;
+  justify-content: center;
+}
+.feature-2 {
+  height: 500px;
+  background-color: #f1f2f6;
+  display: flex;
+  justify-content: center;
+}
+
+.fifi-application {
+  height: 650px;
+  background-color: #f1f2f6;
+}
+
+.fifi-application-container {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  text-align: center;
+  /* background-color: #f1f2f6; */
+}
+
+.fifi-img {
+  height: 400px;
+  width: auto;
+  padding-top: 20px;
+}
+.ant-btn-primary {
+  border-radius: 8px !important;
+  width: 162px !important;
+  height: 45px !important;
+
+  background: linear-gradient(180deg, #fce34b, #eac101) !important;
+  color: #1b262c !important;
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  border: none !important;
+  filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.1));
+  position: relative;
+  transition: 0.3s;
+}
+
+.map-top {
+  width: 50%;
+  align-items: center;
+  text-align: center;
+}
+
+.map .leaflet-container {
+  height: 100%;
+}
+.fifi-banner {
+  position: relative;
+  height: 90vh;
+  background-image: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 0.363) 0%,
+      rgba(0, 0, 0, 0.616) 0%,
+      rgba(0, 0, 0, 0.363) 100%
+    ),
+    url("./lib/img/fifi-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+}
+.koompi-fifi-img {
+  width: 40%;
+  position: relative;
+}
+.koompi-fifi-content {
+  padding-top: 90px;
+  font-size: 18px;
+  color: var(--fourth-color);
+}
+.koompi-fifi-pic {
+  width: 80%;
+}
+.fifi-container-details {
+  margin-top: 15%;
+}
+.map {
+  height: 400px;
+}
+.background-locations {
+  min-height: 500px;
+  padding: 60px 0;
 }
