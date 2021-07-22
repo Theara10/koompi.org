@@ -14,14 +14,15 @@ function Home() {
           <div className="banner-contents">
             {/* <h1 className="banner-sub-title">KOOMPI</h1> */}
             <div className="banner-title">
+              {/* <h1>Welcome to koompi.org!</h1> */}
               <h1>No license fees. No limitations.</h1>
               <h1>Always Open-Source.</h1>
             </div>
 
             <p className="banner-desc">
-              Welcome to your new favorite browser. Get the latest features,
-              fast performance, and the development tools you need to build for
-              the open web.
+              This website is the official encyclopedia for KOOMPI projects and
+              initiatives. Read about our contribution to the open-source
+              community below!
             </p>
           </div>
         </div>
@@ -56,10 +57,7 @@ function Home() {
           <center>
             <div className="recentnews-header">
               <h1>News And Events</h1>
-              <p>
-                Get the latest features, fast performance, and the development
-                tools you need to build for the open web.
-              </p>
+              <p>Read about our activities and milestones.</p>
             </div>
           </center>
 
