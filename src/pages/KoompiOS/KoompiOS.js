@@ -19,7 +19,7 @@ function KoompiOS() {
               <Col span={10}>
                 <div className="koompi-os-details">
                   <h1 className="intro-title">KOOMPI OS</h1>
-                  <p>
+                  <p className="banner-desc2">
                     A friendly Linux distribution derive from Achlinux. We aim
                     to deliver the best user experiences by providing a high
                     performance, stable, and reliable operating system.

@@ -434,6 +434,10 @@ p {
   font-size: 28px !important;
   margin-bottom: 40px;
 }
+.banner-desc2 {
+  font-size: 22px !important;
+  margin-bottom: 40px;
+}
 .ant-card-cover img {
   border-radius: 2px 2px 0 0;
 
@@ -569,7 +573,7 @@ p {
   margin-top: 30px;
 }
 .intro-description {
-  font-size: 22px;
+  font-size: 18px;
 }
 .os-title {
   font-size: 26px;
@@ -965,4 +969,253 @@ p {
 .background-locations {
   min-height: 500px;
   padding: 60px 0;
+}
+
+.onelab h1 {
+  font-size: 46px;
+  font-weight: bold;
+  line-height: 40px;
+  color: #38a7c8;
+}
+
+.onelab h2 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 40px;
+  color: #38a7c8;
+}
+.onelab h3 {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 40px;
+  color: #38a7c8;
+}
+
+.ant-col ant-col-12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.onelab-intro {
+  padding: 50px 20px;
+}
+
+.intro-title {
+  width: 400px;
+}
+
+.onelab-img {
+  width: 80%;
+}
+
+.how-it-works {
+  margin: auto;
+  padding-top: 140px;
+}
+.how-it-works-robotic {
+  margin: auto;
+  padding: 120px 0;
+}
+.robotic-title {
+  padding-bottom: 40px;
+}
+
+.how-it-works-container {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 8px;
+  padding: 50px 60px !important;
+  min-height: 300px;
+}
+.how-it-works-img {
+  width: 450px;
+  position: absolute;
+  transform: scaleX(-1);
+  right: 0px;
+  top: 700px;
+}
+
+.work-station {
+  height: 500px;
+}
+
+.contact-onelab {
+  min-height: 500px;
+  padding: 50px 0;
+}
+
+.contact-onelab-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-btn-contact {
+  border-radius: 8px !important;
+  width: 142px !important;
+  height: 45px !important;
+  background: #fce34b !important;
+  background: linear-gradient(180deg, #fce34b, #eac101) !important;
+  color: #1b262c !important;
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  border: none !important;
+  filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.1));
+  position: relative;
+  transition: 0.3s;
+}
+
+.uses {
+  height: 700px;
+  background-color: #f1f2f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.users-container {
+  padding: 50px 0px;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+.uses h2 {
+  text-align: center;
+}
+
+.uses-bottom {
+  padding-top: 70px;
+}
+.uses-bottom h3 {
+  padding-top: 20px;
+}
+
+.robotic h1 {
+  font-size: 46px;
+  font-weight: bold;
+  line-height: 50px;
+  color: #38a7c8;
+}
+
+.robotic h2 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 40px;
+  color: #38a7c8;
+}
+.robotic h3 {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 40px;
+  color: #38a7c8;
+}
+
+.robotic h4 {
+  font-size: 26px;
+}
+.robotic-intro {
+  min-height: 60vh;
+  height: 60vh;
+  padding: 80px 0;
+}
+.program {
+  height: 420px;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.program-container {
+  height: 400px;
+  width: 1201px;
+  border-radius: 5px;
+  background-image: url("https://www.bostondynamics.com//sites/default/files/2021-02/cta-spot.jpg");
+  padding-top: 100px;
+  padding-left: 180px;
+}
+.program-container-2 {
+  height: 400px;
+  width: 1201px;
+  border-radius: 5px;
+  background-image: url("https://www.bostondynamics.com/sites/default/files/2021-03/stretch-eap_2.png");
+  padding-top: 100px;
+  padding-left: 180px;
+}
+
+.ant-btn-program-button {
+  border-radius: 8px !important;
+  width: 142px !important;
+  height: 45px !important;
+  background: #fce34b !important;
+  background: linear-gradient(180deg, #fce34b, #eac101) !important;
+  color: #1b262c !important;
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  border: none !important;
+  filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.1));
+  position: relative;
+  transition: 0.3s;
+}
+
+.robot-type {
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 120px 0;
+}
+
+.robot-type-container {
+  height: 500px;
+  width: 1201px;
+  text-align: center;
+  padding: 0px !important;
+  display: flex;
+  flex-direction: row;
+}
+.container-robot-items {
+  background-color: #f1f2f6;
+  border-radius: 8px;
+  padding: 30px 20px;
+}
+.robotic-img {
+  width: 550px;
+}
+
+.ideas {
+  padding: 90px 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.onelap-details {
+  margin-top: 20%;
+}
+.onelap-pictures {
+  width: 450px;
+}
+.who-onelab-img {
+  width: 70%;
+}
+.contact-container-details {
+  margin-top: 12%;
+}
+.idea-contaner {
+  margin-top: 60px;
+}
+.how-robotic-works-img {
+  position: absolute;
+  width: 250px;
+  transform: scaleX(-1);
+  left: -170px;
+  top: -20px;
+}
+.how-robotic-works-img2 {
+  position: absolute;
+  width: 250px;
+  top: -20px;
+  right: -170px;
+}
+.robotic-program-desc {
+  color: var(--fourth-color);
 }

@@ -17,7 +17,7 @@ function Sala() {
               <Col span={8}>
                 <div className="sala-koompi-details">
                   <h1>SALA KOOMPI</h1>
-                  <p>
+                  <p className="banner-desc2">
                     A virtual school that allows both students and <br />
                     teachers to view and provide learning resources.
                   </p>

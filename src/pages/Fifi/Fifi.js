@@ -13,7 +13,7 @@ function Fifi() {
           <center>
             <div className="koompi-fifi-content">
               <h1>KOOMPI FiFi APP</h1>
-              <p>
+              <p className="banner-desc2">
                 Part of the Internet-For-All initiative, KOOMPI Fi-Fi is a
                 school internet infrastructure provided by KOOMPI with fast
                 fiber internet where students & teachers only pay as little as
