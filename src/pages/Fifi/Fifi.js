@@ -1,46 +1,30 @@
 import React from "react";
-import "./Fifi.css";
 import { Row, Col, Button } from "antd";
-import { TileLayer, MapContainer as LeafletMap } from "react-leaflet";
+// import { TileLayer, MapContainer as LeafletMap } from "react-leaflet";
+import fifi from "../../lib/img/MobileApp12.png";
+import mobile from "../../lib/img/koompi-fifi.png";
+import map from "../../lib/img/map2.png";
 
 function Fifi() {
   return (
     <div className="fifi">
-      <div className="fifi-intro">
-        <Row>
-          <Col span={12}>
-            <div>
-              <h1 className="fifi-title">Easy Access And Low Cost Internet</h1>
-              <p style={{ paddingTop: 20, fontSize: 24 }}>
-                Part of the Internet-For-All initiative,
-                <br /> KOOMPI Fi-Fi is a school internet <br />
-                infrastructure provided by KOOMPI
+      <div className="fifi-banner">
+        <div className="container">
+          <center>
+            <div className="koompi-fifi-content">
+              <h1>KOOMPI FiFi APP</h1>
+              <p className="banner-desc2">
+                Part of the Internet-For-All initiative, KOOMPI Fi-Fi is a
+                school internet infrastructure provided by KOOMPI with fast
+                fiber internet where students & teachers only pay as little as
+                1.25$ per month per user, up to two devices.
               </p>
-              <div style={{ paddingTop: 20 }}>
-                <img
-                  src="https://www.mozilla.org/media/img/l10n/en-US/firefox/android/btn-google-play-high-res.87d9720bbc8b.png"
-                  height="40"
-                  width="auto"
-                />
-                <img
-                  src="https://www.mozilla.org/media/img/l10n/en-US/firefox/ios/btn-app-store.1cfd5dba4a92.svg"
-                  height="40"
-                  width="auto"
-                  style={{ paddingLeft: 10 }}
-                />
-              </div>
             </div>
-          </Col>
-          <Col span={12}>
-            <img
-              src="https://koompi.com/assets/images/koompi-fifi/FiFiMobileApp.png"
-              width="auto"
-              height="500"
-            />
-          </Col>
-        </Row>
+            <img src={fifi} className="koompi-fifi-img" alt="koompi fifi" />
+          </center>
+        </div>
       </div>
-
+      {/* 
       <div className="fifi-features">
         <div className="fiti-feature-container">
           <Row gutter={18}>
@@ -102,71 +86,63 @@ function Fifi() {
             </Col>
           </Row>
         </div>
+      </div> */}
+
+      <div className="sala-white-back">
+        <div className="container">
+          <Row>
+            <Col span={10}>
+              <img src={mobile} alt="koompi fifi" className="koompi-fifi-pic" />
+            </Col>
+            <Col span={14}>
+              <div className="fifi-container-details">
+                <h2>Spend as Low as 0.50$ a Month</h2>
+                <p className="intro-description">
+                  All packages of the software are available for the latest
+                  version, using pi and pix as a package manager.
+                </p>
+              </div>
+            </Col>
+          </Row>
+        </div>
       </div>
 
-      <div className="feature-1">
-        <Row>
-          <Col span={10} offset={2}>
-            <img
-              src="https://koompi.com/assets/images/koompi-fifi/FiFiMobileApp.png"
-              height="350"
-              width="auto"
-            />
-          </Col>
-          <Col span={12}>
-            <h2 style={{ marginTop: 40, fontSize: 36, fontWeight: "bold" }}>
-              Spend as Low as 0.50$ a Month
-            </h2>
-            <p className="intro-description">
-              All packages of the software are available
-              <br /> for the latest version, <br />
-              using pi and pix as a package manager.
-            </p>
-          </Col>
-        </Row>
+      <div className="sala-gray-back">
+        <div className="container">
+          <Row>
+            <Col span={14}>
+              <div className="fifi-container-details">
+                <h2>Speed Up to 50Mbps</h2>
+                <p className="intro-description">
+                  All packages of the software are available for the latest
+                  version, using pi and pix as a package manager.
+                </p>
+              </div>
+            </Col>
+            <Col span={10}>
+              <img src={mobile} alt="koompi fifi" className="koompi-fifi-pic" />
+            </Col>
+          </Row>
+        </div>
       </div>
 
-      <div className="feature-2">
-        <Row>
-          <Col span={10} offset={2}>
-            <h1 style={{ marginTop: 50, fontSize: 32, fontWeight: "bold" }}>
-              Speed Up to 50Mbps
-            </h1>
-            <p className="intro-description">
-              All packages of the software are available for the <br />
-              latest version, using pi and pix as a package manager.
-            </p>
-          </Col>
-          <Col span={10} offset={2}>
-            <img
-              src="https://koompi.com/assets/images/koompi-fifi/FiFiMobileApp.png"
-              height="350"
-              width="auto"
-            />
-          </Col>
-        </Row>
-      </div>
-
-      <div className="feature-1">
-        <Row>
-          <Col span={10} offset={2}>
-            <img
-              src="https://koompi.com/assets/images/koompi-fifi/FiFiMobileApp.png"
-              height="350"
-              width="auto"
-            />
-          </Col>
-          <Col span={12}>
-            <h1 style={{ marginTop: 40, fontSize: 32, fontWeight: "bold" }}>
-              10 Minutes to Fully Set Up
-            </h1>
-            <p className="intro-description">
-              All packages of the software are available
-              <br /> for the latest version, <br />
-              using pi and pix as a package manager.
-            </p>
-          </Col>
-        </Row>
+      <div className="sala-white-back">
+        <div className="container">
+          <Row>
+            <Col span={10}>
+              <img src={mobile} alt="koompi fifi" className="koompi-fifi-pic" />
+            </Col>
+            <Col span={14}>
+              <div className="fifi-container-details">
+                <h2>10 Minutes to Fully Set Up</h2>
+                <p className="intro-description">
+                  All packages of the software are available for the latest
+                  version, using pi and pix as a package manager.
+                </p>
+              </div>
+            </Col>
+          </Row>
+        </div>
       </div>
 
       <div className="fifi-application">
@@ -181,30 +157,24 @@ function Fifi() {
           <Button size="large" type="primary">
             Play Store
           </Button>
-          <img
-            className="img"
-            src="https://koompi.com/assets/images/koompi-fifi/MobileApp1.png"
-          />
+          <img className="fifi-img" src={fifi} alt="koompi fifi mobile app" />
         </div>
       </div>
 
-      <div className="map">
-        <div className="map-top">
-          <h2 className="fifi-title">Available FIFI Location</h2>
-          <p>
-            Part of the Internet-For-All initiative, KOOMPI Fi-Fi is a school
-            internet infrastructure provided by KOOMPI with fast fiber internet
-            where students & teachers only pay as little as 1.25$ per month per
-            user, up to two devices.
-          </p>
-        </div>
-        <div className="map-container">
-          <LeafletMap center={[11.556374, 104.928207]} zoom={12}>
-            <TileLayer
-              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-              attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-            />
-          </LeafletMap>
+      <div className="background-locations">
+        <div className="container">
+          <center>
+            <h2 className="fifi-title">Available FIFI Location</h2>
+            <p>
+              Part of the Internet-For-All initiative, KOOMPI Fi-Fi is a school
+              internet infrastructure provided by KOOMPI <br /> with fast fiber
+              internet where students & teachers only pay as little as 1.25$ per
+              month per user, up to two devices.
+            </p>
+            <div className="map-container">
+              <img src={map} alt="maps" className="map" />
+            </div>
+          </center>
         </div>
       </div>
     </div>

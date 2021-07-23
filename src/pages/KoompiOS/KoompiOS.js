@@ -19,11 +19,14 @@ function KoompiOS() {
               <Col span={10}>
                 <div className="koompi-os-details">
                   <h1 className="intro-title">KOOMPI OS</h1>
-                  <p>
+
+                  <p className="banner-desc2">
+                    
                     A lightweight, decentralized, crypto/security-oriented
                     open-source operating system derived from Archlinux. KOOMPI
                     OS is built on a kernel and provides an environment for
                     multiple applications and software to run simultaneously.
+
                   </p>
                   <Button className="btn-download" size="large" type="primary">
                     Download

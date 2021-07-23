@@ -12,7 +12,6 @@ function Home() {
       <div className="home-banner">
         <div className="container">
           <div className="banner-contents">
-            {/* <h1 className="banner-sub-title">KOOMPI</h1> */}
             <div className="banner-title">
               {/* <h1>Welcome to koompi.org!</h1> */}
               <h1>No license fees. No limitations.</h1>

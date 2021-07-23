@@ -1,255 +1,286 @@
 import React from "react";
 import { Row, Col, Button } from "antd";
-import "./Onelab.css";
+import onelab from "../../lib/img/banner.jpg";
+import how from "../../lib/img/why.png";
+import target from "../../lib/img/target-onelab.png";
 
 function Onelab() {
-  return (
-    <div className="onelab">
-      <div className="onelab-intro">
-        {/* <div style={{ textAlign: "center" }}> */}
-        <h1>KOOMPI Onelab</h1>
-        <p className="onelab-intro-description">
-          Computer workstation with usability, minimal internet dependency,
-          <br />
-          efficiency, and affordable cost.
-        </p>
-        {/* <Button size="large" type="onelab">
-            Explore!
-          </Button> */}
-        {/* </div> */}
+  const BannerOnelab = () => {
+    return (
+      <React.Fragment>
+        <div className="onelab-intro">
+          <center>
+            <h1>KOOMPI Onelab</h1>
+            <p className="banner-desc2 ">
+              Part of KOOMPI Enterprise, Onelabs are advanced learning,
+              teaching, work and study environments, <br /> centered around a
+              local independent server at each school. <br />
+              Curriculum updates are distributed by teachers and administrators
+              through the local server,
+              <br /> which is uniform and compatible with all other
+              participating schools in Cambodia.
+            </p>
 
-        <img
-          src="https://koompi.com/assets/images/koompi-onelab/banner.jpg"
-          width="auto"
-          height="300"
-          className="intro-img"
-        />
-      </div>
-
-      <div className="how-it-works">
-        <div className="how-it-works-container">
-          <h2 style={{ textAlign: "center", paddingTop: 30 }}>
-            How does it work?
-          </h2>
-
-          <p style={{ paddingLeft: 100, paddingRight: 100 }}>
-            KOOMPI Onelab Workstation is a computer laboratory with hardware and
-            software solution that enables teachers and administrators to
-            facilitate and monitor students' progress in real time. There are
-            three main components that makes the labs functional: hardware,
-            content server, and internet connection. Schools can easily invest
-            in Workstations due to its affordability and utilization of
-            essential tools: monitors, keyboards, mouses, and Raspberry Pis. The
-            labs are powered by a content server that runs independently,
-            meaning information is stored in an offline cache and gets updated
-            when connected to the internet (KOOMPI Fi-Fi). All Workstations are
-            connected to one central machine hosting a samba server database,
-            making a convenient management system.
-          </p>
+            <img src={onelab} className="onelab-img" alt="koompi onelab" />
+          </center>
         </div>
-      </div>
+      </React.Fragment>
+    );
+  };
 
-      <h2 style={{ textAlign: "center", paddingTop: 30, paddingBottom: 30 }}>
-        Components
-      </h2>
-      <div className="work-station">
-        <Row>
-          <Col span={10} offset={2}>
-            <img
-              src="https://getpocket.com/marketing-assets/web-discover/_next/static/images/features-phone.6f0f4c65c5892b24aa553e79b07dd444.png"
-              height="400"
-              width="auto"
-            />
-          </Col>
-          <Col span={12}>
-            <h3 style={{ marginTop: 80 }}>Work Station</h3>
+  const HowItWork = () => {
+    return (
+      <React.Fragment>
+        <div className="how-it-works">
+          <div className="how-it-works-container">
+            <h2>How does it work?</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.
+              KOOMPI Onelab Workstation is a computer laboratory with hardware
+              and software solution that enables teachers and administrators to
+              facilitate and monitor students' progress in real time. There are
+              three main components that makes the labs functional: hardware,
+              content server, and internet connection. Schools can easily invest
+              in Workstations due to its affordability and utilization of
+              essential tools: monitors, keyboards, mouses, and Raspberry Pis.
+              The labs are powered by a content server that runs independently,
+              meaning information is stored in an offline cache and gets updated
+              when connected to the internet (KOOMPI Fi-Fi). All Workstations
+              are connected to one central machine hosting a samba server
+              database, making a convenient management system.
             </p>
-          </Col>
-        </Row>
-      </div>
-
-      <div className="content-server">
-        <Row>
-          <Col span={10} offset={2}>
-            <h3 style={{ marginTop: 80 }}>Content Server</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </Col>
-          <Col span={10} offset={2}>
-            <img
-              src="https://getpocket.com/marketing-assets/web-discover/_next/static/images/private-nook.adda9d99ef9f132c9d613f520e300fea.png"
-              height="400"
-              width="auto"
-            />
-          </Col>
-        </Row>
-      </div>
-
-      <div className="network">
-        <Row>
-          <Col span={10} offset={2}>
-            <img
-              src="https://getpocket.com/marketing-assets/web-discover/_next/static/images/features-phone.6f0f4c65c5892b24aa553e79b07dd444.png"
-              height="400"
-              width="auto"
-            />
-          </Col>
-          <Col span={12}>
-            <h3 style={{ marginTop: 80 }}>Network</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </Col>
-        </Row>
-      </div>
-
-      <div className="uses">
-        <div className="uses-container">
-          <h2>Who is it for?</h2>
-          <Row className="uses-bottom">
-            <Col span={8}>
-              <img
-                src="https://image.freepik.com/free-vector/company-concept-illustration_114360-2721.jpg"
-                height="200"
-                width="200"
-              />
-              <h3>School</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
-              </p>
-            </Col>
-            <Col span={8}>
-              <img
-                src="https://image.freepik.com/free-vector/company-concept-illustration_114360-2721.jpg"
-                height="200"
-                width="200"
-              />
-              <h3>Company</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
-              </p>
-            </Col>
-            <Col span={8}>
-              <img
-                src="https://image.freepik.com/free-vector/company-concept-illustration_114360-2721.jpg"
-                height="200"
-                width="200"
-              />
-              <h3>Organization</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
-              </p>
-            </Col>
-          </Row>
+          </div>
+          <img src={how} alt="how does it work" className="how-it-works-img" />
         </div>
-      </div>
+      </React.Fragment>
+    );
+  };
 
-      <div className="ideas">
-        <div className="ideas-container">
-          {/* <h1 style={{ textAlign: "center" }}>
-            What to be apart of our growing developer community?
-          </h1> */}
-          <Row gutter={18}>
-            <Col span={7} offset={1}>
-              <div>
-                <img
-                  src="https://icons.getbootstrap.com/assets/img/icons-hero.png"
-                  height="100"
-                  width="auto"
-                />
-                <h2
-                  style={{ fontSize: 28, fontWeight: "bold", marginBottom: 0 }}
-                >
-                  Idea
-                </h2>
-                <p>
-                  Build an advanced learning, teaching, working, and studying
-                  environment.
-                </p>
-              </div>
+  const WorkStation = () => {
+    return (
+      <React.Fragment>
+        <div className="work-station">
+          <center>
+            <h1>Components</h1>
+          </center>
+          <Row gutter={24}>
+            <Col span={10}>
+              <img
+                src="https://getpocket.com/marketing-assets/web-discover/_next/static/images/features-phone.6f0f4c65c5892b24aa553e79b07dd444.png"
+                alt="onelap picture"
+                className=" onelap-pictures"
+              />
             </Col>
-            <Col span={7} offset={1}>
-              <div>
-                <img
-                  src="https://icons.getbootstrap.com/assets/img/icons-hero.png"
-                  height="100"
-                  width="auto"
-                />
-                <h2
-                  style={{ fontSize: 28, fontWeight: "bold", marginBottom: 0 }}
-                >
-                  Goal
-                </h2>
+            <Col span={14}>
+              <div className="onelap-details">
+                <h2>Work Station</h2>
                 <p>
-                  To provide energy efficient, low maintenance, easy-to-use,
-                  cost effective information technology solutions for students,
-                  teachers, and administrators.
-                </p>
-              </div>
-            </Col>
-            <Col span={7} offset={1}>
-              <div>
-                <img
-                  src="https://icons.getbootstrap.com/assets/img/icons-hero.png"
-                  height="100"
-                  width="auto"
-                />
-                <h2
-                  style={{ fontSize: 28, fontWeight: "bold", marginBottom: 0 }}
-                >
-                  Target
-                </h2>
-                <p>
-                  We aim to provide uniform computer workstations in over 10,
-                  000 high and junior high schools in Cambodia.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
               </div>
             </Col>
           </Row>
         </div>
-      </div>
+      </React.Fragment>
+    );
+  };
 
-      <div className="contact-onelab">
-        <div className="contact-onelab-container">
-          <Row>
-            <Col span={12} offset={2}>
-              <img
-                src="https://images.ctfassets.net/s8m4aa37zxb2/1AVcSoraPugyYCmwAEQsWW/364264f8b37d29aabc91766263d52227/Sign_Up_2x.png"
-                height="400"
-                width="auto"
-              />
+  const ContentServer = () => {
+    return (
+      <React.Fragment>
+        <div className="work-station">
+          <Row gutter={24}>
+            <Col span={14}>
+              <div className="onelap-details">
+                <h2>Content Server</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
             </Col>
             <Col span={10}>
-              <div style={{ width: 300, paddingTop: 40 }}>
-                <h1 style={{ fontWeight: "bold", fontSize: 32, lineHeight: 1 }}>
-                  Interested? Contact us now!
-                </h1>
+              <img
+                src="https://getpocket.com/marketing-assets/web-discover/_next/static/images/private-nook.adda9d99ef9f132c9d613f520e300fea.png"
+                alt="onelap picture"
+                className=" onelap-pictures"
+              />
+            </Col>
+          </Row>
+        </div>
+      </React.Fragment>
+    );
+  };
+
+  const Network = () => {
+    return (
+      <React.Fragment>
+        <div className="work-station">
+          <Row gutter={24}>
+            <Col span={10}>
+              <img
+                src="https://getpocket.com/marketing-assets/web-discover/_next/static/images/features-phone.6f0f4c65c5892b24aa553e79b07dd444.png"
+                alt="onelap picture"
+                className=" onelap-pictures"
+              />
+            </Col>
+            <Col span={14}>
+              <div className="onelap-details">
+                <h2>Network</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </Col>
+          </Row>
+        </div>
+      </React.Fragment>
+    );
+  };
+
+  const Who = () => {
+    return (
+      <React.Fragment>
+        <div className="users-container">
+          <h2>Who is it for?</h2>
+          <div className="uses-bottom">
+            <Row gutter={12}>
+              <Col span={8}>
+                <img
+                  src="https://image.freepik.com/free-vector/company-concept-illustration_114360-2721.jpg"
+                  alt="school"
+                  className="who-onelab-img"
+                />
+                <h3>School</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+                </p>
+              </Col>
+              <Col span={8}>
+                <img
+                  src="https://image.freepik.com/free-vector/company-concept-illustration_114360-2721.jpg"
+                  alt="company"
+                  className="who-onelab-img"
+                />
+                <h3>Company</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+                </p>
+              </Col>
+              <Col span={8}>
+                <img
+                  src="https://image.freepik.com/free-vector/company-concept-illustration_114360-2721.jpg"
+                  alt="org"
+                  className="who-onelab-img"
+                />
+                <h3>Organization</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+                </p>
+              </Col>
+            </Row>
+          </div>
+        </div>
+      </React.Fragment>
+    );
+  };
+
+  const Ideas = () => {
+    return (
+      <React.Fragment>
+        <div className="ideas">
+          <h2>Our Works</h2>
+          <div className="idea-contaner">
+            <Row gutter={24}>
+              <Col span={8}>
+                <div>
+                  <img src={target} alt="idea" className="who-onelab-img" />
+                  <h3>Idea</h3>
+                  <p>
+                    Build an advanced learning, teaching, working, and studying
+                    environment.
+                  </p>
+                </div>
+              </Col>
+              <Col span={8}>
+                <div>
+                  <img src={target} alt="goals" className="who-onelab-img" />
+                  <h3>Goal</h3>
+                  <p>
+                    To provide energy efficient, low maintenance, easy-to-use,
+                    cost effective information technology solutions for
+                    students, teachers, and administrators.
+                  </p>
+                </div>
+              </Col>
+              <Col span={8}>
+                <div>
+                  <img src={target} alt="target" className="who-onelab-img" />
+                  <h3>Target</h3>
+                  <p>
+                    We aim to provide uniform computer workstations in over 10,
+                    000 high and junior high schools in Cambodia.
+                  </p>
+                </div>
+              </Col>
+            </Row>
+          </div>
+        </div>
+      </React.Fragment>
+    );
+  };
+
+  const Contact = () => {
+    return (
+      <React.Fragment>
+        <div className="contact-onelab">
+          <Row>
+            <Col span={10}>
+              <img
+                src="https://images.ctfassets.net/s8m4aa37zxb2/1AVcSoraPugyYCmwAEQsWW/364264f8b37d29aabc91766263d52227/Sign_Up_2x.png"
+                alt="onelap picture"
+                className=" onelap-pictures"
+              />
+            </Col>
+            <Col span={14}>
+              <div className="contact-container-details">
+                <h2>Interested? Contact us now!</h2>
                 <p>
                   The non-profit Mozilla Foundation supports online privacy &
                   security, trustworthy artificial intelligence.
                 </p>
-                <Button size="large" type="contact">
+                <Button size="large" type="primary">
                   Contact
                 </Button>
               </div>
             </Col>
           </Row>
         </div>
+      </React.Fragment>
+    );
+  };
+
+  return (
+    <div className="onelab">
+      <div className="container">
+        <BannerOnelab />
+        <HowItWork />
+        <Ideas />
+        <WorkStation />
+        <ContentServer />
+        <Network />
+        <Who />
+        <Contact />
       </div>
     </div>
   );
