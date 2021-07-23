@@ -19,10 +19,14 @@ function KoompiOS() {
               <Col span={10}>
                 <div className="koompi-os-details">
                   <h1 className="intro-title">KOOMPI OS</h1>
+
                   <p className="banner-desc2">
-                    A friendly Linux distribution derive from Achlinux. We aim
-                    to deliver the best user experiences by providing a high
-                    performance, stable, and reliable operating system.
+                    
+                    A lightweight, decentralized, crypto/security-oriented
+                    open-source operating system derived from Archlinux. KOOMPI
+                    OS is built on a kernel and provides an environment for
+                    multiple applications and software to run simultaneously.
+
                   </p>
                   <Button className="btn-download" size="large" type="primary">
                     Download
@@ -118,8 +122,12 @@ function KoompiOS() {
               <div className="os-section-height-detail">
                 <h2 className="os-title">Software</h2>
                 <p className="intro-description">
-                  All packages of the software are available for the latest
-                  version, using pi and pix as a package manager.
+                  KOOMPI OS is compatible with other software solutions and is
+                  especially great for individuals in the IT field. It gives
+                  users free usage without the hassle of licenses and can be
+                  customized to meet individual needs. All packages of the
+                  software are available for the latest version, using pi and
+                  pix as a package manager.
                 </p>
               </div>
             </Col>
@@ -134,9 +142,11 @@ function KoompiOS() {
               <div className="os-section-height-detail">
                 <h2 className="os-title">Security</h2>
                 <p className="intro-description">
-                  Operating System leverages security control to protect user
-                  data and system resources, protects device integrity against
-                  malware, and provides application isolation.
+                  The system itself leverages traditional OS security control to
+                  protect user data and system resources, protects device
+                  integrity against malware, and provides application isolation
+                  – application is separated from the rest of the running
+                  processes.
                 </p>
               </div>
             </Col>
@@ -165,9 +175,11 @@ function KoompiOS() {
               <div className="os-section-height-detail">
                 <h2 className="os-title">Desktop Environment</h2>
                 <p className="intro-description">
-                  With Plasma and KDE, you feel the ideal, freshness, and simple
-                  of your desktop. We aim to build our own Desktop Environment
-                  with QT.
+                  KOOMPI Desktop Environment is based on KDE – a highly
+                  customizable desktop with moderate usage of system resources.
+                  It has its own set of integrated applications and utilities.
+                  There are three main desktop environments and each of them has
+                  two core theme colours, Dark and Light.
                 </p>
               </div>
             </Col>
@@ -182,8 +194,8 @@ function KoompiOS() {
               <div className="os-section-height-detail">
                 <h2 className="os-title">Read the documentation</h2>
                 <p className="intro-description">
-                  Checking our last release notes for the version you are
-                  downloading.
+                  We keep you guys updated! Read our documentation to keep track
+                  of the latest releases and enjoy bug-free user experience!
                 </p>
               </div>
             </Col>

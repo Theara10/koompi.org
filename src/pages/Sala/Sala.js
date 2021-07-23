@@ -17,9 +17,12 @@ function Sala() {
               <Col span={8}>
                 <div className="sala-koompi-details">
                   <h1>SALA KOOMPI</h1>
+
                   <p className="banner-desc2">
-                    A virtual school that allows both students and <br />
-                    teachers to view and provide learning resources.
+                    
+                    Virtual platform for students, teachers, and content
+                    creators.
+
                   </p>
                   <div className="btn-container">
                     <Button size="large" type="primary">
@@ -43,7 +46,34 @@ function Sala() {
         </div>
       </div>
 
+
       <div className="sala-white-back">
+        <div className="container">
+          <Row>
+            <Col span={10} offset={2}>
+              <h2>E-learning made easy </h2>
+              <p className="intro-description">
+                SALA KOOMPI, formerly called KOOMPI Academy, is an eLearning
+                platform that aims to enable a decentralized and open-ended
+                education for Cambodian students. The website (sala.koompi.com
+                or academy.koompi.com) can be accessed for free by everyone and
+                caters to students as young as ones from the kindergarten level.
+                The default language is in Khmer.
+              </p>
+            </Col>
+            <Col span={10} offset={2}>
+              <img
+                src="https://www.mozilla.org/media/img/firefox/new/desktop/block-mr1-high-res.2dabc380db76.jpg"
+                height="300"
+                width="auto"
+              />
+            </Col>
+          </Row>
+        </div>
+      </div>
+
+      <div className="courses">
+
         <div className="container">
           <Row>
             <Col span={18}>
@@ -59,6 +89,7 @@ function Sala() {
                 </p>
               </div>
             </Col>
+
             <Col span={6}>
               <div>
                 <img
@@ -72,9 +103,31 @@ function Sala() {
         </div>
       </div>
 
+
       {/* --------why sala ---------- */}
       <div>
         <WhySALA />
+
+//       <div className="easy-to-manage">
+//         <div className="container">
+//           <Row>
+//             <Col span={10} offset={2}>
+//               <h2>Take your classroom with you</h2>
+//               <p className="intro-description">
+//                 Keep track of your study progress and learn anywhere and
+//                 anytime.
+//               </p>
+//             </Col>
+//             <Col span={10} offset={2}>
+//               <img
+//                 src="https://www.mozilla.org/media/img/firefox/new/desktop/block-mr1-high-res.2dabc380db76.jpg"
+//                 height="300"
+//                 width="auto"
+//               />
+//             </Col>
+//           </Row>
+//         </div>
+
       </div>
 
       <div className="sala-white-back">
