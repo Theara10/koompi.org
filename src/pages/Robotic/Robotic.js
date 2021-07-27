@@ -9,16 +9,16 @@ function Robotic() {
     return (
       <React.Fragment>
         <div className="robotic-intro">
-          <Row>
-            <Col>
+          <Row gutter={[12, 12]}>
+            <Col span={14}>
               <h1>KOOMPI Robotic Program</h1>
               <p className="banner-desc">
                 Computer workstation with usability, minimal internet <br />
                 dependency, efficiency, and affordable cost.
               </p>
             </Col>
-            <Col>
-              <img src={robotic} className="robot-img" alt="robotic" />
+            <Col span={10}>
+              <img src={robotic} className="img-responsive" alt="robotic" />
             </Col>
           </Row>
         </div>
@@ -33,8 +33,8 @@ function Robotic() {
           <center>
             <h2 className="robotic-title">How does it work?</h2>
           </center>
-          <Row gutter={24}>
-            <Col span={12}>
+          <Row gutter={[24, 24]}>
+            <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
               <div className="how-it-works-container">
                 <h3>Software Development</h3>
                 <p>
@@ -49,7 +49,7 @@ function Robotic() {
                 className="how-robotic-works-img"
               />
             </Col>
-            <Col span={12}>
+            <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
               <div className="how-it-works-container">
                 <h3>Hardware Development</h3>
                 <p>
@@ -114,26 +114,26 @@ function Robotic() {
             <h2 className="robotic-title">Program Robots</h2>
           </center>
           <div className="robot-type-container">
-            <Row gutter={24}>
-              <Col span={12}>
+            <Row gutter={[24, 24]}>
+              <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
                 <div className="container-robot-items">
                   <h3>Optimus Prime</h3>
                   <p>Learn More..</p>
                   <img
                     src="https://www.bostondynamics.com/sites/default/files/2021-02/left-column-660x480.png"
                     alt="robotic images"
-                    className="robotic-img"
+                    className="img-responsive"
                   />
                 </div>
               </Col>
-              <Col span={12}>
+              <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
                 <div className="container-robot-items">
                   <h3>Megatron</h3>
                   <p>Learn More..</p>
                   <img
                     src="https://www.bostondynamics.com/sites/default/files/2021-02/right-column-660x480.png"
                     alt="robotic images"
-                    className="robotic-img"
+                    className="img-responsive"
                   />
                 </div>
               </Col>
@@ -151,9 +151,9 @@ function Robotic() {
           <h2>Our Works</h2>
           <div className="idea-contaner">
             <Row gutter={24}>
-              <Col span={8}>
-                <div>
-                  <img src={target} alt="idea" className="who-onelab-img" />
+              <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8}>
+                <img src={target} alt="idea" className="who-onelab-img" />
+                <div className="goals-detial">
                   <h3>Idea</h3>
                   <p>
                     The idea behind KOOMPI OS is to create a free operating
@@ -162,9 +162,9 @@ function Robotic() {
                   </p>
                 </div>
               </Col>
-              <Col span={8}>
-                <div>
-                  <img src={target} alt="goals" className="who-onelab-img" />
+              <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8}>
+                <img src={target} alt="goals" className="who-onelab-img" />
+                <div className="goals-detial">
                   <h3>Goal</h3>
                   <p>
                     All the work is to gear up the performance of open-source
@@ -173,9 +173,9 @@ function Robotic() {
                   </p>
                 </div>
               </Col>
-              <Col span={8}>
-                <div>
-                  <img src={target} alt="target" className="who-onelab-img" />
+              <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8}>
+                <img src={target} alt="target" className="who-onelab-img" />
+                <div className="goals-detial">
                   <h3>Target</h3>
                   <p>
                     The users who are exhausted with change an operating system

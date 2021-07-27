@@ -5,10 +5,10 @@ import blogs from "../api/blogs.json";
 function BlogCard() {
   return (
     <React.Fragment>
-      <Row gutter={[24, 24]}>
+      <Row gutter={[12, 12]}>
         {blogs.map((res) => {
           return (
-            <Col span={6}>
+            <Col xs={12} sm={12} md={8} lg={6} xl={6} xxl={6}>
               <div className="news-events-section">
                 <img
                   alt={res.title}

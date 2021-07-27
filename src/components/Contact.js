@@ -1,29 +1,31 @@
 import React from "react";
 import { Row, Col, Button } from "antd";
+import contactus from "../lib/img/contact.png";
 
 function Contact() {
   return (
     <div className="contact">
       <div className="container">
         <Row gutter={[24, 24]}>
-          <Col span={12}>
-            <div className="contact-us-img"></div>
-            {/* <img
-              src="https://images.ctfassets.net/s8m4aa37zxb2/1AVcSoraPugyYCmwAEQsWW/364264f8b37d29aabc91766263d52227/Sign_Up_2x.png"
-              height="400"
-              alt="contact-us koompi"
-            /> */}
+          <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
+            <div>
+              <img
+                src={contactus}
+                alt="contact with us"
+                className="contact-us-img"
+              />
+            </div>
           </Col>
-          <Col span={12}>
+          <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
             <div className="contact-us-section">
-              <h1 style={{ fontWeight: "bold", fontSize: 32, lineHeight: 1 }}>
+              <h2 className="project-head-title">
                 Interested? Contact us now!
-              </h1>
+              </h2>
               <p>
                 The non-profit Mozilla Foundation supports online privacy &
                 security, trustworthy artificial intelligence.
               </p>
-              <Button size="large" type="secondary">
+              <Button size="large" type="primary" className="btn-contact">
                 Contact
               </Button>
             </div>

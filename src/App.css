@@ -67,6 +67,9 @@ p {
   border-radius: 8px;
   height: 100%;
 }
+.project-cards-mobile {
+  display: none;
+}
 
 .card-subtitle {
   margin: 0px;
@@ -437,6 +440,7 @@ p {
 .banner-desc2 {
   font-size: 22px !important;
   margin-bottom: 40px;
+  width: 80%;
 }
 .ant-card-cover img {
   border-radius: 2px 2px 0 0;
@@ -466,22 +470,14 @@ p {
 }
 
 .contact {
-  min-height: 500px;
   background-color: #ededf0;
-  display: flex;
   justify-content: center;
   align-items: center;
+  padding: 100px 0;
 }
 
 .contact-us-img {
-  background-image: url("https://images.ctfassets.net/s8m4aa37zxb2/1AVcSoraPugyYCmwAEQsWW/364264f8b37d29aabc91766263d52227/Sign_Up_2x.png");
-  background-size: 100%;
-  background-position: center;
-  height: 450px;
-  width: 450px;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: -100px;
+  width: 550px;
 }
 
 .ant-btn-secondary {
@@ -580,7 +576,7 @@ p {
 }
 .os-section-height {
   position: relative;
-  min-height: 650px;
+  padding: 50px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -630,10 +626,9 @@ p {
 }
 .image-koompi {
   width: 70%;
-  height: 260px;
 }
 .goal {
-  margin-top: 40px !important;
+  padding: 100px 0;
 }
 
 .sala h1 {
@@ -735,7 +730,7 @@ p {
 }
 
 .sala-gray-back {
-  height: 550px;
+  padding: 50px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -743,7 +738,7 @@ p {
 }
 
 .sala-white-back {
-  height: 550px;
+  padding: 50px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -785,11 +780,10 @@ p {
 .btn-download {
   margin-top: 25px;
 }
-.sala-koompi-banner-pic {
+/* .sala-koompi-banner-pic {
   width: 90vh;
   position: relative;
-  /* top: -90px; */
-}
+} */
 .btn-create-account-sala {
   border-radius: 8px !important;
   border: 3px solid #f2d124 !important;
@@ -800,10 +794,12 @@ p {
   background-color: #001529 !important;
 }
 .sala-koompi-details {
-  margin-top: 45%;
+  margin-top: 35%;
 }
 .btn-container {
   margin-top: 35px;
+  display: flex;
+  flex-direction: row;
 }
 .why-join-sala {
   width: 17%;
@@ -816,6 +812,7 @@ p {
 }
 .why-join-salakoompi {
   width: 100%;
+  height: 100%;
 }
 .sala-koompi-user-details {
   margin-top: 20%;
@@ -834,7 +831,7 @@ p {
   color: #38a7c8;
 }
 .fifi h3 {
-  font-size: 28px;
+  font-size: 26px;
   font-weight: bold;
   line-height: 40px;
 }
@@ -893,17 +890,6 @@ p {
   background-color: #f1f2f6;
 }
 
-.fifi-application-container {
-  width: 50%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 50px;
-  text-align: center;
-  /* background-color: #f1f2f6; */
-}
-
 .fifi-img {
   height: 400px;
   width: auto;
@@ -935,7 +921,7 @@ p {
 }
 .fifi-banner {
   position: relative;
-  height: 90vh;
+  padding: 50px 0px;
   background-image: linear-gradient(
       90deg,
       rgba(2, 0, 36, 0.363) 0%,
@@ -946,14 +932,12 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 10px;
 }
 .koompi-fifi-img {
   width: 40%;
   position: relative;
 }
 .koompi-fifi-content {
-  padding-top: 90px;
   font-size: 18px;
   color: var(--fourth-color);
 }
@@ -985,7 +969,7 @@ p {
   color: #38a7c8;
 }
 .onelab h3 {
-  font-size: 28px;
+  font-size: 26px;
   font-weight: bold;
   line-height: 40px;
   color: #38a7c8;
@@ -998,7 +982,7 @@ p {
 }
 
 .onelab-intro {
-  padding: 50px 20px;
+  padding: 50px 0px;
 }
 
 .intro-title {
@@ -1036,7 +1020,7 @@ p {
 }
 
 .work-station {
-  height: 500px;
+  padding: 50px 0px;
 }
 
 .contact-onelab {
@@ -1104,7 +1088,7 @@ p {
   color: #38a7c8;
 }
 .robotic h3 {
-  font-size: 28px;
+  font-size: 26px;
   font-weight: bold;
   line-height: 40px;
   color: #38a7c8;
@@ -1114,8 +1098,6 @@ p {
   font-size: 26px;
 }
 .robotic-intro {
-  min-height: 60vh;
-  height: 60vh;
   padding: 80px 0;
 }
 .program {
@@ -1164,21 +1146,10 @@ p {
   padding: 120px 0;
 }
 
-.robot-type-container {
-  height: 500px;
-  width: 1201px;
-  text-align: center;
-  padding: 0px !important;
-  display: flex;
-  flex-direction: row;
-}
 .container-robot-items {
   background-color: #f1f2f6;
   border-radius: 8px;
   padding: 30px 20px;
-}
-.robotic-img {
-  width: 550px;
 }
 
 .ideas {
@@ -1218,4 +1189,442 @@ p {
 }
 .robotic-program-desc {
   color: var(--fourth-color);
+}
+.mobile-view-navbar {
+  display: none;
+}
+.mobileMenu {
+  display: none;
+}
+.koompi-logo-mobile {
+  display: none;
+}
+.why-desktop {
+  display: block;
+}
+.why-mobile {
+  display: none;
+}
+
+/* ------------------responsive ------------------------- */
+
+@media only screen and (max-width: 1600px) {
+  .banner-title h1 {
+    font-size: 35px !important;
+  }
+  .banner-desc {
+    font-size: 20px !important;
+  }
+  .koompi-logo {
+    height: 40px;
+  }
+  .ant-menu-item {
+    font-size: 15px;
+  }
+  .project-head-title,
+  .recentnews-header h1,
+  .koompi-os h2,
+  .sala h2,
+  .fifi h2,
+  .onelab h2,
+  .robotic h2 {
+    font-size: 30px;
+  }
+  .project-desc {
+    font-size: 18px;
+  }
+  .news-event-title,
+  .card-subtitle,
+  .project-detail-container,
+  .sub-header-footer,
+  .footer-desc {
+    font-size: 12px;
+  }
+  .blog-desc {
+    font-size: 11px;
+  }
+  .card-title {
+    font-size: 20px;
+  }
+  .logo-footer {
+    width: 140px;
+  }
+  .footer-head-info {
+    font-size: 18px;
+  }
+  .koompi-logo-footer {
+    width: 20px;
+  }
+  .project-logo {
+    height: 40px;
+  }
+  .contact-us-img {
+    width: 450px;
+  }
+  .koompi-os h1,
+  .sala h1,
+  .fifi h1,
+  .onelab h1,
+  .robotic h1 {
+    font-size: 40px;
+  }
+  .banner-desc2 {
+    font-size: 18px !important;
+  }
+  .os-banner-section p {
+    font-size: 12px;
+  }
+  .btn-download {
+    margin: 0;
+  }
+  .koompi-os-details {
+    margin-top: 20%;
+  }
+  .why-join-sala {
+    width: 20%;
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+  .why-join-salakoompi {
+    position: relative;
+    top: 100px;
+  }
+  .banner-desc2 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .home-banner {
+    height: 40vh;
+  }
+  .banner-title h1,
+  .koompi-os h1,
+  .sala h1,
+  .fifi h1,
+  .onelab h1,
+  .robotic h1 {
+    font-size: 30px !important;
+  }
+  .container {
+    width: 75% !important;
+  }
+  .contact-us-img {
+    width: 350px;
+  }
+  .project-head-title,
+  .recentnews-header h1 {
+    font-size: 25px;
+  }
+  .koompi-os-intro {
+    min-height: auto;
+    padding: 10px 0px 100px 0px;
+  }
+  .koompi-os-details {
+    margin: 0;
+  }
+  .koompi-os h3,
+  .onelab h3 {
+    font-size: 22px;
+  }
+  .image-koompi {
+    width: 55%;
+    height: auto;
+  }
+  .sala-koompi-details {
+    margin-top: 15%;
+  }
+  .why-join-sala {
+    width: 25%;
+  }
+  .map {
+    height: 300px;
+  }
+  .how-it-works-img {
+    width: 250px;
+    position: absolute;
+    right: -15px;
+  }
+  .how-robotic-works-img {
+    position: absolute;
+    width: 150px;
+    transform: scaleX(-1);
+    left: -95px;
+  }
+  .how-robotic-works-img2 {
+    position: absolute;
+    width: 150px;
+    top: -20px;
+    right: -95px;
+  }
+}
+
+@media only screen and (max-width: 834px) {
+  .banner-title h1 {
+    font-size: 25px !important;
+  }
+  .project-head-title,
+  .recentnews-header h1,
+  .fifi h2,
+  .koompi-os h2,
+  .robotic h2 {
+    font-size: 22px;
+  }
+
+  .os-banner-img {
+    position: relative;
+    top: 30px;
+  }
+  .project-desc,
+  .card-description,
+  .recentnews-header p,
+  .contact-us-section p,
+  .sala-purpose-subtitle,
+  .fifi p,
+  .card-title,
+  .goal-container p,
+  .intro-description,
+  .how-it-works-container p,
+  .goals-detial,
+  .onelap-details p {
+    font-size: 16px !important;
+  }
+  .koompi-os h3,
+  .robotic h3 {
+    font-size: 18px;
+  }
+  .why-join-sala {
+    width: 30%;
+  }
+  .why-join-salakoompi {
+    position: relative;
+    top: 200px;
+  }
+  .why-join-salakoompi2 {
+    position: relative;
+    top: 100px;
+  }
+  .project-head-title,
+  .recentnews-header h1,
+  .koompi-os h2,
+  .sala h2,
+  .onelab h2 {
+    font-size: 22px;
+  }
+  .sala-white-back,
+  .sala-gray-back {
+    padding: 25px 0;
+  }
+  .banner-desc2 {
+    width: auto;
+  }
+  .fifi-img {
+    height: 300px;
+  }
+  .how-it-works-img {
+    width: 150px;
+    position: absolute;
+    top: 720px;
+  }
+  .how-it-works-container {
+    padding: 20px 30px !important;
+    min-height: 230px;
+  }
+  .how-robotic-works-img {
+    position: absolute;
+    width: 100px;
+    transform: scaleX(-1);
+    left: -60px;
+  }
+  .how-robotic-works-img2 {
+    position: absolute;
+    width: 100px;
+    top: -20px;
+    right: -60px;
+  }
+  .program-container,
+  .program-container-2 {
+    padding: 100px;
+    height: auto;
+  }
+  .how-it-works-robotic {
+    padding: 10px 0;
+  }
+}
+@media only screen and (max-width: 812px) {
+  .container {
+    width: 85% !important;
+  }
+  .contact-us-img {
+    width: 300px;
+  }
+  .how-robotic-works-img {
+    position: absolute;
+    width: 80px;
+    transform: scaleX(-1);
+    left: -45px;
+  }
+  .how-robotic-works-img2 {
+    position: absolute;
+    width: 80px;
+    right: -45px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .ant-back-top {
+    display: none;
+  }
+  .project-cards-mobile {
+    display: block;
+  }
+  .project-cards {
+    display: none;
+  }
+  .banner-contents {
+    width: 90%;
+  }
+  .banner-title h1 {
+    font-size: 18px !important;
+  }
+  .banner-desc {
+    font-size: 16px !important;
+  }
+  .project-desc {
+    width: 100%;
+  }
+  .mobile-view-navbar {
+    display: block;
+  }
+  .header-desktop {
+    display: none;
+  }
+  .menuNavbarLogo {
+    background: #1b262c !important;
+    margin-top: 0px !important;
+    height: 64px !important;
+  }
+  .mobileMenu {
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 15px !important;
+    display: block;
+  }
+  .koompi-logo-mobile {
+    display: block;
+    width: 40px;
+    position: relative;
+    top: 12px !important;
+  }
+  .sub-menu-mobile-drawer {
+    background: white !important;
+  }
+  .ant-drawer-body {
+    padding: 0px !important;
+  }
+  .koompi-logo-mobile-drawer {
+    height: 40px;
+    position: relative;
+    top: 6px !important;
+    left: 12%;
+  }
+  .ant-layout-header {
+    height: 64px !important;
+  }
+  .ant-menu-vertical > .ant-menu-item,
+  .ant-menu-vertical-left > .ant-menu-item,
+  .ant-menu-vertical-right > .ant-menu-item,
+  .ant-menu-inline > .ant-menu-item,
+  .ant-menu-vertical > .ant-menu-submenu > .ant-menu-submenu-title,
+  .ant-menu-vertical-left > .ant-menu-submenu > .ant-menu-submenu-title,
+  .ant-menu-vertical-right > .ant-menu-submenu > .ant-menu-submenu-title,
+  .ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+    padding: 5px 0px 5px 30px !important;
+  }
+  .project-learn-more {
+    position: relative;
+    top: -15px !important;
+    padding: 10px 15px !important;
+  }
+  .btn-contact {
+    position: relative;
+    left: 25% !important;
+  }
+  .intro-title {
+    margin-top: 15px;
+  }
+  .koompi-os h1 {
+    font-size: 25px !important;
+    position: relative;
+    left: -25px;
+  }
+  .koompi-os-details {
+    justify-content: center;
+    text-align: center;
+  }
+  .koompi-os h2 {
+    font-size: 18px;
+  }
+  .os-section-height {
+    padding: 80px 0px;
+  }
+  .banner-title h1,
+  .koompi-os h1,
+  .sala h1,
+  .fifi h1,
+  .onelab h1,
+  .robotic h1 {
+    font-size: 25px !important;
+  }
+  .sala-koompi-details {
+    text-align: center;
+  }
+  .why-join-salakoompi,
+  .why-join-salakoompi2 {
+    position: relative;
+    top: 0;
+  }
+  .sala-purpose-container {
+    padding: 15px 0;
+  }
+  .why-join-sala {
+    width: 40%;
+  }
+  .why-desktop {
+    display: none;
+  }
+  .why-mobile {
+    display: block;
+  }
+  .logo-footer {
+    position: relative;
+    left: -7px;
+  }
+  .sala-koompi-user-details {
+    text-align: center;
+  }
+  .map {
+    height: 150px;
+  }
+  .koompi-fifi-pic {
+    width: 100%;
+    position: relative;
+    top: 30%;
+  }
+  .how-it-works-container {
+    padding: 20px 30px !important;
+  }
+  .onelabe-img {
+    position: relative;
+    top: 30%;
+  }
+  .how-robotic-works-img,
+  .how-robotic-works-img2 {
+    display: none;
+  }
+  .program-container,
+  .program-container-2 {
+    padding: 60px;
+    height: auto;
+  }
 }

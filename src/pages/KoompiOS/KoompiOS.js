@@ -10,45 +10,47 @@ const docs = require("../../lib/img/Read-Doc.png");
 const os = require("../../lib/img/KOOMPI-Os.png");
 
 function KoompiOS() {
-  return (
-    <div className="koompi-os">
-      <div className="koompi-os-intro">
-        <div className="container">
-          <div className="os-banner-section">
-            <Row gutter={[24, 24]}>
-              <Col span={10}>
-                <div className="koompi-os-details">
-                  <h1 className="intro-title">KOOMPI OS</h1>
-                  <p className="banner-desc2">
-                    A friendly Linux distribution derive from Achlinux. We aim
-                    to deliver the best user experiences by providing a high
-                    performance, stable, and reliable operating system.
-                  </p>
-                  <Button className="btn-download" size="large" type="primary">
-                    Download
-                  </Button>
-                </div>
-              </Col>
-              <Col span={14}>
-                <img
-                  src={os.default}
-                  alt="koompi-os"
-                  className="img-responsive"
-                />
-                <center>
-                  <p> KOOMPI OS V3.3.5</p>
-                </center>
-              </Col>
-            </Row>
-          </div>
+  const OSBanner = () => {
+    return (
+      <React.Fragment>
+        <div className="os-banner-section">
+          <Row gutter={[24, 24]}>
+            <Col xs={24} sm={24} md={10} lg={10} xl={10} xxl={10}>
+              <div className="koompi-os-details">
+                <h1 className="intro-title">KOOMPI OS</h1>
+                <p className="banner-desc2">
+                  A friendly Linux distribution derive from Achlinux. We aim to
+                  deliver the best user experiences by providing a high
+                  performance, stable, and reliable operating system.
+                </p>
+                <Button className="btn-download" size="large" type="primary">
+                  Download
+                </Button>
+              </div>
+            </Col>
+            <Col xs={24} sm={24} md={14} lg={14} xl={14} xxl={14}>
+              <img
+                src={os.default}
+                alt="koompi-os"
+                className="img-responsive os-banner-img"
+              />
+              <center>
+                <p> KOOMPI OS V3.3.5</p>
+              </center>
+            </Col>
+          </Row>
         </div>
-      </div>
+      </React.Fragment>
+    );
+  };
 
-      <div className="container">
+  const Goals = () => {
+    return (
+      <React.Fragment>
         <div className="goal">
           <div className="goal-container">
             <Row gutter={[32, 32]}>
-              <Col span={8}>
+              <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8}>
                 <div>
                   <center>
                     <img
@@ -65,7 +67,7 @@ function KoompiOS() {
                   </center>
                 </div>
               </Col>
-              <Col span={8}>
+              <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8}>
                 <div>
                   <center>
                     <img
@@ -82,7 +84,7 @@ function KoompiOS() {
                   </center>
                 </div>
               </Col>
-              <Col span={8}>
+              <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8}>
                 <div>
                   <center>
                     <img
@@ -102,9 +104,13 @@ function KoompiOS() {
             </Row>
           </div>
         </div>
-      </div>
+      </React.Fragment>
+    );
+  };
 
-      <div className="container">
+  const Section1 = () => {
+    return (
+      <React.Fragment>
         <div className="os-section-height">
           <Row gutter={[24, 24]}>
             <Col span={12}>
@@ -125,9 +131,13 @@ function KoompiOS() {
             </Col>
           </Row>
         </div>
-      </div>
+      </React.Fragment>
+    );
+  };
 
-      <div className="container">
+  const Section2 = () => {
+    return (
+      <React.Fragment>
         <div className="os-section-height">
           <Row gutter={[24, 24]}>
             <Col span={12}>
@@ -149,9 +159,13 @@ function KoompiOS() {
             </Col>
           </Row>
         </div>
-      </div>
+      </React.Fragment>
+    );
+  };
 
-      <div className="container">
+  const Section3 = () => {
+    return (
+      <React.Fragment>
         <div className="os-section-height">
           <Row gutter={[24, 24]}>
             <Col span={12}>
@@ -173,9 +187,13 @@ function KoompiOS() {
             </Col>
           </Row>
         </div>
-      </div>
+      </React.Fragment>
+    );
+  };
 
-      <div className="container">
+  const Contact = () => {
+    return (
+      <React.Fragment>
         <div className="os-section-height">
           <Row gutter={[24, 24]}>
             <Col span={12}>
@@ -196,6 +214,23 @@ function KoompiOS() {
             </Col>
           </Row>
         </div>
+      </React.Fragment>
+    );
+  };
+
+  return (
+    <div className="koompi-os">
+      <div className="koompi-os-intro">
+        <div className="container">
+          <OSBanner />
+        </div>
+      </div>
+      <div className="container">
+        <Goals />
+        <Section1 />
+        <Section2 />
+        <Section3 />
+        <Contact />
       </div>
     </div>
   );

@@ -13,8 +13,10 @@ function Home() {
         <div className="container">
           <div className="banner-contents">
             <div className="banner-title">
-              <h1>No license fees. No limitations.</h1>
-              <h1>Always Open-Source.</h1>
+              <h1>
+                No license fees. No limitations. <br />
+                Always Open-Source.
+              </h1>
             </div>
 
             <p className="banner-desc">
