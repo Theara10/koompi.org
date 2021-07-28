@@ -83,7 +83,7 @@ function Robotic() {
                 All the work is to gear up the <br />
                 performance of open-source.
               </p>
-              <Button size="large" type="primary">
+              <Button size="large" type="primary" className="btn-explore">
                 Read More
               </Button>
             </div>
@@ -96,7 +96,7 @@ function Robotic() {
                 All the work is to gear up the <br />
                 performance of open-source.
               </p>
-              <Button size="large" type="primary">
+              <Button size="large" type="primary" className="btn-explore">
                 Read More
               </Button>
             </div>

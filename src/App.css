@@ -787,7 +787,6 @@ p {
 .btn-create-account-sala {
   border-radius: 8px !important;
   border: 3px solid #f2d124 !important;
-  margin-left: 20px;
   height: 45px !important;
   color: #f2d124 !important;
   font-weight: bold !important;
@@ -800,6 +799,7 @@ p {
   margin-top: 35px;
   display: flex;
   flex-direction: row;
+  column-gap: 15px;
 }
 .why-join-sala {
   width: 17%;
@@ -899,15 +899,22 @@ p {
   border-radius: 8px !important;
   width: 162px !important;
   height: 45px !important;
-
-  background: linear-gradient(180deg, #fce34b, #eac101) !important;
-  color: #1b262c !important;
+  /* background: linear-gradient(180deg, #fce34b, #eac101) !important; */
+  /* color: #1b262c !important; */
   font-weight: 600 !important;
   font-size: 15px !important;
-  border: none !important;
   filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.1));
   position: relative;
   transition: 0.3s;
+}
+.ant-btn-primary:hover {
+  border: 2px solid #000 !important;
+  background: #fff !important;
+}
+.btn-explore {
+  background: linear-gradient(180deg, #fce34b, #eac101) !important;
+  color: #1b262c !important;
+  border-color: #eac101 !important;
 }
 
 .map-top {
@@ -1205,6 +1212,14 @@ p {
 .why-mobile {
   display: none;
 }
+.legals-background {
+  background-color: #f5f5f5;
+  margin: 50px 0px;
+  padding: 50px 100px;
+  border-radius: 8px;
+  font-size: 18px !important;
+  word-wrap: break-word;
+}
 
 /* ------------------responsive ------------------------- */
 
@@ -1291,6 +1306,9 @@ p {
   }
   .banner-desc2 {
     width: 100%;
+  }
+  .legals-background {
+    padding: 50px;
   }
 }
 
@@ -1626,5 +1644,8 @@ p {
   .program-container-2 {
     padding: 60px;
     height: auto;
+  }
+  .legals-background {
+    padding: 25px;
   }
 }

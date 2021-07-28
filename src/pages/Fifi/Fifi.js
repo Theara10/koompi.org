@@ -156,7 +156,7 @@ function Fifi() {
                 fiber internet where students & teachers only pay as little as
                 1.25$ per month per user, up to two devices.{" "}
               </p>
-              <Button size="large" type="primary">
+              <Button size="large" type="primary" className="btn-explore">
                 Play Store
               </Button>
             </div>

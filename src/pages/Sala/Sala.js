@@ -22,11 +22,22 @@ function Sala() {
                     teachers to view and provide learning resources.
                   </p>
                   <div className="btn-container">
-                    <Button size="large" type="primary">
-                      Explore
+                    <Button size="large" type="primary" className="btn-explore">
+                      <a href="https://sala.koompi.com/" target="_blank">
+                        Explore
+                      </a>
                     </Button>
-                    <Button size="large" className="btn-create-account-sala">
-                      Create Account
+                    <Button
+                      size="large"
+                      type="primary"
+                      className="btn-create-account-sala"
+                    >
+                      <a
+                        href="https://sala.koompi.com/register"
+                        target="_blank"
+                      >
+                        Create Account
+                      </a>
                     </Button>
                   </div>
                 </div>
@@ -87,8 +98,10 @@ function Sala() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <Button size="large" type="sala">
-                  Explore
+                <Button size="large" type="primary">
+                  <a href="https://sala.koompi.com/" target="_blank">
+                    Explore
+                  </a>
                 </Button>
               </div>
             </Col>

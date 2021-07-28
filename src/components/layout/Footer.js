@@ -25,25 +25,25 @@ function Foot() {
               <Col xs={12} sm={12} md={6} lg={6} xl={6}>
                 <Col className="footer-head-info">LEGALS</Col>
                 <Col className="sub-header-footer">
-                  <Link to="/">Privacy Policy</Link>
+                  <Link to="/legals/privacy-policy">Privacy Policy</Link>
                 </Col>
                 <Col className="sub-header-footer">
-                  <Link to="/">Sale Policy</Link>
+                  <Link to="/legals/sale-policy">Sale Policy</Link>
                 </Col>
               </Col>
               <Col xs={12} sm={12} md={6} lg={6} xl={6}>
                 <Col className="footer-head-info">Projects</Col>
                 <Col className="sub-header-footer">
-                  <Link to="/">KOOMPI OS</Link>
+                  <Link to="/koompi-os">KOOMPI OS</Link>
                 </Col>
                 <Col className="sub-header-footer">
-                  <Link to="/">SALA KOOMPI</Link>
+                  <Link to="/sala">SALA KOOMPI</Link>
                 </Col>
                 <Col className="sub-header-footer">
-                  <Link to="/">KOOMPI FiFi</Link>
+                  <Link to="/fifi">KOOMPI FiFi</Link>
                 </Col>
                 <Col className="sub-header-footer">
-                  <Link to="/">KOOMPI ONELAB </Link>
+                  <Link to="/onelab">KOOMPI ONELAB </Link>
                 </Col>
               </Col>
               <Col xs={12} sm={12} md={6} lg={6} xl={6}>

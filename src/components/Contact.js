@@ -25,7 +25,11 @@ function Contact() {
                 The non-profit Mozilla Foundation supports online privacy &
                 security, trustworthy artificial intelligence.
               </p>
-              <Button size="large" type="primary" className="btn-contact">
+              <Button
+                size="large"
+                type="primary"
+                className="btn-contact btn-explore"
+              >
                 Contact
               </Button>
             </div>

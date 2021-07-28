@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col, Button } from "antd";
+import { Link } from "react-router-dom";
 
 const software_img = require("../../lib/img/koompi-os-software.png");
 const idea = require("../../lib/img/Idea.png");
@@ -23,9 +24,31 @@ function KoompiOS() {
                   deliver the best user experiences by providing a high
                   performance, stable, and reliable operating system.
                 </p>
-                <Button className="btn-download" size="large" type="primary">
-                  Download
-                </Button>
+
+                {/* <Button className="btn-download" size="large" type="primary">
+                  <a href="https://dev.koompi.org/iso/" target="_blank">
+                    Download
+                  </a>
+                </Button> */}
+                <div className="btn-container">
+                  <Button size="large" type="primary" className="btn-explore">
+                    <a
+                      href="https://wiki.koompi.org/en/index.md"
+                      target="_blank"
+                    >
+                      Explore
+                    </a>
+                  </Button>
+                  <Button
+                    size="large"
+                    type="primary"
+                    className="btn-create-account-sala"
+                  >
+                    <a href="https://dev.koompi.org/iso/" target="_blank">
+                      Download
+                    </a>
+                  </Button>
+                </div>
               </div>
             </Col>
             <Col xs={24} sm={24} md={14} lg={14} xl={14} xxl={14}>
