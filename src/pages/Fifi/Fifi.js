@@ -90,7 +90,7 @@ function Fifi() {
 
       <div className="sala-white-back">
         <div className="container">
-          <Row>
+          <Row gutter={[12, 12]}>
             <Col span={10}>
               <img src={mobile} alt="koompi fifi" className="koompi-fifi-pic" />
             </Col>
@@ -109,7 +109,7 @@ function Fifi() {
 
       <div className="sala-gray-back">
         <div className="container">
-          <Row>
+          <Row gutter={[12, 12]}>
             <Col span={14}>
               <div className="fifi-container-details">
                 <h2>Speed up to 300 Mbps</h2>
@@ -128,7 +128,7 @@ function Fifi() {
 
       <div className="sala-white-back">
         <div className="container">
-          <Row>
+          <Row gutter={[12, 12]}>
             <Col span={10}>
               <img src={mobile} alt="koompi fifi" className="koompi-fifi-pic" />
             </Col>
@@ -147,6 +147,7 @@ function Fifi() {
         </div>
       </div>
 
+<<<<<<< HEAD
       <div className="fifi-application">
         <div className="fifi-application-container">
           <h2 className="">Download the app now!</h2>
@@ -160,6 +161,26 @@ function Fifi() {
             Play Store
           </Button>
           <img className="fifi-img" src={fifi} alt="koompi fifi mobile app" />
+=======
+      <div className="sala-gray-back">
+        <div className="container">
+          <center>
+            <h2 className="">Download App</h2>
+            <div>
+              <p>
+                Part of the Internet-For-All initiative, KOOMPI Fi-Fi is a
+                school internet infrastructure provided by KOOMPI with fast
+                fiber internet where students & teachers only pay as little as
+                1.25$ per month per user, up to two devices.{" "}
+              </p>
+              <Button size="large" type="primary" className="btn-explore">
+                Play Store
+              </Button>
+            </div>
+
+            <img className="fifi-img" src={fifi} alt="koompi fifi mobile app" />
+          </center>
+>>>>>>> a0d1fd82d7c50cd94b8f10bf9c71205db6b6576d
         </div>
       </div>
 
@@ -172,7 +193,7 @@ function Fifi() {
               School. We hope to connect more schools to KOOMPI Fi-Fi in future.
             </p>
             <div className="map-container">
-              <img src={map} alt="maps" className="map" />
+              <img src={map} alt="maps" className=" map" />
             </div>
           </center>
         </div>

@@ -1,4 +1,4 @@
-import { Row, Col, Button } from "antd";
+import { Row, Col } from "antd";
 import React from "react";
 import BlogCard from "../../components/Card";
 import Contact from "../../components/Contact";
@@ -61,12 +61,6 @@ function Home() {
           {/* -----------blog posts ------------ */}
           <div>
             <BlogCard />
-          </div>
-
-          <br />
-          <br />
-          <div style={{ textAlign: "center" }}>
-            <Button type="primary">Load More</Button>
           </div>
         </div>
       </div>

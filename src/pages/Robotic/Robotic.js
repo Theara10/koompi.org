@@ -10,7 +10,11 @@ function Robotic() {
     return (
       <React.Fragment>
         <div className="robotic-intro">
+<<<<<<< HEAD
           <Row>
+=======
+          <Row gutter={[12, 12]}>
+>>>>>>> a0d1fd82d7c50cd94b8f10bf9c71205db6b6576d
             <Col span={14}>
               <h1>KOOMPI Robotic Program</h1>
               <p className="banner-desc">
@@ -19,7 +23,11 @@ function Robotic() {
               </p>
             </Col>
             <Col span={10}>
+<<<<<<< HEAD
               <img src={robotic} className="robot-img" alt="robotic" />
+=======
+              <img src={robotic} className="img-responsive" alt="robotic" />
+>>>>>>> a0d1fd82d7c50cd94b8f10bf9c71205db6b6576d
             </Col>
           </Row>
         </div>
@@ -61,6 +69,7 @@ function Robotic() {
           <center>
             <h1>About Programs</h1>
           </center>
+<<<<<<< HEAD
           <Row gutter={24}>
             <Col span={10}>
               <img
@@ -72,6 +81,12 @@ function Robotic() {
             <Col span={14}>
               <div className="onelap-details">
                 <h2>Software Development</h2>
+=======
+          <Row gutter={[24, 24]}>
+            <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
+              <div className="how-it-works-container">
+                <h3>Software Development</h3>
+>>>>>>> a0d1fd82d7c50cd94b8f10bf9c71205db6b6576d
                 <p>
                   Robotic Program's Software will be based on{" "}
                   <strong>Scratch</strong>, a free programming language and
@@ -80,6 +95,7 @@ function Robotic() {
                 </p>
               </div>
             </Col>
+<<<<<<< HEAD
           </Row>
         </div>
       </React.Fragment>
@@ -94,6 +110,11 @@ function Robotic() {
             <Col span={14}>
               <div className="onelap-details">
                 <h2>Hardware Development</h2>
+=======
+            <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
+              <div className="how-it-works-container">
+                <h3>Hardware Development</h3>
+>>>>>>> a0d1fd82d7c50cd94b8f10bf9c71205db6b6576d
                 <p>
                   Focuses on both electronic and Mechanic design, Robotic
                   program's hardware will inspire children to start engaging
@@ -161,7 +182,7 @@ function Robotic() {
                 All the work is to gear up the <br />
                 performance of open-source.
               </p>
-              <Button size="large" type="primary">
+              <Button size="large" type="primary" className="btn-explore">
                 Read More
               </Button>
             </div>
@@ -174,7 +195,7 @@ function Robotic() {
                 All the work is to gear up the <br />
                 performance of open-source.
               </p>
-              <Button size="large" type="primary">
+              <Button size="large" type="primary" className="btn-explore">
                 Read More
               </Button>
             </div>
@@ -192,26 +213,26 @@ function Robotic() {
             <h2 className="robotic-title">Program Robots</h2>
           </center>
           <div className="robot-type-container">
-            <Row gutter={24}>
-              <Col span={12}>
+            <Row gutter={[24, 24]}>
+              <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
                 <div className="container-robot-items">
                   <h3>K-bots</h3>
                   <p>KOOMPI Robots</p>
                   <img
                     src="https://www.bostondynamics.com/sites/default/files/2021-02/left-column-660x480.png"
                     alt="robotic images"
-                    className="robotic-img"
+                    className="img-responsive"
                   />
                 </div>
               </Col>
-              <Col span={12}>
+              <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
                 <div className="container-robot-items">
                   <h3>Smart Electronic Kits</h3>
                   <p>Friendly basic electronic components</p>
                   <img
                     src="https://www.bostondynamics.com/sites/default/files/2021-02/right-column-660x480.png"
                     alt="robotic images"
-                    className="robotic-img"
+                    className="img-responsive"
                   />
                 </div>
               </Col>
@@ -229,10 +250,17 @@ function Robotic() {
           <h2>Who is it for?</h2>
           <div className="idea-contaner">
             <Row gutter={24}>
+<<<<<<< HEAD
               <Col span={12}>
                 <div>
                   <img src={target} alt="idea" className="who-onelab-img" />
                   <h3>Elementary School</h3>
+=======
+              <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8}>
+                <img src={target} alt="idea" className="who-onelab-img" />
+                <div className="goals-detial">
+                  <h3>Idea</h3>
+>>>>>>> a0d1fd82d7c50cd94b8f10bf9c71205db6b6576d
                   <p>
                     Designed as a play-toy that can play around with
                     kid-friendly kits. This level will be just to get them
@@ -240,10 +268,28 @@ function Robotic() {
                   </p>
                 </div>
               </Col>
+<<<<<<< HEAD
               <Col span={12}>
                 <div>
                   <img src={target} alt="goals" className="who-onelab-img" />
                   <h3>Middle School</h3>
+=======
+              <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8}>
+                <img src={target} alt="goals" className="who-onelab-img" />
+                <div className="goals-detial">
+                  <h3>Goal</h3>
+                  <p>
+                    All the work is to gear up the performance of open-source
+                    and deliver the reliable operating system to all users, who
+                    use it.
+                  </p>
+                </div>
+              </Col>
+              <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8}>
+                <img src={target} alt="target" className="who-onelab-img" />
+                <div className="goals-detial">
+                  <h3>Target</h3>
+>>>>>>> a0d1fd82d7c50cd94b8f10bf9c71205db6b6576d
                   <p>
                     A foundation based to understand more about the electronic,
                     this will involve more technical tools

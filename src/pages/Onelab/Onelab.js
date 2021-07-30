@@ -3,6 +3,7 @@ import { Row, Col, Button } from "antd";
 import onelab from "../../lib/img/banner.jpg";
 import how from "../../lib/img/why.png";
 import target from "../../lib/img/target-onelab.png";
+import contactus from "../../lib/img/contact.png";
 
 function Onelab() {
   const BannerOnelab = () => {
@@ -59,7 +60,7 @@ function Onelab() {
               <img
                 src="https://getpocket.com/marketing-assets/web-discover/_next/static/images/features-phone.6f0f4c65c5892b24aa553e79b07dd444.png"
                 alt="onelap picture"
-                className=" onelap-pictures"
+                className="img-responsive onelabe-img"
               />
             </Col>
             <Col span={14}>
@@ -99,7 +100,7 @@ function Onelab() {
               <img
                 src="https://getpocket.com/marketing-assets/web-discover/_next/static/images/private-nook.adda9d99ef9f132c9d613f520e300fea.png"
                 alt="onelap picture"
-                className=" onelap-pictures"
+                className="img-responsive onelabe-img"
               />
             </Col>
           </Row>
@@ -117,7 +118,7 @@ function Onelab() {
               <img
                 src="https://getpocket.com/marketing-assets/web-discover/_next/static/images/features-phone.6f0f4c65c5892b24aa553e79b07dd444.png"
                 alt="onelap picture"
-                className=" onelap-pictures"
+                className="img-responsive onelabe-img"
               />
             </Col>
             <Col span={14}>
@@ -146,43 +147,76 @@ function Onelab() {
         <div className="users-container">
           <h2>Who is it for?</h2>
           <div className="uses-bottom">
-            <Row gutter={12}>
-              <Col span={8}>
+            <Row gutter={24}>
+              <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8}>
                 <img
                   src="https://image.freepik.com/free-vector/company-concept-illustration_114360-2721.jpg"
                   alt="school"
                   className="who-onelab-img"
                 />
+<<<<<<< HEAD
                 <h3>School</h3>
                 <p>
                   Schools can easily invest in Workstations due to its
                   affordability and utilization of essential tools instead of
                   propriety services.
                 </p>
+=======
+                <div className="goals-detial">
+                  <h3>School</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.{" "}
+                  </p>
+                </div>
+>>>>>>> a0d1fd82d7c50cd94b8f10bf9c71205db6b6576d
               </Col>
-              <Col span={8}>
+              <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8}>
                 <img
                   src="https://image.freepik.com/free-vector/company-concept-illustration_114360-2721.jpg"
                   alt="company"
                   className="who-onelab-img"
                 />
+<<<<<<< HEAD
                 <h3>Company</h3>
                 <p>
                   All Onelabs are connected to one central machine hosting a
                   samba server database, making a convenient management system.
                 </p>
+=======
+                <div className="goals-detial">
+                  <h3>Company</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.{" "}
+                  </p>
+                </div>
+>>>>>>> a0d1fd82d7c50cd94b8f10bf9c71205db6b6576d
               </Col>
-              <Col span={8}>
+              <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8}>
                 <img
                   src="https://image.freepik.com/free-vector/company-concept-illustration_114360-2721.jpg"
                   alt="org"
                   className="who-onelab-img"
                 />
+<<<<<<< HEAD
                 <h3>Organization</h3>
                 <p>
                   Organizations, especially non-profits, can benefit from
                   efficient management system without breaking budget.
                 </p>
+=======
+                <div className="goals-detial">
+                  <h3>Organization</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.{" "}
+                  </p>
+                </div>
+>>>>>>> a0d1fd82d7c50cd94b8f10bf9c71205db6b6576d
               </Col>
             </Row>
           </div>
@@ -198,9 +232,9 @@ function Onelab() {
           <h2>Our Works</h2>
           <div className="idea-contaner">
             <Row gutter={24}>
-              <Col span={8}>
-                <div>
-                  <img src={target} alt="idea" className="who-onelab-img" />
+              <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8}>
+                <img src={target} alt="idea" className="who-onelab-img" />
+                <div className="goals-detial">
                   <h3>Idea</h3>
                   <p>
                     Build an advanced learning, teaching, working, and studying
@@ -208,9 +242,9 @@ function Onelab() {
                   </p>
                 </div>
               </Col>
-              <Col span={8}>
-                <div>
-                  <img src={target} alt="goals" className="who-onelab-img" />
+              <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8}>
+                <img src={target} alt="goals" className="who-onelab-img" />
+                <div className="goals-detial">
                   <h3>Goal</h3>
                   <p>
                     To provide energy efficient, low maintenance, easy-to-use,
@@ -219,9 +253,9 @@ function Onelab() {
                   </p>
                 </div>
               </Col>
-              <Col span={8}>
-                <div>
-                  <img src={target} alt="target" className="who-onelab-img" />
+              <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8}>
+                <img src={target} alt="target" className="who-onelab-img" />
+                <div className="goals-detial">
                   <h3>Target</h3>
                   <p>
                     We aim to provide uniform computer workstations in over 10,
@@ -239,7 +273,7 @@ function Onelab() {
   const Contact = () => {
     return (
       <React.Fragment>
-        <div className="contact-onelab">
+        {/* <div className="contact-onelab">
           <Row>
             <Col span={10}>
               <img
@@ -256,6 +290,37 @@ function Onelab() {
                   development.
                 </p>
                 <Button size="large" type="primary">
+                  Contact
+                </Button>
+              </div>
+            </Col>
+          </Row>
+        </div> */}
+        <div className="contact-onelab">
+          <Row gutter={[24, 24]}>
+            <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
+              <div>
+                <img
+                  src={contactus}
+                  alt="contact with us"
+                  className="img-responsive "
+                />
+              </div>
+            </Col>
+            <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
+              <div className="contact-us-section">
+                <h2 className="project-head-title">
+                  Interested? Contact us now!
+                </h2>
+                <p>
+                  The non-profit Mozilla Foundation supports online privacy &
+                  security, trustworthy artificial intelligence.
+                </p>
+                <Button
+                  size="large"
+                  type="primary"
+                  className="btn-contact btn-explore"
+                >
                   Contact
                 </Button>
               </div>

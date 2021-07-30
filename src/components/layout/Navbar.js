@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Layout, Menu, Dropdown, BackTop, Row, Col } from "antd";
+import { Layout, Menu, Dropdown, BackTop, Row, Col, Drawer } from "antd";
 import { IoMdArrowRoundUp } from "react-icons/io";
+import { FiAlignLeft } from "react-icons/fi";
 
 const { Header } = Layout;
 
@@ -110,7 +111,7 @@ const menu = (
           <Row gutter={24}>
             <Col span={4}>
               <img
-                src="./images/robotic.png"
+                src="./images/koompi-logo-black.png"
                 className="logo-icons"
                 alt="icon-logo"
               />
@@ -133,14 +134,30 @@ const menu = (
 );
 
 function Navbar() {
+  const [visible, setVisible] = useState(false);
+
+  const handleChange = () => {
+    setVisible(!visible);
+  };
+
   return (
     <React.Fragment>
       <BackTop>
         <IoMdArrowRoundUp className="back-to-top" />
       </BackTop>
-      <Header className="header">
+      <Header className="header ">
         <div className="container">
-          <div className="navbar">
+          <FiAlignLeft className="mobileMenu" onClick={handleChange} />
+          <center>
+            <Link to="/">
+              <img
+                src="./images/koompi-logo-white.png"
+                className="koompi-logo-mobile"
+                alt="koompi.org"
+              />
+            </Link>
+          </center>
+          <div className="navbar header-desktop">
             <Link to="/">
               <img
                 src="./images/Koompi-White.png"
@@ -176,6 +193,96 @@ function Navbar() {
               </Menu.Item>
             </Menu>
           </div>
+        </div>
+        {/* -----------mobile----------- */}
+        <div>
+          <Drawer
+            title={false}
+            placement="left"
+            closable={false}
+            onClose={handleChange}
+            visible={visible}
+            className="mobile-view-navbar"
+          >
+            <Menu>
+              <Menu.Item className="menuNavbarLogo">
+                <Link to="/">
+                  <img
+                    src="./images/Koompi-White.png"
+                    className="koompi-logo-mobile-drawer"
+                    alt="koompi.org"
+                  />
+                </Link>
+              </Menu.Item>
+              <Menu.Item
+                onClick={handleChange}
+                className="sub-menu-mobile-drawer"
+                key="1"
+              >
+                <Link to="/koompi-os">KOOMPI OS</Link>
+              </Menu.Item>
+
+              <Menu.Item
+                onClick={handleChange}
+                className="sub-menu-mobile-drawer"
+                key="2"
+              >
+                <Link to="/sala">SALA KOOMPI</Link>
+              </Menu.Item>
+
+              <Menu.Item
+                onClick={handleChange}
+                className="sub-menu-mobile-drawer"
+                key="3"
+              >
+                <Link to="/fifi">KOOMPI FiFi</Link>
+              </Menu.Item>
+
+              <Menu.Item
+                onClick={handleChange}
+                className="sub-menu-mobile-drawer"
+                key="4"
+              >
+                <Link to="/onelab">KOOMPI ONELAB</Link>
+              </Menu.Item>
+
+              <Menu.Item
+                onClick={handleChange}
+                className="sub-menu-mobile-drawer"
+                key="5"
+              >
+                <Link to="/robotic">KOOMPI ROBOTIC</Link>
+              </Menu.Item>
+
+              <Menu.Item
+                onClick={handleChange}
+                className="sub-menu-mobile-drawer"
+                key="6"
+              >
+                <a
+                  href="https://wiki.koompi.org/en/index.md"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Wiki
+                </a>
+              </Menu.Item>
+
+              <Menu.Item
+                onClick={handleChange}
+                className="sub-menu-mobile-drawer"
+                key="7"
+              >
+                <a
+                  href=" https://t.me/koompicom"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Community
+                </a>
+              </Menu.Item>
+            </Menu>
+          </Drawer>
         </div>
       </Header>
     </React.Fragment>
