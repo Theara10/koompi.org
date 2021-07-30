@@ -258,3 +258,5 @@ function KoompiOS() {
     </div>
   );
 }
+
+export default KoompiOS;

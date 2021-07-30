@@ -154,23 +154,12 @@ function Onelab() {
                   alt="school"
                   className="who-onelab-img"
                 />
-<<<<<<< HEAD
                 <h3>School</h3>
                 <p>
                   Schools can easily invest in Workstations due to its
                   affordability and utilization of essential tools instead of
                   propriety services.
                 </p>
-=======
-                <div className="goals-detial">
-                  <h3>School</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.{" "}
-                  </p>
-                </div>
->>>>>>> a0d1fd82d7c50cd94b8f10bf9c71205db6b6576d
               </Col>
               <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8}>
                 <img
@@ -178,22 +167,11 @@ function Onelab() {
                   alt="company"
                   className="who-onelab-img"
                 />
-<<<<<<< HEAD
                 <h3>Company</h3>
                 <p>
                   All Onelabs are connected to one central machine hosting a
                   samba server database, making a convenient management system.
                 </p>
-=======
-                <div className="goals-detial">
-                  <h3>Company</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.{" "}
-                  </p>
-                </div>
->>>>>>> a0d1fd82d7c50cd94b8f10bf9c71205db6b6576d
               </Col>
               <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8}>
                 <img
@@ -201,22 +179,11 @@ function Onelab() {
                   alt="org"
                   className="who-onelab-img"
                 />
-<<<<<<< HEAD
                 <h3>Organization</h3>
                 <p>
                   Organizations, especially non-profits, can benefit from
                   efficient management system without breaking budget.
                 </p>
-=======
-                <div className="goals-detial">
-                  <h3>Organization</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.{" "}
-                  </p>
-                </div>
->>>>>>> a0d1fd82d7c50cd94b8f10bf9c71205db6b6576d
               </Col>
             </Row>
           </div>
