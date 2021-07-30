@@ -8,7 +8,7 @@ const goal = require("../../lib/img/Goal.png");
 const target2 = require("../../lib/img/Target.png");
 const security = require("../../lib/img/Security-desktop.png");
 const docs = require("../../lib/img/Read-Doc.png");
-const os = require("../../lib/img/KOOMPI-OS.png");
+// const os = require("../../lib/img/KOOMPI-Os.png");
 const environment = require("../../lib/img/Desktop-Enviroment-2.png");
 const target = require("../../lib/img/target-onelab.png");
 
