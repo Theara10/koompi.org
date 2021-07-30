@@ -161,7 +161,7 @@ function Robotic() {
                 All the work is to gear up the <br />
                 performance of open-source.
               </p>
-              <Button size="large" type="primary">
+              <Button size="large" type="primary" className="btn-explore">
                 Read More
               </Button>
             </div>
@@ -174,7 +174,7 @@ function Robotic() {
                 All the work is to gear up the <br />
                 performance of open-source.
               </p>
-              <Button size="large" type="primary">
+              <Button size="large" type="primary" className="btn-explore">
                 Read More
               </Button>
             </div>
@@ -192,26 +192,26 @@ function Robotic() {
             <h2 className="robotic-title">Program Robots</h2>
           </center>
           <div className="robot-type-container">
-            <Row gutter={24}>
-              <Col span={12}>
+            <Row gutter={[24, 24]}>
+              <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
                 <div className="container-robot-items">
                   <h3>K-bots</h3>
                   <p>KOOMPI Robots</p>
                   <img
                     src="https://www.bostondynamics.com/sites/default/files/2021-02/left-column-660x480.png"
                     alt="robotic images"
-                    className="robotic-img"
+                    className="img-responsive"
                   />
                 </div>
               </Col>
-              <Col span={12}>
+              <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
                 <div className="container-robot-items">
                   <h3>Smart Electronic Kits</h3>
                   <p>Friendly basic electronic components</p>
                   <img
                     src="https://www.bostondynamics.com/sites/default/files/2021-02/right-column-660x480.png"
                     alt="robotic images"
-                    className="robotic-img"
+                    className="img-responsive"
                   />
                 </div>
               </Col>

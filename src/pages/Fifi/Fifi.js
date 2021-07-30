@@ -90,7 +90,7 @@ function Fifi() {
 
       <div className="sala-white-back">
         <div className="container">
-          <Row>
+          <Row gutter={[12, 12]}>
             <Col span={10}>
               <img src={mobile} alt="koompi fifi" className="koompi-fifi-pic" />
             </Col>
@@ -109,7 +109,7 @@ function Fifi() {
 
       <div className="sala-gray-back">
         <div className="container">
-          <Row>
+          <Row gutter={[12, 12]}>
             <Col span={14}>
               <div className="fifi-container-details">
                 <h2>Speed up to 300 Mbps</h2>
@@ -128,7 +128,7 @@ function Fifi() {
 
       <div className="sala-white-back">
         <div className="container">
-          <Row>
+          <Row gutter={[12, 12]}>
             <Col span={10}>
               <img src={mobile} alt="koompi fifi" className="koompi-fifi-pic" />
             </Col>
@@ -172,7 +172,7 @@ function Fifi() {
               School. We hope to connect more schools to KOOMPI Fi-Fi in future.
             </p>
             <div className="map-container">
-              <img src={map} alt="maps" className="map" />
+              <img src={map} alt="maps" className=" map" />
             </div>
           </center>
         </div>

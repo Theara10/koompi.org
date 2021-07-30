@@ -14,8 +14,8 @@ function Sala() {
       <div className="koompi-os-intro">
         <div className="container">
           <div className="os-banner-section">
-            <Row>
-              <Col span={8}>
+            <Row gutter={24}>
+              <Col xs={24} sm={24} md={10} lg={10} xl={10} xxl={10}>
                 <div className="sala-koompi-details">
                   <h1>SALA KOOMPI</h1>
                   <p className="banner-desc2">
@@ -23,20 +23,31 @@ function Sala() {
                     creators.
                   </p>
                   <div className="btn-container">
-                    <Button size="large" type="primary">
-                      Explore
+                    <Button size="large" type="primary" className="btn-explore">
+                      <a href="https://sala.koompi.com/" target="_blank">
+                        Explore
+                      </a>
                     </Button>
-                    <Button size="large" className="btn-create-account-sala">
-                      Create Free Account
+                    <Button
+                      size="large"
+                      type="primary"
+                      className="btn-create-account-sala"
+                    >
+                      <a
+                        href="https://sala.koompi.com/register"
+                        target="_blank"
+                      >
+                        Create Account
+                      </a>
                     </Button>
                   </div>
                 </div>
               </Col>
-              <Col span={10} offset={2}>
+              <Col xs={24} sm={24} md={14} lg={14} xl={14} xxl={14}>
                 <img
                   src={sala.default}
                   alt="sala koompi"
-                  className="sala-koompi-banner-pic"
+                  className="img-responsive sala-koompi-banner-pic"
                 />
               </Col>
             </Row>
