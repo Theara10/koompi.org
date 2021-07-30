@@ -1,43 +1,71 @@
 import React from "react";
 import { Row, Col, Button } from "antd";
+import Contact from "../../components/Contact";
 
-const software_img = require("../../lib/img/koompi-os-software.png");
+const software_img = require("../../lib/img/Software-desktop.png");
 const idea = require("../../lib/img/Idea.png");
 const goal = require("../../lib/img/Goal.png");
-const target = require("../../lib/img/Target.png");
-const security = require("../../lib/img/Security.png");
+const target2 = require("../../lib/img/Target.png");
+const security = require("../../lib/img/Security-desktop.png");
 const docs = require("../../lib/img/Read-Doc.png");
-const os = require("../../lib/img/KOOMPI-Os.png");
+const os = require("../../lib/img/KOOMPI-OS.png");
+const environment = require("../../lib/img/Desktop-Enviroment-2.png");
+const target = require("../../lib/img/target-onelab.png");
 
 function KoompiOS() {
   return (
     <div className="koompi-os">
       <div className="koompi-os-intro">
         <div className="container">
+          <div className="">
+            <center>
+              <h1 className="intro-title">KOOMPI OS</h1>
+            </center>
+
+            <p className="banner-desc2">
+              A lightweight, decentralized, crypto/security-oriented open-source
+              operating system derived from Archlinux. KOOMPI OS is built on a
+              kernel and provides an environment for multiple applications and
+              software to run simultaneously.
+            </p>
+          </div>
+          <Button className="btn-download" size="large" type="primary">
+            Download
+          </Button>
+
+          <Button className="btn-update">Update</Button>
+          <img
+            src={software_img.default}
+            alt="koompi-os"
+            className="os-main-img"
+          />
+          <center>
+            <p> KOOMPI OS V3.3.5</p>
+          </center>
+        </div>
+      </div>
+      {/* <div className="koompi-os-intro">
+        <div className="container">
           <div className="os-banner-section">
             <Row gutter={[24, 24]}>
-              <Col span={10}>
+              <Col span={8}>
                 <div className="koompi-os-details">
                   <h1 className="intro-title">KOOMPI OS</h1>
 
                   <p className="banner-desc2">
-                    
                     A lightweight, decentralized, crypto/security-oriented
-                    open-source operating system derived from Archlinux. KOOMPI
-                    OS is built on a kernel and provides an environment for
-                    multiple applications and software to run simultaneously.
-
+                    open-source operating system derived from Archlinux.
                   </p>
                   <Button className="btn-download" size="large" type="primary">
                     Download
                   </Button>
                 </div>
               </Col>
-              <Col span={14}>
+              <Col span={16}>
                 <img
-                  src={os.default}
+                  src={software_img.default}
                   alt="koompi-os"
-                  className="img-responsive"
+                  className="os-main-img"
                 />
                 <center>
                   <p> KOOMPI OS V3.3.5</p>
@@ -46,67 +74,7 @@ function KoompiOS() {
             </Row>
           </div>
         </div>
-      </div>
-
-      <div className="container">
-        <div className="goal">
-          <div className="goal-container">
-            <Row gutter={[32, 32]}>
-              <Col span={8}>
-                <div>
-                  <center>
-                    <img
-                      src={idea.default}
-                      alt="koompi.org"
-                      className="image-koompi"
-                    />
-                    <h3>Idea</h3>
-                    <p>
-                      The idea behind KOOMPI OS is to create a free operating
-                      system for all kind of users without breaching their
-                      personal data.
-                    </p>
-                  </center>
-                </div>
-              </Col>
-              <Col span={8}>
-                <div>
-                  <center>
-                    <img
-                      src={goal.default}
-                      alt="koompi.org"
-                      className="image-koompi"
-                    />
-                    <h3>Goal</h3>
-                    <p>
-                      The idea behind KOOMPI OS is to create a free operating
-                      system for all kinds of users without breaching their
-                      personal data.
-                    </p>
-                  </center>
-                </div>
-              </Col>
-              <Col span={8}>
-                <div>
-                  <center>
-                    <img
-                      src={target.default}
-                      alt="koompi.org"
-                      className="image-koompi"
-                    />
-                    <h3>Target</h3>
-                    <p>
-                      Users who seek out an operating system that allows them to
-                      use all essential applications without breaking their
-                      budget.
-                    </p>
-                  </center>
-                </div>
-              </Col>
-            </Row>
-          </div>
-        </div>
-      </div>
+      </div> */}
 
       <div className="container">
         <div className="os-section-height">
@@ -134,9 +102,9 @@ function KoompiOS() {
           </Row>
         </div>
       </div>
-
-      <div className="container">
-        <div className="os-section-height">
+      {/* <div className="os-security"> */}
+      <div className="os-section-height" style={{ backgroundColor: "#f4f4f4" }}>
+        <div className="container">
           <Row gutter={[24, 24]}>
             <Col span={12}>
               <div className="os-section-height-detail">
@@ -160,13 +128,14 @@ function KoompiOS() {
           </Row>
         </div>
       </div>
+      {/* </div> */}
 
       <div className="container">
         <div className="os-section-height">
           <Row gutter={[24, 24]}>
             <Col span={12}>
               <img
-                src="https://getpocket.com/marketing-assets/web-discover/_next/static/images/features-phone.6f0f4c65c5892b24aa553e79b07dd444.png"
+                src={environment.default}
                 alt="koompi.org"
                 className="img-responsive"
               />
@@ -187,8 +156,8 @@ function KoompiOS() {
         </div>
       </div>
 
-      <div className="container">
-        <div className="os-section-height">
+      <div className="os-section-height" style={{ backgroundColor: "#f4f4f4" }}>
+        <div className="container">
           <Row gutter={[24, 24]}>
             <Col span={12}>
               <div className="os-section-height-detail">
@@ -205,6 +174,42 @@ function KoompiOS() {
                 alt="koompi.org"
                 className="img-responsive"
               />
+            </Col>
+          </Row>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="os-section-height">
+          <Row gutter={[32, 32]}>
+            <Col span={12}>
+              <div>
+                <center>
+                  <img
+                    src={target.default}
+                    alt="koompi.org"
+                    className="image-koompi"
+                  />
+                  <h3>Code Of Conduct</h3>
+                  <p>
+                    We welcome contributors. <br />
+                    Read our Code of Conduct here!
+                  </p>
+                </center>
+              </div>
+            </Col>
+            <Col span={12}>
+              <div>
+                <center>
+                  <img
+                    src={target.default}
+                    alt="koompi.org"
+                    className="image-koompi"
+                  />
+                  <h3>The Community</h3>
+                  <p>Join the community and support the open-source world!</p>
+                </center>
+              </div>
             </Col>
           </Row>
         </div>

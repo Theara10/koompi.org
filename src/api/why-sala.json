@@ -1,32 +1,15 @@
 [
   {
     "id": 1,
-    "images": "/images/C4.png",
-    "titile": "SALA KOOMPI's Visions",
-    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    "images": "/images/C3.png",
+    "titile": "STEAM subjects in local language",
+    "subtitle": "KOOMPI Sala offers a wide variety of content for users. Our focus and goal are to inspire and encourage Cambodian students to enjoy learning STEAM subjects, inside and outside of their classrooms."
   },
   {
     "id": 2,
     "images": "/images/C1.png",
-    "titile": "Easy To Find",
-    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-  },
-  {
-    "id": 3,
-    "images": "/images/C2.png",
-    "titile": "Abundance Of Resources",
-    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-  },
-  {
-    "id": 4,
-    "images": "/images/C3.png",
-    "titile": "Learn Variety Of Subjects",
-    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-  },
-  {
-    "id": 5,
-    "images": "/images/C5.png",
-    "titile": "Abundance On System Management ",
-    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    "titile": "Take your classroom with you ",
+    "subtitle": "Keep track of your study progress and learn anywhere and anytime. "
   }
+  
 ]

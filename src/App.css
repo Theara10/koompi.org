@@ -72,7 +72,7 @@ p {
   margin: 0px;
   font-size: 14px;
   color: #1b262c8a;
-  /* color: #fce24a; */
+  /* color: #38a7c8 !important; */
 }
 
 .card-title {
@@ -81,7 +81,8 @@ p {
   font-size: 24px;
   padding: 0px;
   margin-top: 0px;
-  color: var(--primary-color);
+  /* color: var(--primary-color); */
+  color: #38a7c8 !important;
 }
 
 .card-description {
@@ -435,8 +436,9 @@ p {
   margin-bottom: 40px;
 }
 .banner-desc2 {
-  font-size: 22px !important;
-  margin-bottom: 40px;
+  font-size: 26px !important;
+  /* margin-bottom: 40px; */
+  color: #5f6368;
 }
 .ant-card-cover img {
   border-radius: 2px 2px 0 0;
@@ -535,11 +537,15 @@ p {
 
 .koompi-os-intro {
   position: relative;
-  min-height: 80vh;
+  height: 1100px;
   /* background-image: url("https://media.istockphoto.com/vectors/abstract-technology-background-vector-id842945754"); */
   /* display: flex;
     justify-content: center; */
-  background: #1b262c;
+  /* background: #1b262c; */
+  background-color: #f1f2f6;
+  text-align: center;
+  padding-top: 80px;
+  border-top: 0.5px solid gray;
 }
 .os-banner-section {
   position: relative;
@@ -553,9 +559,11 @@ p {
 }
 
 .intro-title {
-  margin-top: 50px;
-  width: 300px;
+  /* margin-top: 50px; */
+  /* width: 300px; */
   color: #38a7c8;
+  text-align: center;
+  padding-top: 50px;
 }
 .ant-btn-os-version {
   border-radius: 8px !important;
@@ -572,15 +580,30 @@ p {
   transition: 0.3s;
   margin-top: 30px;
 }
+
+.btn-update {
+  font-size: 14px !important;
+  height: 40px !important;
+  line-height: 0px !important;
+  font-weight: bold !important;
+  padding: 0px 35px !important;
+  margin-top: 30px !important;
+  border-radius: 8px !important;
+  background: #f1f2f6 !important;
+  border: 2.5px solid yellow;
+  color: linear-gradient(180deg, #fce34b, #eac101) !important;
+}
+
 .intro-description {
   font-size: 18px;
+  color: #5f6368;
 }
 .os-title {
   font-size: 26px;
 }
 .os-section-height {
   position: relative;
-  min-height: 650px;
+  min-height: 550px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -589,6 +612,12 @@ p {
   position: absolute;
   top: 40%;
   transform: translateY(-50%);
+}
+
+.os-main-img {
+  height: 550px;
+  width: auto;
+  margin-top: 50px;
 }
 
 .security {
@@ -629,8 +658,8 @@ p {
   margin-top: 30px;
 }
 .image-koompi {
-  width: 70%;
-  height: 260px;
+  width: 50%;
+  height: 160px;
 }
 .goal {
   margin-top: 40px !important;
@@ -645,6 +674,12 @@ p {
 }
 .sala h2 {
   font-size: 36px;
+  color: #38a7c8;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.sala h3 {
+  font-size: 28px;
   color: #38a7c8;
   font-weight: bold;
   line-height: 1.2;
@@ -785,6 +820,7 @@ p {
 .btn-download {
   margin-top: 25px;
 }
+
 .sala-koompi-banner-pic {
   width: 90vh;
   position: relative;
@@ -1016,9 +1052,15 @@ p {
 .how-it-works-robotic {
   margin: auto;
   padding: 120px 0;
+  padding-bottom: 0px !important;
 }
 .robotic-title {
   padding-bottom: 40px;
+}
+
+.robotic-software {
+  height: 500px;
+  margin-top: 100px;
 }
 
 .how-it-works-container {
@@ -1037,6 +1079,7 @@ p {
 
 .work-station {
   height: 500px;
+  padding-top: 100px;
 }
 
 .contact-onelab {
@@ -1074,7 +1117,7 @@ p {
 }
 
 .users-container {
-  padding: 50px 0px;
+  padding: 120px 0px;
   margin: auto;
   justify-content: center;
   text-align: center;
@@ -1161,12 +1204,12 @@ p {
   align-items: center;
   justify-content: center;
   margin: auto;
-  padding: 120px 0;
+  padding: 100px 0;
 }
 
 .robot-type-container {
   height: 500px;
-  width: 1201px;
+  width: 926px;
   text-align: center;
   padding: 0px !important;
   display: flex;
@@ -1178,7 +1221,7 @@ p {
   padding: 30px 20px;
 }
 .robotic-img {
-  width: 550px;
+  width: 450px;
 }
 
 .ideas {
@@ -1192,7 +1235,7 @@ p {
   margin-top: 20%;
 }
 .onelap-pictures {
-  width: 450px;
+  width: 350px;
 }
 .who-onelab-img {
   width: 70%;

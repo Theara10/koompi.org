@@ -13,9 +13,9 @@ function Home() {
         <div className="container">
           <div className="banner-contents">
             <div className="banner-title">
-              {/* <h1>Welcome to koompi.org!</h1> */}
-              <h1>No license fees. No limitations.</h1>
-              <h1>Always Open-Source.</h1>
+              <h1>Welcome to koompi.org!</h1>
+              {/* <h1>No license fees. No limitations.</h1>
+              <h1>Always Open-Source.</h1> */}
             </div>
 
             <p className="banner-desc">
@@ -32,9 +32,7 @@ function Home() {
           <center>
             <h2 className="project-head-title">The Open Source Projects</h2>
             <p className="project-desc">
-              Welcome to your new favorite browser. Get the latest features,
-              fast performance, and the development tools you need to build for
-              the open web.
+              Read about our ongoing open-source projects and programs.
             </p>
           </center>
           <Row gutter={[24, 24]}>
@@ -72,7 +70,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <Contact />
+      {/* <Contact /> */}
     </React.Fragment>
   );
 }
