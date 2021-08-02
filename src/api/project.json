@@ -3,7 +3,7 @@
     "id": 1,
     "title": "KOOMPI OS",
     "subtitle": "Operating System",
-    "desc": "A friendly Linux distribution derive from Achlinux. We aim to deliver the best user experiences by providing a high performance, stable, and reliable operating system.",
+    "desc": "A lightweight, decentralized, crypto/security-oriented open-source operating system derived from Archlinux. KOOMPI OS is built on a kernel and provides an environment for multiple applications and software to run simultaneously.",
     "image": "/images/KOOMPI-Os.png",
     "logo": "/images/logo.svg",
     "link": "/koompi-os"
@@ -12,7 +12,7 @@
     "id": 2,
     "title": "SALA KOOMPI",
     "subtitle": "E-Learning",
-    "desc": "A virtual school that allows both students and teachers to view and provide learning resources. School admins and teachers can sign up as members of a virtual school on the platform and distribute lessons exclusively to their students as well.",
+    "desc": "Virtual platform for students, teachers, and content creators. Explore STEAM educational content on this one-stop digital classroom. ",
     "image": "/images/sala.png",
     "logo": "/images/sala-logo.png",
     "link": "/sala"
@@ -21,8 +21,8 @@
     "id": 3,
     "title": "KOOMPI FIFI",
     "subtitle": "Network",
-    "desc": "This website is a one-stop platform that gathering the instruction installation, updating, FAQs, and problem-solving.",
-    "image": "/images/koompi-fifi.png",
+    "desc": "As part of our Internet-For-All initiative, KOOMPI Fi-Fi is a wireless internet infrastructure designed for schools and neighboring communities providing fast fiber internet at a low cost.",
+    "image": "/images/koompi-FiFi.png",
     "logo": "/images/KOOMPI-Wifi-1.png",
     "link": "/fifi"
   },
@@ -30,7 +30,7 @@
     "id": 4,
     "title": "KOOMPI ONELAB",
     "subtitle": "Lab Solution",
-    "desc": "This website is a one-stop platform that gathering the instruction installation, updating, FAQs, and problem-solving.",
+    "desc": "KOOMPI Onelab is a computer laboratory with hardware and software solution that enables teachers and administrators to facilitate and monitor students' progress in real time.    ",
     "image": "/images/banner.png",
     "logo": "/images/logo.svg",
     "link": "/onelab"
@@ -39,7 +39,7 @@
     "id": 5,
     "title": "KOOMPI Robotic Program",
     "subtitle": "Robotic",
-    "desc": "This website is a one-stop platform that gathering the instruction installation, updating, FAQs, and problem-solving.",
+    "desc": "A part of KOOMPI ACADEMY, Robotic Program is an extension program focused on robotic engineering and electronics.",
     "image": "/images/robotic.png",
     "logo": "/images/logo.svg",
     "link": "/robotic"

@@ -13,13 +13,8 @@ function Onelab() {
           <center>
             <h1>KOOMPI Onelab</h1>
             <p className="banner-desc2 ">
-              Part of KOOMPI Enterprise, Onelabs are advanced learning,
-              teaching, work and study environments, <br /> centered around a
-              local independent server at each school. <br />
-              Curriculum updates are distributed by teachers and administrators
-              through the local server,
-              <br /> which is uniform and compatible with all other
-              participating schools in Cambodia.
+              Update. Synchronize. Connect. Efficient laboratory management with
+              minimal internet dependency.
             </p>
 
             <img src={onelab} className="onelab-img" alt="koompi onelab" />
@@ -36,18 +31,14 @@ function Onelab() {
           <div className="how-it-works-container">
             <h2>How does it work?</h2>
             <p>
-              KOOMPI Onelab Workstation is a computer laboratory with hardware
-              and software solution that enables teachers and administrators to
-              facilitate and monitor students' progress in real time. There are
-              three main components that makes the labs functional: hardware,
-              content server, and internet connection. Schools can easily invest
-              in Workstations due to its affordability and utilization of
-              essential tools: monitors, keyboards, mouses, and Raspberry Pis.
-              The labs are powered by a content server that runs independently,
-              meaning information is stored in an offline cache and gets updated
-              when connected to the internet (KOOMPI Fi-Fi). All Workstations
-              are connected to one central machine hosting a samba server
-              database, making a convenient management system.
+              <strong>KOOMPI Onelab</strong> is a computer laboratory with
+              hardware and software solution that enables teachers and
+              administrators to facilitate and monitor students' progress in
+              real time. There are three main components that makes the labs
+              functional: hardware, content server, and internet connection.{" "}
+              <br /> The labs are powered by a content server that runs
+              independently, meaning information is stored in an offline cache
+              and gets updated when connected to the internet (KOOMPI Fi-Fi).
             </p>
           </div>
           <img src={how} alt="how does it work" className="how-it-works-img" />
@@ -75,10 +66,10 @@ function Onelab() {
               <div className="onelap-details">
                 <h2>Work Station</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  The three main components of a workstation are: hardware,
+                  content server, and internet connection. All Workstations are
+                  connected to one central machine hosting a samba server
+                  database, making a convenient management system.
                 </p>
               </div>
             </Col>
@@ -97,10 +88,10 @@ function Onelab() {
               <div className="onelap-details">
                 <h2>Content Server</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  The purpose of the Content Server is to update, synchronize,
+                  and pre-store web content for local browsing independently of
+                  an Internet connection, providing greater network speed and
+                  stability during Internet downtime.
                 </p>
               </div>
             </Col>
@@ -133,10 +124,13 @@ function Onelab() {
               <div className="onelap-details">
                 <h2>Network</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  The service depends minimally on network connectivity to keep
+                  the operation running smoothly. We build our network
+                  infrastructure based on the internet cache protocol to store
+                  the content locally with the Content Server. IPFS technology
+                  takes storing and sharing data to the next level. Updates
+                  occur when Internet connections are available, and as
+                  prevailing connection speeds allow.
                 </p>
               </div>
             </Col>
@@ -162,9 +156,9 @@ function Onelab() {
                 <div className="goals-detial">
                   <h3>School</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.{" "}
+                    Schools can easily invest in Workstations due to its
+                    affordability and utilization of essential tools instead of
+                    propriety services.
                   </p>
                 </div>
               </Col>
@@ -177,9 +171,9 @@ function Onelab() {
                 <div className="goals-detial">
                   <h3>Company</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.{" "}
+                    All Onelabs are connected to one central machine hosting a
+                    samba server database, making a convenient management
+                    system.
                   </p>
                 </div>
               </Col>
@@ -192,9 +186,8 @@ function Onelab() {
                 <div className="goals-detial">
                   <h3>Organization</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.{" "}
+                    Organizations, especially non-profits, can benefit from
+                    efficient management system without breaking budget.
                   </p>
                 </div>
               </Col>
@@ -316,12 +309,13 @@ function Onelab() {
       <div className="container">
         <BannerOnelab />
         <HowItWork />
-        <Ideas />
+        {/* <Ideas /> */}
+        <Who />
         <WorkStation />
         <ContentServer />
         <Network />
-        <Who />
-        <Contact />
+
+        {/* <Contact /> */}
       </div>
     </div>
   );

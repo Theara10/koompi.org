@@ -1,7 +1,7 @@
 import { Row, Col } from "antd";
 import React from "react";
 import BlogCard from "../../components/Card";
-import Contact from "../../components/Contact";
+// import Contact from "../../components/Contact";
 import ProjectCard from "../../components/ProjectCard";
 
 const koompi_logo = require("../../lib/img/koompi-logo-black.png");
@@ -20,9 +20,9 @@ function Home() {
             </div>
 
             <p className="banner-desc">
-              Welcome to your new favorite browser. Get the latest features,
-              fast performance, and the development tools you need to build for
-              the open web.
+              This website is the official encyclopedia for KOOMPI projects and
+              initiatives. Read about our contribution to the open-source
+              community below!
             </p>
           </div>
         </div>
@@ -33,9 +33,7 @@ function Home() {
           <center>
             <h2 className="project-head-title">The Open Source Projects</h2>
             <p className="project-desc">
-              Welcome to your new favorite browser. Get the latest features,
-              fast performance, and the development tools you need to build for
-              the open web.
+              Read about our ongoing open-source projects and programs.
             </p>
           </center>
           <Row gutter={[24, 24]}>
@@ -57,10 +55,7 @@ function Home() {
           <center>
             <div className="recentnews-header">
               <h1>News And Events</h1>
-              <p>
-                Get the latest features, fast performance, and the development
-                tools you need to build for the open web.
-              </p>
+              <p>Read about our activities and milestones.</p>
             </div>
           </center>
 
@@ -70,7 +65,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <Contact />
+      {/* <Contact /> */}
     </React.Fragment>
   );
 }

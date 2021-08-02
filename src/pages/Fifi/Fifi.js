@@ -3,6 +3,7 @@ import { Row, Col, Button } from "antd";
 // import { TileLayer, MapContainer as LeafletMap } from "react-leaflet";
 import fifi from "../../lib/img/MobileApp12.png";
 import mobile from "../../lib/img/koompi-fifi.png";
+import fifimobile from "../../lib/img/FiFiMobileApp.png";
 import map from "../../lib/img/map2.png";
 
 function Fifi() {
@@ -14,10 +15,10 @@ function Fifi() {
             <div className="koompi-fifi-content">
               <h1>KOOMPI FiFi APP</h1>
               <p className="banner-desc2">
-                Part of the Internet-For-All initiative, KOOMPI Fi-Fi is a
-                school internet infrastructure provided by KOOMPI with fast
-                fiber internet where students & teachers only pay as little as
-                1.25$ per month per user, up to two devices.
+                As part of our Internet-For-All initiative, KOOMPI Fi-Fi is a
+                wireless internet infrastructure designed for schools and
+                neighboring communities providing fast fiber internet at a user
+                cost of only USD 1.25 per month for up to two devices.
               </p>
             </div>
             <img src={fifi} className="koompi-fifi-img" alt="koompi fifi" />
@@ -98,8 +99,8 @@ function Fifi() {
               <div className="fifi-container-details">
                 <h2>Spend as Low as 0.50$ a Month</h2>
                 <p className="intro-description">
-                  All packages of the software are available for the latest
-                  version, using pi and pix as a package manager.
+                  KOOMPI Fi-Fi is a 5000៛ ($1.25) monthly subscription network
+                  service that provides secure storage and internet connection.
                 </p>
               </div>
             </Col>
@@ -112,10 +113,10 @@ function Fifi() {
           <Row gutter={[12, 12]}>
             <Col span={14}>
               <div className="fifi-container-details">
-                <h2>Speed Up to 50Mbps</h2>
+                <h2>Speed Up to 300Mbps</h2>
                 <p className="intro-description">
-                  All packages of the software are available for the latest
-                  version, using pi and pix as a package manager.
+                  Data is unlimited with speeds from between 60 Mbps to 300 Mbps
+                  depending on the connected workload.
                 </p>
               </div>
             </Col>
@@ -130,14 +131,20 @@ function Fifi() {
         <div className="container">
           <Row gutter={[12, 12]}>
             <Col span={10}>
-              <img src={mobile} alt="koompi fifi" className="koompi-fifi-pic" />
+              <img
+                src={fifimobile}
+                alt="koompi fifi"
+                className="koompi-fifi-pic"
+              />
             </Col>
             <Col span={14}>
               <div className="fifi-container-details">
                 <h2>10 Minutes to Fully Set Up</h2>
                 <p className="intro-description">
-                  All packages of the software are available for the latest
-                  version, using pi and pix as a package manager.
+                  Be wherever KOOMPI Wifi is set up and instantly connect!
+                  KOOMPI Hotspot is a mobile app that connects users to KOOMPI
+                  Wifi wherever it is available. Be among the first 2000 users
+                  to get two months of free KOOMPI Hotspot plan!
                 </p>
               </div>
             </Col>
@@ -148,7 +155,7 @@ function Fifi() {
       <div className="sala-gray-back">
         <div className="container">
           <center>
-            <h2 className="">Download App</h2>
+            <h2 className="">Download the app now!</h2>
             <div>
               <p>
                 Part of the Internet-For-All initiative, KOOMPI Fi-Fi is a
@@ -157,7 +164,12 @@ function Fifi() {
                 1.25$ per month per user, up to two devices.{" "}
               </p>
               <Button size="large" type="primary" className="btn-explore">
-                Play Store
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.koompi.hotspot"
+                  target="_blank"
+                >
+                  Play Store
+                </a>
               </Button>
             </div>
 
@@ -169,12 +181,10 @@ function Fifi() {
       <div className="background-locations">
         <div className="container">
           <center>
-            <h2 className="fifi-title">Available FIFI Location</h2>
+            <h2 className="fifi-title">Available Fi-Fi Location</h2>
             <p>
-              Part of the Internet-For-All initiative, KOOMPI Fi-Fi is a school
-              internet infrastructure provided by KOOMPI <br /> with fast fiber
-              internet where students & teachers only pay as little as 1.25$ per
-              month per user, up to two devices.
+              The first school to be connected to KOOMPI Fi-Fi is Saang High
+              School. We hope to connect more schools to KOOMPI Fi-Fi in future.
             </p>
             <div className="map-container">
               <img src={map} alt="maps" className=" map" />

@@ -3,6 +3,7 @@ import { Row, Col, Button } from "antd";
 import robotic from "../../lib/img/robot.png";
 import robotic2 from "../../lib/img/robot3.png";
 import target from "../../lib/img/target-onelab.png";
+import whyrobotic from "../../lib/img/why-robotic.png";
 
 function Robotic() {
   const RoboticBanner = () => {
@@ -10,17 +11,42 @@ function Robotic() {
       <React.Fragment>
         <div className="robotic-intro">
           <Row gutter={[12, 12]}>
-            <Col span={14}>
+            <Col xs={24} sm={24} md={14} lg={14} xl={14} xxl={14}>
               <h1>KOOMPI Robotic Program</h1>
               <p className="banner-desc">
-                Computer workstation with usability, minimal internet <br />
-                dependency, efficiency, and affordable cost.
+                As part of KOOMPI ACADEMY, Robotic Program is an extension
+                initiative that focuses on an introduction to programming,
+                robotic engineering and electronics.
               </p>
             </Col>
-            <Col span={10}>
+            <Col xs={24} sm={24} md={10} lg={10} xl={10} xxl={10}>
               <img src={robotic} className="img-responsive" alt="robotic" />
             </Col>
           </Row>
+        </div>
+      </React.Fragment>
+    );
+  };
+
+  const WhyRobotic = () => {
+    return (
+      <React.Fragment>
+        <div className="program">
+          <center>
+            <h2>Why Robotic Program?</h2>
+            <p>
+              Our program aims to foster peer-to-peer learning, promote
+              creativity and develop social cognitive skills. Students will
+              engage in more open-ended activities to inquire and experience
+              mathematical and programming concepts. As a self-guided learning
+              platform, we focus on inspiring and encouraging young students to
+              learn, explore, and build new innovative solutions for the future.
+              Their participation will boost their abilities in critical
+              thinking, problem solving, independent learning and teamwork.
+            </p>
+
+            <img src={whyrobotic} className=" why-robotic-img" alt="robotic" />
+          </center>
         </div>
       </React.Fragment>
     );
@@ -31,16 +57,17 @@ function Robotic() {
       <React.Fragment>
         <div className="how-it-works-robotic">
           <center>
-            <h2 className="robotic-title">How does it work?</h2>
+            <h2 className="robotic-title">About Program</h2>
           </center>
           <Row gutter={[24, 24]}>
             <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
               <div className="how-it-works-container">
                 <h3>Software Development</h3>
                 <p>
-                  All the work is to gear up the performance of open-source and
-                  deliver the reliable operating system to all users, who use
-                  it.
+                  Robotic Program's Software will be based on
+                  <strong> Scratch</strong>, a free programming language and
+                  online community where you can create your own interactive
+                  stories, games, and animations.
                 </p>
               </div>
               <img
@@ -53,8 +80,10 @@ function Robotic() {
               <div className="how-it-works-container">
                 <h3>Hardware Development</h3>
                 <p>
-                  Using <strong>Scratch</strong>, a programming language and
-                  community tool to create stories, games and animations.
+                  Focuses on both electronic and Mechanic design, Robotic
+                  program's hardware will inspire children to start engaging
+                  with programming, science, electronics by building,
+                  programming and observing it.
                 </p>
               </div>
               <img
@@ -63,48 +92,59 @@ function Robotic() {
                 className="how-robotic-works-img2"
               />
             </Col>
+            <Col span={24}>
+              <div className="how-it-works-container">
+                <h3>Curriculum</h3>
+                <p>
+                  The curriculum designs purposely for the elementary and middle
+                  school students. Students will learn through video tutorials
+                  and show their understanding through quizzes and hands-on
+                  projects.
+                </p>
+              </div>
+            </Col>
           </Row>
         </div>
       </React.Fragment>
     );
   };
 
-  const OurPrograms = () => {
-    return (
-      <React.Fragment>
-        <div>
-          <center>
-            <h2 className="robotic-title">Our Programs</h2>
-          </center>
-          <div className="program">
-            <div className="program-container">
-              <h3>Program 1</h3>
-              <p className="robotic-program-desc">
-                All the work is to gear up the <br />
-                performance of open-source.
-              </p>
-              <Button size="large" type="primary" className="btn-explore">
-                Read More
-              </Button>
-            </div>
-          </div>
+  // const OurPrograms = () => {
+  //   return (
+  //     <React.Fragment>
+  //       <div>
+  //         <center>
+  //           <h2 className="robotic-title">Our Programs</h2>
+  //         </center>
+  //         <div className="program">
+  //           <div className="program-container">
+  //             <h3>Program 1</h3>
+  //             <p className="robotic-program-desc">
+  //               All the work is to gear up the <br />
+  //               performance of open-source.
+  //             </p>
+  //             <Button size="large" type="primary" className="btn-explore">
+  //               Read More
+  //             </Button>
+  //           </div>
+  //         </div>
 
-          <div className="program">
-            <div className="program-container-2">
-              <h3>Program 2</h3>
-              <p className="robotic-program-desc">
-                All the work is to gear up the <br />
-                performance of open-source.
-              </p>
-              <Button size="large" type="primary" className="btn-explore">
-                Read More
-              </Button>
-            </div>
-          </div>
-        </div>
-      </React.Fragment>
-    );
-  };
+  //         <div className="program">
+  //           <div className="program-container-2">
+  //             <h3>Program 2</h3>
+  //             <p className="robotic-program-desc">
+  //               All the work is to gear up the <br />
+  //               performance of open-source.
+  //             </p>
+  //             <Button size="large" type="primary" className="btn-explore">
+  //               Read More
+  //             </Button>
+  //           </div>
+  //         </div>
+  //       </div>
+  //     </React.Fragment>
+  //   );
+  // };
 
   const ProgramsRobotic = () => {
     return (
@@ -117,8 +157,8 @@ function Robotic() {
             <Row gutter={[24, 24]}>
               <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
                 <div className="container-robot-items">
-                  <h3>Optimus Prime</h3>
-                  <p>Learn More..</p>
+                  <h3>K-bots</h3>
+                  <p>KOOMPI Robots</p>
                   <img
                     src="https://www.bostondynamics.com/sites/default/files/2021-02/left-column-660x480.png"
                     alt="robotic images"
@@ -128,8 +168,8 @@ function Robotic() {
               </Col>
               <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
                 <div className="container-robot-items">
-                  <h3>Megatron</h3>
-                  <p>Learn More..</p>
+                  <h3>Smart Electronic Kits</h3>
+                  <p>Friendly basic electronic components</p>
                   <img
                     src="https://www.bostondynamics.com/sites/default/files/2021-02/right-column-660x480.png"
                     alt="robotic images"
@@ -148,39 +188,26 @@ function Robotic() {
     return (
       <React.Fragment>
         <div className="ideas">
-          <h2>Our Works</h2>
+          <h2>Who is this for?</h2>
           <div className="idea-contaner">
             <Row gutter={24}>
-              <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8}>
+              <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
                 <img src={target} alt="idea" className="who-onelab-img" />
                 <div className="goals-detial">
-                  <h3>Idea</h3>
+                  <h3>For elementary school</h3>
                   <p>
-                    The idea behind KOOMPI OS is to create a free operating
-                    system for all kind of users without breaching their
-                    personal data.
+                    The curriculum and the robot is kid-friendly. We hope they
+                    are interested and will spark their curiosities.
                   </p>
                 </div>
               </Col>
-              <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8}>
+              <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
                 <img src={target} alt="goals" className="who-onelab-img" />
                 <div className="goals-detial">
-                  <h3>Goal</h3>
+                  <h3>For middle school</h3>
                   <p>
-                    All the work is to gear up the performance of open-source
-                    and deliver the reliable operating system to all users, who
-                    use it.
-                  </p>
-                </div>
-              </Col>
-              <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8}>
-                <img src={target} alt="target" className="who-onelab-img" />
-                <div className="goals-detial">
-                  <h3>Target</h3>
-                  <p>
-                    The users who are exhausted with change an operating system
-                    and desktop environments that are not available for all
-                    resources they need.
+                    Students will learn the foundation to programming, robotics
+                    and electronics which involves more technical tools.
                   </p>
                 </div>
               </Col>
@@ -195,9 +222,10 @@ function Robotic() {
     <div className="robotic">
       <div className="container">
         <RoboticBanner />
+        <WhyRobotic />
         <HowItWork />
         <Ideas />
-        <OurPrograms />
+        {/* <OurPrograms /> */}
         <ProgramsRobotic />
       </div>
     </div>

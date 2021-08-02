@@ -25,10 +25,10 @@ function Foot() {
               <Col xs={12} sm={12} md={6} lg={6} xl={6}>
                 <Col className="footer-head-info">LEGALS</Col>
                 <Col className="sub-header-footer">
-                  <Link to="/legals/privacy-policy">Privacy Policy</Link>
+                  <Link to="/legals/privacy-policy">Term and Conditions</Link>
                 </Col>
                 <Col className="sub-header-footer">
-                  <Link to="/legals/sale-policy">Sale Policy</Link>
+                  <Link to="/legals/sale-policy">Privacy Policy</Link>
                 </Col>
               </Col>
               <Col xs={12} sm={12} md={6} lg={6} xl={6}>

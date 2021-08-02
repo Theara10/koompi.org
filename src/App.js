@@ -9,7 +9,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Sala from "./pages/Sala/Sala";
 import Fifi from "./pages/Fifi/Fifi";
 import Onelab from "./pages/Onelab/Onelab";
-import Blog from "./pages/Blog/Blog";
 import Robotic from "./pages/Robotic/Robotic";
 import PrivacyPolicy from "./pages/legals/privacy-policy";
 import SalePolicy from "./pages/legals/sale-policy";
@@ -25,7 +24,6 @@ function App() {
           <Route path="/sala" component={Sala} />
           <Route path="/fifi" component={Fifi} />
           <Route path="/onelab" component={Onelab} />
-          <Route path="/blog" component={Blog} />
           <Route path="/robotic" component={Robotic} />
           <Route path="/legals/privacy-policy" component={PrivacyPolicy} />
           <Route path="/legals/sale-policy" component={SalePolicy} />
