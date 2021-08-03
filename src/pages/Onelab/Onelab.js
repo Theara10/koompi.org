@@ -1,9 +1,13 @@
 import React from "react";
 import { Row, Col, Button } from "antd";
+
 import onelab from "../../lib/img/banner.jpg";
 import how from "../../lib/img/why.png";
 import target from "../../lib/img/target-onelab.png";
 import contactus from "../../lib/img/contact.png";
+import workstation from "../../lib/img/work-station.png";
+import contentsever from "../../lib/img/content-server.jpg";
+import network from "../../lib/img/network.png";
 
 function Onelab() {
   const BannerOnelab = () => {
@@ -54,10 +58,10 @@ function Onelab() {
           <center>
             <h1>Components</h1>
           </center>
-          <Row gutter={24}>
+          <Row gutter={[24, 24]}>
             <Col span={10}>
               <img
-                src="https://getpocket.com/marketing-assets/web-discover/_next/static/images/features-phone.6f0f4c65c5892b24aa553e79b07dd444.png"
+                src={workstation}
                 alt="onelap picture"
                 className="img-responsive onelabe-img"
               />
@@ -97,7 +101,7 @@ function Onelab() {
             </Col>
             <Col span={10}>
               <img
-                src="https://getpocket.com/marketing-assets/web-discover/_next/static/images/private-nook.adda9d99ef9f132c9d613f520e300fea.png"
+                src={contentsever}
                 alt="onelap picture"
                 className="img-responsive onelabe-img"
               />
@@ -111,13 +115,13 @@ function Onelab() {
   const Network = () => {
     return (
       <React.Fragment>
-        <div className="work-station">
+        <div className="network-station">
           <Row gutter={24}>
             <Col span={10}>
               <img
-                src="https://getpocket.com/marketing-assets/web-discover/_next/static/images/features-phone.6f0f4c65c5892b24aa553e79b07dd444.png"
+                src={network}
                 alt="onelap picture"
-                className="img-responsive onelabe-img"
+                className="img-responsive network-onelab-img"
               />
             </Col>
             <Col span={14}>

@@ -2,31 +2,31 @@
   {
     "id": 1,
     "images": "/images/C4.png",
-    "titile": "SALA KOOMPI's Visions",
-    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    "titile": "Vision",
+    "subtitle": "As part of our vision and mission, we want to make SALA KOOMPI the go-to learning tool that inspires the next-generation and one that contributes to Cambodia’s education sector."
   },
   {
     "id": 2,
     "images": "/images/C1.png",
-    "titile": "Easy To Find",
-    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    "titile": "Navigate lessons from expert content creators",
+    "subtitle": "Find curated contents with a few clicks. Explore your favorite subjects by expert content creators. "
   },
   {
     "id": 3,
     "images": "/images/C2.png",
-    "titile": "Abundance Of Resources",
-    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    "titile": "Lesson Variety ",
+    "subtitle": "KOOMPI Sala offers a wide variety of content for users. Our focus and goal are to inspire and encourage Cambodian students to enjoy learning STEAM subjects, inside and outside of their classrooms."
   },
   {
     "id": 4,
     "images": "/images/C3.png",
-    "titile": "Learn Variety Of Subjects",
-    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    "titile": "Digital and easy",
+    "subtitle": "Technology has become an important element of learning in the technological era. SALA KOOMPI offers localized lessons in digital form, making learning convenient and fun. "
   },
   {
     "id": 5,
     "images": "/images/C5.png",
-    "titile": "Abundance On System Management ",
-    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    "titile": "Progress management  ",
+    "subtitle": "Manage your account with useful website functions and friendly user interface. "
   }
 ]

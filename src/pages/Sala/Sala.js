@@ -1,6 +1,6 @@
 import { Col, Row, Button } from "antd";
 import React from "react";
-import Contact from "../../components/Contact";
+// import Contact from "../../components/Contact";
 import WhySALA from "./why";
 
 const student = require("../../lib/img/student.png");
@@ -60,7 +60,7 @@ function Sala() {
             <Col xs={24} sm={24} md={18} lg={18} xl={18} xxl={18}>
               <div className="sala-purpose-container">
                 <p className="why-join-sala">Why join SALA?</p>
-                <h2>Virtual School for the next generation of learners</h2>
+                <h2>E-learning made easy</h2>
                 <p className="sala-purpose-subtitle">
                   SALA KOOMPI, formerly called KOOMPI Academy, is an eLearning
                   platform that aims to enable a decentralized and open-ended
@@ -116,7 +116,7 @@ function Sala() {
           </Row>
         </div>
       </div>
-      <Contact />
+      {/* <Contact /> */}
     </div>
   );
 }

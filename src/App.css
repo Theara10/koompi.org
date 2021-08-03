@@ -909,6 +909,7 @@ p {
 }
 .ant-btn-primary:hover {
   border: 2px solid #000 !important;
+  color: #000 !important;
   background: #fff !important;
 }
 .btn-explore {
@@ -1229,6 +1230,13 @@ p {
   position: relative;
   transition: 0.3s;
 }
+.network-onelab-img {
+  position: relative;
+  top: 10%;
+}
+.network-station {
+  padding: 20px 0px 200px 0px;
+}
 
 /* ------------------responsive ------------------------- */
 
@@ -1318,6 +1326,14 @@ p {
   }
   .legals-background {
     padding: 50px;
+  }
+  .onelabe-img {
+    position: relative;
+    top: 20%;
+  }
+  .network-onelab-img {
+    position: relative;
+    top: 30%;
   }
 }
 
@@ -1660,5 +1676,8 @@ p {
   }
   .legals-background {
     padding: 25px;
+  }
+  .how-it-works-img {
+    display: none;
   }
 }
