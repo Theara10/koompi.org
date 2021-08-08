@@ -11,7 +11,7 @@ import Fifi from "./pages/Fifi/Fifi";
 import Onelab from "./pages/Onelab/Onelab";
 import Robotic from "./pages/Robotic/Robotic";
 import PrivacyPolicy from "./pages/legals/privacy-policy";
-import SalePolicy from "./pages/legals/sale-policy";
+import Terms from "./pages/legals/terms-and-condition";
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
           <Route path="/onelab" component={Onelab} />
           <Route path="/robotic" component={Robotic} />
           <Route path="/legals/privacy-policy" component={PrivacyPolicy} />
-          <Route path="/legals/sale-policy" component={SalePolicy} />
+          <Route path="/legals/terms-and-conditions" component={Terms} />
         </Switch>
         <Foot />
       </Router>

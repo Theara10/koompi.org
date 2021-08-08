@@ -59,14 +59,14 @@ function Onelab() {
             <h1>Components</h1>
           </center>
           <Row gutter={[24, 24]}>
-            <Col span={10}>
+            <Col xs={24} sm={24} md={10} lg={10} xl={10} xxl={10}>
               <img
                 src={workstation}
                 alt="onelap picture"
                 className="img-responsive onelabe-img"
               />
             </Col>
-            <Col span={14}>
+            <Col xs={24} sm={24} md={14} lg={14} xl={14} xxl={14}>
               <div className="onelap-details">
                 <h2>Work Station</h2>
                 <p>
@@ -86,9 +86,9 @@ function Onelab() {
   const ContentServer = () => {
     return (
       <React.Fragment>
-        <div className="work-station">
+        <div className="work-station-desktop">
           <Row gutter={24}>
-            <Col span={14}>
+            <Col xs={24} sm={24} md={14} lg={14} xl={14} xxl={14}>
               <div className="onelap-details">
                 <h2>Content Server</h2>
                 <p>
@@ -99,12 +99,34 @@ function Onelab() {
                 </p>
               </div>
             </Col>
-            <Col span={10}>
+            <Col xs={24} sm={24} md={10} lg={10} xl={10} xxl={10}>
               <img
                 src={contentsever}
                 alt="onelap picture"
                 className="img-responsive onelabe-img"
               />
+            </Col>
+          </Row>
+        </div>
+        <div className="mobile-row-responsive">
+          <Row>
+            <Col xs={24} sm={24} md={10} lg={10} xl={10} xxl={10}>
+              <img
+                src={contentsever}
+                alt="onelap picture"
+                className="img-responsive onelabe-img"
+              />
+            </Col>
+            <Col xs={24} sm={24} md={14} lg={14} xl={14} xxl={14}>
+              <div className="onelap-details">
+                <h2>Content Server</h2>
+                <p>
+                  The purpose of the Content Server is to update, synchronize,
+                  and pre-store web content for local browsing independently of
+                  an Internet connection, providing greater network speed and
+                  stability during Internet downtime.
+                </p>
+              </div>
             </Col>
           </Row>
         </div>
@@ -117,14 +139,14 @@ function Onelab() {
       <React.Fragment>
         <div className="network-station">
           <Row gutter={24}>
-            <Col span={10}>
+            <Col xs={24} sm={24} md={10} lg={10} xl={10} xxl={10}>
               <img
                 src={network}
                 alt="onelap picture"
                 className="img-responsive network-onelab-img"
               />
             </Col>
-            <Col span={14}>
+            <Col xs={24} sm={24} md={14} lg={14} xl={14} xxl={14}>
               <div className="onelap-details">
                 <h2>Network</h2>
                 <p>

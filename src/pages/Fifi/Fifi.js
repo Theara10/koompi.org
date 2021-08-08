@@ -88,30 +88,61 @@ function Fifi() {
           </Row>
         </div>
       </div> */}
-
-      <div className="sala-white-back">
-        <div className="container">
-          <Row gutter={[12, 12]}>
-            <Col span={10}>
-              <img src={mobile} alt="koompi fifi" className="koompi-fifi-pic" />
-            </Col>
-            <Col span={14}>
-              <div className="fifi-container-details">
-                <h2>Spend as Low as 0.50$ a Month</h2>
-                <p className="intro-description">
-                  KOOMPI Fi-Fi is a 5000៛ ($1.25) monthly subscription network
-                  service that provides secure storage and internet connection.
-                </p>
-              </div>
-            </Col>
-          </Row>
+      <div>
+        <div className="sala-white-back">
+          <div className="fifi-desktop">
+            <div className="container">
+              <Row gutter={[12, 12]}>
+                <Col xs={24} sm={24} md={10} lg={10} xl={10} xxl={10}>
+                  <img
+                    src={mobile}
+                    alt="koompi fifi"
+                    className="koompi-fifi-pic"
+                  />
+                </Col>
+                <Col xs={24} sm={24} md={14} lg={14} xl={14} xxl={14}>
+                  <div className="fifi-container-details">
+                    <h2>Spend as Low as 0.50$ a Month</h2>
+                    <p className="intro-description">
+                      KOOMPI Fi-Fi is a 5000៛ ($1.25) monthly subscription
+                      network service that provides secure storage and internet
+                      connection.
+                    </p>
+                  </div>
+                </Col>
+              </Row>
+            </div>
+          </div>
+          <div className="mobile-row-responsive">
+            <div className="container">
+              <Row gutter={[12, 12]}>
+                <Col xs={24} sm={24} md={14} lg={14} xl={14} xxl={14}>
+                  <div className="fifi-container-details">
+                    <h2>Spend as Low as 0.50$ a Month</h2>
+                    <p className="intro-description">
+                      KOOMPI Fi-Fi is a 5000៛ ($1.25) monthly subscription
+                      network service that provides secure storage and internet
+                      connection.
+                    </p>
+                  </div>
+                </Col>
+                <Col xs={24} sm={24} md={10} lg={10} xl={10} xxl={10}>
+                  <img
+                    src={mobile}
+                    alt="koompi fifi"
+                    className="koompi-fifi-pic"
+                  />
+                </Col>
+              </Row>
+            </div>
+          </div>
         </div>
       </div>
 
       <div className="sala-gray-back">
         <div className="container">
           <Row gutter={[12, 12]}>
-            <Col span={14}>
+            <Col xs={24} sm={24} md={14} lg={14} xl={14} xxl={14}>
               <div className="fifi-container-details">
                 <h2>Speed Up to 300Mbps</h2>
                 <p className="intro-description">
@@ -120,35 +151,63 @@ function Fifi() {
                 </p>
               </div>
             </Col>
-            <Col span={10}>
+            <Col xs={24} sm={24} md={10} lg={10} xl={10} xxl={10}>
               <img src={mobile} alt="koompi fifi" className="koompi-fifi-pic" />
             </Col>
           </Row>
         </div>
       </div>
 
-      <div className="sala-white-back">
-        <div className="container">
-          <Row gutter={[12, 12]}>
-            <Col span={10}>
-              <img
-                src={fifimobile}
-                alt="koompi fifi"
-                className="koompi-fifi-pic"
-              />
-            </Col>
-            <Col span={14}>
-              <div className="fifi-container-details">
-                <h2>10 Minutes to Fully Set Up</h2>
-                <p className="intro-description">
-                  Be wherever KOOMPI Wifi is set up and instantly connect!
-                  KOOMPI Hotspot is a mobile app that connects users to KOOMPI
-                  Wifi wherever it is available. Be among the first 2000 users
-                  to get two months of free KOOMPI Hotspot plan!
-                </p>
-              </div>
-            </Col>
-          </Row>
+      <div>
+        <div className="sala-white-back">
+          <div className="fifi-desktop">
+            <div className="container">
+              <Row gutter={[12, 12]}>
+                <Col xs={24} sm={24} md={10} lg={10} xl={10} xxl={10}>
+                  <img
+                    src={fifimobile}
+                    alt="koompi fifi"
+                    className="koompi-fifi-pic"
+                  />
+                </Col>
+                <Col xs={24} sm={24} md={14} lg={14} xl={14} xxl={14}>
+                  <div className="fifi-container-details">
+                    <h2>10 Minutes to Fully Set Up</h2>
+                    <p className="intro-description">
+                      Be wherever KOOMPI Wifi is set up and instantly connect!
+                      KOOMPI Hotspot is a mobile app that connects users to
+                      KOOMPI Wifi wherever it is available. Be among the first
+                      2000 users to get two months of free KOOMPI Hotspot plan!
+                    </p>
+                  </div>
+                </Col>
+              </Row>
+            </div>
+          </div>
+          <div className="mobile-row-responsive">
+            <div className="container">
+              <Row gutter={[12, 12]}>
+                <Col xs={24} sm={24} md={14} lg={14} xl={14} xxl={14}>
+                  <div className="fifi-container-details">
+                    <h2>10 Minutes to Fully Set Up</h2>
+                    <p className="intro-description">
+                      Be wherever KOOMPI Wifi is set up and instantly connect!
+                      KOOMPI Hotspot is a mobile app that connects users to
+                      KOOMPI Wifi wherever it is available. Be among the first
+                      2000 users to get two months of free KOOMPI Hotspot plan!
+                    </p>
+                  </div>
+                </Col>
+                <Col xs={24} sm={24} md={10} lg={10} xl={10} xxl={10}>
+                  <img
+                    src={fifimobile}
+                    alt="koompi fifi"
+                    className="koompi-fifi-pic"
+                  />
+                </Col>
+              </Row>
+            </div>
+          </div>
         </div>
       </div>
 

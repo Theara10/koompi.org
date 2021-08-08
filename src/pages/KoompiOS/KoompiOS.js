@@ -107,14 +107,14 @@ function KoompiOS() {
       <React.Fragment>
         <div className="os-section-height">
           <Row gutter={[24, 24]}>
-            <Col span={12}>
+            <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
               <img
                 src={software_img.default}
                 alt="koompi.org"
                 className="img-responsive"
               />
             </Col>
-            <Col span={12}>
+            <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
               <div className="os-section-height-detail">
                 <h2 className="os-title">Software</h2>
                 <p className="intro-description">
@@ -136,9 +136,9 @@ function KoompiOS() {
   const Section2 = () => {
     return (
       <React.Fragment>
-        <div className="os-section-height">
+        <div className="os-section-height-desktop">
           <Row gutter={[24, 24]}>
-            <Col span={12}>
+            <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
               <div className="os-section-height-detail">
                 <h2 className="os-title">Security</h2>
                 <p className="intro-description">
@@ -150,12 +150,35 @@ function KoompiOS() {
                 </p>
               </div>
             </Col>
-            <Col span={12}>
+            <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
               <img
                 src={security.default}
                 alt="koompi.org"
                 className="img-responsive"
               />
+            </Col>
+          </Row>
+        </div>
+        <div className="mobile-row-responsive">
+          <Row gutter={[24, 24]}>
+            <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
+              <img
+                src={security.default}
+                alt="koompi.org"
+                className="img-responsive"
+              />
+            </Col>
+            <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
+              <div className="os-section-height-detail">
+                <h2 className="os-title">Security</h2>
+                <p className="intro-description">
+                  The system itself leverages traditional OS security control to
+                  protect user data and system resources, protects device
+                  integrity against malware, and provides application isolation
+                  – application is separated from the rest of the running
+                  processes.
+                </p>
+              </div>
             </Col>
           </Row>
         </div>
@@ -168,14 +191,14 @@ function KoompiOS() {
       <React.Fragment>
         <div className="os-section-height">
           <Row gutter={[24, 24]}>
-            <Col span={12}>
+            <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
               <img
                 src={desk.default}
                 alt="koompi.org"
                 className="img-responsive"
               />
             </Col>
-            <Col span={12}>
+            <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
               <div className="os-section-height-detail">
                 <h2 className="os-title">Desktop Environment</h2>
                 <p className="intro-description">
@@ -196,9 +219,9 @@ function KoompiOS() {
   const Contact = () => {
     return (
       <React.Fragment>
-        <div className="os-section-height">
+        <div className="os-section-height-desktop">
           <Row gutter={[24, 24]}>
-            <Col span={12}>
+            <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
               <div className="os-section-height-detail">
                 <h2 className="os-title">Read the documentation</h2>
                 <p className="intro-description">
@@ -207,12 +230,32 @@ function KoompiOS() {
                 </p>
               </div>
             </Col>
-            <Col span={12}>
+            <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
               <img
                 src={docs.default}
                 alt="koompi.org"
                 className="img-responsive"
               />
+            </Col>
+          </Row>
+        </div>
+        <div className="mobile-row-responsive">
+          <Row>
+            <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
+              <img
+                src={docs.default}
+                alt="koompi.org"
+                className="img-responsive"
+              />
+            </Col>
+            <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
+              <div className="os-section-height-detail">
+                <h2 className="os-title">Read the documentation</h2>
+                <p className="intro-description">
+                  We keep you guys updated! Read our documentation to keep track
+                  of the latest releases and enjoy bug-free user experience!
+                </p>
+              </div>
             </Col>
           </Row>
         </div>

@@ -1,6 +1,7 @@
 import React from "react";
+import Output from "editorjs-react-renderer";
 
-const SalePolicy = () => {
+const Terms = () => {
   return (
     <React.Fragment>
       <div className="container">
@@ -23,4 +24,4 @@ const SalePolicy = () => {
   );
 };
 
-export default SalePolicy;
+export default Terms;

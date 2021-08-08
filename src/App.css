@@ -574,7 +574,8 @@ p {
 .os-title {
   font-size: 26px;
 }
-.os-section-height {
+.os-section-height,
+.os-section-height-desktop {
   position: relative;
   padding: 50px 0px;
   display: flex;
@@ -950,7 +951,7 @@ p {
   color: var(--fourth-color);
 }
 .koompi-fifi-pic {
-  width: 80%;
+  width: 100%;
 }
 .fifi-container-details {
   margin-top: 15%;
@@ -1027,7 +1028,8 @@ p {
   top: 635px;
 }
 
-.work-station {
+.work-station,
+.work-station-desktop {
   padding: 50px 0px;
 }
 
@@ -1236,6 +1238,9 @@ p {
 }
 .network-station {
   padding: 20px 0px 200px 0px;
+}
+.mobile-row-responsive {
+  display: none;
 }
 
 /* ------------------responsive ------------------------- */
@@ -1613,15 +1618,27 @@ p {
     font-size: 18px;
   }
   .os-section-height {
-    padding: 150px 0px;
+    padding: 30px 0px;
   }
-  .banner-title h1,
+  .mobile-row-responsive {
+    display: block;
+  }
+  .os-section-height-desktop {
+    display: none;
+  }
+  .goal {
+    padding: 50px 0px;
+  }
+
   .koompi-os h1,
   .sala h1,
   .fifi h1,
   .onelab h1,
   .robotic h1 {
     font-size: 25px !important;
+  }
+  .banner-title h1 {
+    font-size: 20px !important;
   }
   .sala-koompi-details {
     text-align: center;
@@ -1650,21 +1667,26 @@ p {
   .sala-koompi-user-details {
     text-align: center;
   }
+  .os-section-height-detail {
+    position: relative;
+    transform: none;
+    top: 0px;
+  }
   .map {
     height: 150px;
   }
-  .koompi-fifi-pic {
+  /* .koompi-fifi-pic {
     width: 100%;
     position: relative;
     top: 30%;
-  }
+  } */
   .how-it-works-container {
     padding: 20px 30px !important;
   }
-  .onelabe-img {
+  /* .onelabe-img {
     position: relative;
     top: 30%;
-  }
+  } */
   .how-robotic-works-img,
   .how-robotic-works-img2 {
     display: none;
@@ -1678,6 +1700,12 @@ p {
     padding: 25px;
   }
   .how-it-works-img {
+    display: none;
+  }
+  .fifi-desktop {
+    display: none;
+  }
+  .work-station-desktop {
     display: none;
   }
 }
