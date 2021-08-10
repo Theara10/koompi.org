@@ -391,7 +391,7 @@ p {
   } */
 .home-banner {
   position: relative;
-  height: 90vh;
+  height: 95vh;
   background-image: linear-gradient(
       90deg,
       rgba(2, 0, 36, 0.363) 0%,
@@ -431,7 +431,7 @@ p {
   border-radius: 8px;
 }
 .project-section {
-  margin: 80px 0px;
+  padding: 60px 0px;
 }
 .banner-desc {
   font-size: 28px !important;
@@ -531,7 +531,7 @@ p {
 
 .koompi-os-intro {
   position: relative;
-  min-height: 80vh;
+  min-height: 95vh;
   /* background-image: url("https://media.istockphoto.com/vectors/abstract-technology-background-vector-id842945754"); */
   /* display: flex;
     justify-content: center; */
@@ -539,7 +539,9 @@ p {
 }
 .os-banner-section {
   position: relative;
+  padding-top: 50px;
 }
+
 .koompi-os-details {
   margin-top: 30%;
 }
@@ -931,6 +933,7 @@ p {
 .fifi-banner {
   position: relative;
   padding: 50px 0px;
+  height: 95vh;
   background-image: linear-gradient(
       90deg,
       rgba(2, 0, 36, 0.363) 0%,
@@ -1223,6 +1226,7 @@ p {
   border-radius: 8px;
   font-size: 18px !important;
   word-wrap: break-word;
+  line-height: 2;
 }
 
 .card-news {
@@ -1343,6 +1347,9 @@ p {
 }
 
 @media only screen and (max-width: 1200px) {
+  .fifi-banner {
+    height: auto;
+  }
   .home-banner {
     height: 40vh;
   }

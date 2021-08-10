@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col, Button } from "antd";
+import MetaTage from "../../components/MetaTage";
 
 const software_img = require("../../lib/img/koompi-os-software.png");
 const idea = require("../../lib/img/Idea.png");
@@ -13,7 +14,7 @@ function KoompiOS() {
   const OSBanner = () => {
     return (
       <React.Fragment>
-        <div className="os-banner-section">
+        <div className="os-banner-section ">
           <Row gutter={[24, 24]}>
             <Col xs={24} sm={24} md={10} lg={10} xl={10} xxl={10}>
               <div className="koompi-os-details">
@@ -264,18 +265,27 @@ function KoompiOS() {
   };
 
   return (
-    <div className="koompi-os">
-      <div className="koompi-os-intro">
-        <div className="container">
-          <OSBanner />
+    <div>
+      <MetaTage
+        title="KOOMPI OS | koompi.org"
+        urls=" http://www.koompi.org/koompi-os"
+        desc="A lightweight, decentralized, crypto/security-oriented open-source operating system derived from Archlinux. KOOMPI OS is built on a kernel and provides an environment for multiple applications and software to run simultaneously."
+        // thumbnail="./images/thumbnail/koompi-os-banner.png"
+        thumbnail="http://www.koompi.org/images/thumbnail/koompi-os-banner.png"
+      />
+      <div className="koompi-os">
+        <div className="koompi-os-intro">
+          <div className="container">
+            <OSBanner />
+          </div>
         </div>
-      </div>
-      <div className="container">
-        <Goals />
-        <Section1 />
-        <Section2 />
-        <Section3 />
-        <Contact />
+        <div className="container">
+          <Goals />
+          <Section1 />
+          <Section2 />
+          <Section3 />
+          <Contact />
+        </div>
       </div>
     </div>
   );

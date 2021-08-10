@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col, Button } from "antd";
+import MetaTage from "../../components/MetaTage";
 
 import onelab from "../../lib/img/banner.jpg";
 import how from "../../lib/img/why.png";
@@ -331,19 +332,28 @@ function Onelab() {
   };
 
   return (
-    <div className="onelab">
-      <div className="container">
-        <BannerOnelab />
-        <HowItWork />
-        {/* <Ideas /> */}
-        <Who />
-        <WorkStation />
-        <ContentServer />
-        <Network />
+    <React.Fragment>
+      <MetaTage
+        title="KOOMPI ONELAB | koompi.org"
+        urls=" http://www.koompi.org/onelab"
+        desc="Update. Synchronize. Connect. Efficient laboratory management with minimal internet dependency."
+        // thumbnail="./images/thumbnail/onelab-banner.png"
+        thumbnail="http://www.koompi.org/images/thumbnail/onelab-banner.png"
+      />
+      <div className="onelab">
+        <div className="container">
+          <BannerOnelab />
+          <HowItWork />
+          {/* <Ideas /> */}
+          <Who />
+          <WorkStation />
+          <ContentServer />
+          <Network />
 
-        {/* <Contact /> */}
+          {/* <Contact /> */}
+        </div>
       </div>
-    </div>
+    </React.Fragment>
   );
 }
 

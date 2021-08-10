@@ -4,7 +4,7 @@
     "title": "KOOMPI OS",
     "subtitle": "Operating System",
     "desc": "A lightweight, decentralized, crypto/security-oriented open-source operating system derived from Archlinux. KOOMPI OS is built on a kernel and provides an environment for multiple applications and software to run simultaneously.",
-    "image": "/images/KOOMPI-Os.png",
+    "image": "/images/koompi-os.jpg",
     "logo": "/images/logo.svg",
     "link": "/koompi-os"
   },
@@ -40,7 +40,7 @@
     "title": "KOOMPI Robotic Program",
     "subtitle": "Robotic",
     "desc": "A part of KOOMPI ACADEMY, Robotic Program is an extension program focused on robotic engineering and electronics.",
-    "image": "/images/robotic.png",
+    "image": "/images/robotic2.png",
     "logo": "/images/logo.svg",
     "link": "/robotic"
   }

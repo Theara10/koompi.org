@@ -4,6 +4,7 @@ import robotic from "../../lib/img/robot.png";
 import robotic2 from "../../lib/img/robot3.png";
 import target from "../../lib/img/target-onelab.png";
 import whyrobotic from "../../lib/img/why-robotic.png";
+import MetaTage from "../../components/MetaTage";
 
 function Robotic() {
   const RoboticBanner = () => {
@@ -219,16 +220,26 @@ function Robotic() {
   };
 
   return (
-    <div className="robotic">
-      <div className="container">
-        <RoboticBanner />
-        <WhyRobotic />
-        <HowItWork />
-        <Ideas />
-        {/* <OurPrograms /> */}
-        <ProgramsRobotic />
+    <React.Fragment>
+      <MetaTage
+        title="KOOMPI ROBOTIC | koompi.org"
+        urls=" http://www.koompi.org/robotic"
+        desc="As part of KOOMPI ACADEMY, Robotic Program is an extension initiative that focuses on an introduction to programming, robotic engineering and electronics."
+        // thumbnail="./images/thumbnail/robotic-banner.png"
+        thumbnail="http://www.koompi.org/images/thumbnail/robotic-banner.png"
+      />
+
+      <div className="robotic">
+        <div className="container">
+          <RoboticBanner />
+          <WhyRobotic />
+          <HowItWork />
+          <Ideas />
+          {/* <OurPrograms /> */}
+          <ProgramsRobotic />
+        </div>
       </div>
-    </div>
+    </React.Fragment>
   );
 }
 
