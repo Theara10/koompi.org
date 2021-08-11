@@ -1233,7 +1233,6 @@ p {
 
 .card-news {
   height: 100%;
-  border: 1px solid;
   background-color: #f5f5f5;
   position: relative;
   transition: 0.3s;
