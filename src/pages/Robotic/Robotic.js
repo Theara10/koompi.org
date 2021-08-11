@@ -2,9 +2,12 @@ import React from "react";
 import { Row, Col, Button } from "antd";
 import robotic from "../../lib/img/robot.png";
 import robotic2 from "../../lib/img/robot3.png";
-import target from "../../lib/img/target-onelab.png";
+// import target from "../../lib/img/target-onelab.png";
 import whyrobotic from "../../lib/img/why-robotic.png";
 import MetaTage from "../../components/MetaTage";
+import middle from "../../lib/img/Middle-School.png";
+import element from "../../lib/img/Elementary-School.png";
+import kbot from "../../lib/img/K-Bot.png";
 
 function Robotic() {
   const RoboticBanner = () => {
@@ -156,18 +159,18 @@ function Robotic() {
           </center>
           <div className="robot-type-container">
             <Row gutter={[24, 24]}>
-              <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
+              <Col span={24}>
                 <div className="container-robot-items">
                   <h3>K-bots</h3>
                   <p>KOOMPI Robots</p>
                   <img
-                    src="https://www.bostondynamics.com/sites/default/files/2021-02/left-column-660x480.png"
+                    src={kbot}
                     alt="robotic images"
-                    className="img-responsive"
+                    className=" robotic-kbot"
                   />
                 </div>
               </Col>
-              <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
+              {/* <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
                 <div className="container-robot-items">
                   <h3>Smart Electronic Kits</h3>
                   <p>Friendly basic electronic components</p>
@@ -177,7 +180,7 @@ function Robotic() {
                     className="img-responsive"
                   />
                 </div>
-              </Col>
+              </Col> */}
             </Row>
           </div>
         </div>
@@ -193,7 +196,7 @@ function Robotic() {
           <div className="idea-contaner">
             <Row gutter={24}>
               <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
-                <img src={target} alt="idea" className="who-onelab-img" />
+                <img src={element} alt="idea" className="who-onelab-img" />
                 <div className="goals-detial">
                   <h3>For elementary school</h3>
                   <p>
@@ -203,7 +206,7 @@ function Robotic() {
                 </div>
               </Col>
               <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
-                <img src={target} alt="goals" className="who-onelab-img" />
+                <img src={middle} alt="goals" className="who-onelab-img" />
                 <div className="goals-detial">
                   <h3>For middle school</h3>
                   <p>

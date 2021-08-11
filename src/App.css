@@ -1164,6 +1164,8 @@ p {
   background-color: #f1f2f6;
   border-radius: 8px;
   padding: 30px 20px;
+  display: grid;
+  place-items: center;
 }
 
 .ideas {
@@ -1245,6 +1247,9 @@ p {
 }
 .mobile-row-responsive {
   display: none;
+}
+.robotic-kbot {
+  width: 500px;
 }
 
 /* ------------------responsive ------------------------- */
@@ -1344,6 +1349,9 @@ p {
     position: relative;
     top: 30%;
   }
+  .robotic-kbot {
+    width: 400px;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -1410,6 +1418,9 @@ p {
     position: absolute;
     width: 150px;
     right: -95px;
+  }
+  .robotic-kbot {
+    width: 350px;
   }
 }
 
@@ -1524,6 +1535,9 @@ p {
     position: absolute;
     width: 80px;
     right: -45px;
+  }
+  .robotic-kbot {
+    width: 300px;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -1714,5 +1728,8 @@ p {
   }
   .work-station-desktop {
     display: none;
+  }
+  .robotic-kbot {
+    width: 200px;
   }
 }

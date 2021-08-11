@@ -4,7 +4,7 @@ import { Row, Col, Button } from "antd";
 import fifi from "../../lib/img/MobileApp12.png";
 import mobile from "../../lib/img/koompi-fifi.png";
 import fifimobile from "../../lib/img/FiFiMobileApp.png";
-import map from "../../lib/img/map2.png";
+import map from "../../lib/img/map.png";
 import MetaTage from "../../components/MetaTage";
 
 function Fifi() {

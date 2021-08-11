@@ -9,6 +9,9 @@ import contactus from "../../lib/img/contact.png";
 import workstation from "../../lib/img/work-station.png";
 import contentsever from "../../lib/img/content-server.jpg";
 import network from "../../lib/img/network.png";
+import school from "../../lib/img/School.png";
+import company from "../../lib/img/Company.png";
+import organization from "../../lib/img/Organization.png";
 
 function Onelab() {
   const BannerOnelab = () => {
@@ -175,11 +178,7 @@ function Onelab() {
           <div className="uses-bottom">
             <Row gutter={24}>
               <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8}>
-                <img
-                  src="https://image.freepik.com/free-vector/company-concept-illustration_114360-2721.jpg"
-                  alt="school"
-                  className="who-onelab-img"
-                />
+                <img src={school} alt="school" className="who-onelab-img" />
                 <div className="goals-detial">
                   <h3>School</h3>
                   <p>
@@ -190,11 +189,7 @@ function Onelab() {
                 </div>
               </Col>
               <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8}>
-                <img
-                  src="https://image.freepik.com/free-vector/company-concept-illustration_114360-2721.jpg"
-                  alt="company"
-                  className="who-onelab-img"
-                />
+                <img src={company} alt="company" className="who-onelab-img" />
                 <div className="goals-detial">
                   <h3>Company</h3>
                   <p>
@@ -205,11 +200,7 @@ function Onelab() {
                 </div>
               </Col>
               <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8}>
-                <img
-                  src="https://image.freepik.com/free-vector/company-concept-illustration_114360-2721.jpg"
-                  alt="org"
-                  className="who-onelab-img"
-                />
+                <img src={organization} alt="org" className="who-onelab-img" />
                 <div className="goals-detial">
                   <h3>Organization</h3>
                   <p>
