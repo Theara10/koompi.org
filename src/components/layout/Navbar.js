@@ -71,7 +71,7 @@ const menu = (
               <div className="project-detail-container">
                 <h3>KOOMPI FIFI</h3>
                 <p>
-                  Convenient and affordable mobile WIFI <br />
+                  Convenient and affordable mobile WiFi <br />
                   anywhere.
                 </p>
               </div>
@@ -120,9 +120,9 @@ const menu = (
               <div className="project-detail-container">
                 <h3>KOOMPI Robotic Program</h3>
                 <p>
-                  Computer workstation with usability,
-                  <br /> minimal internet dependency
-                  <br /> and efficiency.
+                  Our program aims to foster <br />
+                  peer-to-peer learning, promote creativity
+                  <br /> and develop social cognitive skills.
                 </p>
               </div>
             </Col>

@@ -94,7 +94,7 @@ function Onelab() {
           <Row gutter={24}>
             <Col xs={24} sm={24} md={14} lg={14} xl={14} xxl={14}>
               <div className="onelap-details">
-                <h2>Content Server</h2>
+                <h2>Local Content Service</h2>
                 <p>
                   The purpose of the Content Server is to update, synchronize,
                   and pre-store web content for local browsing independently of
@@ -123,7 +123,7 @@ function Onelab() {
             </Col>
             <Col xs={24} sm={24} md={14} lg={14} xl={14} xxl={14}>
               <div className="onelap-details">
-                <h2>Content Server</h2>
+                <h2>Local Content Service</h2>
                 <p>
                   The purpose of the Content Server is to update, synchronize,
                   and pre-store web content for local browsing independently of
@@ -325,7 +325,7 @@ function Onelab() {
   return (
     <React.Fragment>
       <MetaTage
-        title="KOOMPI ONELAB | koompi.org"
+        title="Update. Synchronize. Connect. Efficient laboratory management with minimal internet dependency | KOOMPI.org"
         urls=" http://www.koompi.org/onelab"
         desc="Update. Synchronize. Connect. Efficient laboratory management with minimal internet dependency."
         // thumbnail="./images/thumbnail/onelab-banner.png"

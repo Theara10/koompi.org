@@ -53,7 +53,7 @@ function KoompiOS() {
                 className="img-responsive os-banner-img"
               />
               <center>
-                <p> KOOMPI OS V3.3.5</p>
+                <p> KOOMPI OS V2.7.0</p>
               </center>
             </Col>
           </Row>
@@ -267,7 +267,7 @@ function KoompiOS() {
   return (
     <div>
       <MetaTage
-        title="KOOMPI OS | koompi.org"
+        title="No license fees. No limitations. Also, Open Source | KOOMPI.org"
         urls=" http://www.koompi.org/koompi-os"
         desc="A lightweight, decentralized, crypto/security-oriented open-source operating system derived from Archlinux. KOOMPI OS is built on a kernel and provides an environment for multiple applications and software to run simultaneously."
         // thumbnail="./images/thumbnail/koompi-os-banner.png"
@@ -280,11 +280,11 @@ function KoompiOS() {
           </div>
         </div>
         <div className="container">
-          <Goals />
           <Section1 />
           <Section2 />
           <Section3 />
           <Contact />
+          <Goals />
         </div>
       </div>
     </div>

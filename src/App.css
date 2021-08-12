@@ -767,8 +767,10 @@ p {
 }
 .logo-icons {
   height: 30px;
-  margin: 0 !important;
-  padding: 0 !important;
+  /* margin: 0 !important;
+  padding: 0 !important; */
+  position: relative;
+  top: 19px;
 }
 .project-detail-container h3 {
   font-weight: bold;

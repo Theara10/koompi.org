@@ -11,7 +11,7 @@ function Fifi() {
   return (
     <React.Fragment>
       <MetaTage
-        title="KOOMPI FiFi | koompi.org"
+        title="As part of our Internet-For-All initiative, KOOMPI Fi-Fi is a wireless internet infrastructure | KOOMPI.org"
         urls=" http://www.koompi.org/fifi"
         desc="As part of our Internet-For-All initiative, KOOMPI Fi-Fi is a wireless internet infrastructure designed for schools and neighboring communities providing fast fiber internet at a user cost of only USD 1.25 per month for up to two devices."
         // thumbnail="./images/thumbnail/fifi-banner.png"
@@ -111,7 +111,7 @@ function Fifi() {
                   </Col>
                   <Col xs={24} sm={24} md={14} lg={14} xl={14} xxl={14}>
                     <div className="fifi-container-details">
-                      <h2>Spend as Low as 0.50$ a Month</h2>
+                      <h2>Spend as Low as 5000 R a Month</h2>
                       <p className="intro-description">
                         KOOMPI Fi-Fi is a 5000៛ ($1.25) monthly subscription
                         network service that provides secure storage and
@@ -127,7 +127,7 @@ function Fifi() {
                 <Row gutter={[12, 12]}>
                   <Col xs={24} sm={24} md={14} lg={14} xl={14} xxl={14}>
                     <div className="fifi-container-details">
-                      <h2>Spend as Low as 0.50$ a Month</h2>
+                      <h2>Spend as Low as 5000 R a Month</h2>
                       <p className="intro-description">
                         KOOMPI Fi-Fi is a 5000៛ ($1.25) monthly subscription
                         network service that provides secure storage and

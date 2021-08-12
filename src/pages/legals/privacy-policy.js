@@ -5,7 +5,7 @@ const PrivacyPolicy = () => {
   return (
     <React.Fragment>
       <MetaTage
-        title="privacy policy | koompi.org"
+        title="No license fees. No limitations. Also, Open Source | KOOMPI.org"
         urls=" http://www.koompi.org/privacy-policy"
         desc="No license fees. No limitations. Also, Open Source."
         // thumbnail="./images/thumbnail/policy.png"

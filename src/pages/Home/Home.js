@@ -11,7 +11,7 @@ function Home() {
   return (
     <div>
       <MetaTage
-        title="koompi.org"
+        title="No license fees. No limitations. Also, Open Source | KOOMPI.org"
         urls=" http://www.koompi.org"
         desc="No license fees. No limitations. Also, Open Source."
         // thumbnail="./images/thumbnail/homepage.png"

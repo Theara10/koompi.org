@@ -50,7 +50,7 @@ function BlogCard() {
             <Spin tip="Loading ..."></Spin>
           </center>
         ) : (
-          <Row gutter={[12, 12]}>
+          <Row gutter={[16, 16]}>
             {koompi.map((koompi) => {
               console.log(koompi);
               return (

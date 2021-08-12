@@ -12,7 +12,7 @@ function Sala() {
   return (
     <React.Fragment>
       <MetaTage
-        title="SALA KOOMPI | koompi.org"
+        title="Virtual platform for students, teachers, and content creators. | KOOMPI.org"
         urls=" http://www.koompi.org/sala"
         desc="Virtual platform for students, teachers, and content creators."
         // thumbnail="./images/thumbnail/sala-banner.png"
