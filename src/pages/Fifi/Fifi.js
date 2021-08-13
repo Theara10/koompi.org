@@ -267,7 +267,7 @@ function Fifi() {
       </div>
       <MetaTage
         title="As part of our Internet-For-All initiative, KOOMPI Fi-Fi is a wireless internet infrastructure | KOOMPI.org"
-        urls=" http://www.koompi.org/fifi"
+        urls=" https://www.koompi.org/fifi"
         desc="As part of our Internet-For-All initiative, KOOMPI Fi-Fi is a wireless internet infrastructure designed for schools and neighboring communities providing fast fiber internet at a user cost of only USD 1.25 per month for up to two devices."
         // thumbnail="./images/thumbnail/fifi-banner.png"
         thumbnail="https://www.koompi.org/images/thumbnail/fifi-banner.png"

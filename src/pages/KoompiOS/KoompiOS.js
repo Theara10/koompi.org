@@ -282,7 +282,7 @@ function KoompiOS() {
       </div>
       <MetaTage
         title="No license fees. No limitations. Always open. | KOOMPI.org"
-        urls=" http://www.koompi.org/koompi-os"
+        urls=" https://www.koompi.org/koompi-os"
         desc="A lightweight, decentralized, crypto/security-oriented open-source operating system derived from Archlinux. KOOMPI OS is built on a kernel and provides an environment for multiple applications and software to run simultaneously."
         // thumbnail="./images/thumbnail/koompi-os-banner.png"
         thumbnail="https://www.koompi.org/images/thumbnail/koompi-os-banner.png"

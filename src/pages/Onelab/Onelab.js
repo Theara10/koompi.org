@@ -339,7 +339,7 @@ function Onelab() {
       </div>
       <MetaTage
         title="Update. Synchronize. Connect. Efficient laboratory management with minimal internet dependency | KOOMPI.org"
-        urls=" http://www.koompi.org/onelab"
+        urls=" https://www.koompi.org/onelab"
         desc="Update. Synchronize. Connect. Efficient laboratory management with minimal internet dependency."
         // thumbnail="./images/thumbnail/onelab-banner.png"
         thumbnail="https://www.koompi.org/images/thumbnail/onelab-banner.png"

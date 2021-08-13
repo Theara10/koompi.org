@@ -4,6 +4,7 @@ import BlogCard from "../../components/Card";
 import MetaTage from "../../components/MetaTage";
 // import Contact from "../../components/Contact";
 import ProjectCard from "../../components/ProjectCard";
+import { Helmet } from "react-helmet";
 
 const koompi_logo = require("../../lib/img/koompi-logo-black.png");
 
@@ -66,13 +67,55 @@ function Home() {
         </div>
       </div>
       {/* <Contact /> */}
-      <MetaTage
+      {/* <MetaTage
         title="No license fees. No limitations. Always open. | KOOMPI.org"
-        urls=" http://www.koompi.org"
-        desc="No license fees. No limitations. Also, Open Source."
+        urls=" https://www.koompi.org"
+        desc="No license fees. No limitations. Always open."
         // thumbnail="./images/thumbnail/homepage.png"
         thumbnail="https://www.koompi.org/images/thumbnail/homepage.png"
-      />
+      /> */}
+      <Helmet>
+        ‍
+        <title>
+          No license fees. No limitations. Always open. | KOOMPI.org
+        </title>
+        ‍
+        <meta
+          name="description"
+          content="No license fees. No limitations. Always open."
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@koompios" />
+        <meta name="twitter:creator" content="@koompios" />
+        <meta
+          name="twitter:title"
+          content="No license fees. No limitations. Always open. | KOOMPI.org"
+        />
+        <meta
+          name="twitter:description"
+          content="No license fees. No limitations. Always open."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.koompi.org/images/thumbnail/homepage.png"
+        />
+        <meta
+          property="og:title"
+          content="No license fees. No limitations. Always open. | KOOMPI.org"
+        />
+        <meta
+          property="og:description"
+          content="No license fees. No limitations. Always open."
+        />
+        <meta
+          property="og:image"
+          content="https://www.koompi.org/images/thumbnail/homepage.png"
+        />
+        <meta property="og:url" content=" http://www.koompi.org" />
+        <meta property="og:site_name" content="koompi.org" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+      </Helmet>
     </React.Fragment>
   );
 }
