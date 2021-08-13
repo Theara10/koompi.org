@@ -10,13 +10,6 @@ import MetaTage from "../../components/MetaTage";
 function Fifi() {
   return (
     <React.Fragment>
-      <MetaTage
-        title="As part of our Internet-For-All initiative, KOOMPI Fi-Fi is a wireless internet infrastructure | KOOMPI.org"
-        urls=" http://www.koompi.org/fifi"
-        desc="As part of our Internet-For-All initiative, KOOMPI Fi-Fi is a wireless internet infrastructure designed for schools and neighboring communities providing fast fiber internet at a user cost of only USD 1.25 per month for up to two devices."
-        // thumbnail="./images/thumbnail/fifi-banner.png"
-        thumbnail="http://www.koompi.org/images/thumbnail/fifi-banner.png"
-      />
       <div className="fifi">
         <div className="fifi-banner">
           <div className="container">
@@ -272,6 +265,13 @@ function Fifi() {
           </div>
         </div>
       </div>
+      <MetaTage
+        title="As part of our Internet-For-All initiative, KOOMPI Fi-Fi is a wireless internet infrastructure | KOOMPI.org"
+        urls=" http://www.koompi.org/fifi"
+        desc="As part of our Internet-For-All initiative, KOOMPI Fi-Fi is a wireless internet infrastructure designed for schools and neighboring communities providing fast fiber internet at a user cost of only USD 1.25 per month for up to two devices."
+        // thumbnail="./images/thumbnail/fifi-banner.png"
+        thumbnail="https://www.koompi.org/images/thumbnail/fifi-banner.png"
+      />
     </React.Fragment>
   );
 }

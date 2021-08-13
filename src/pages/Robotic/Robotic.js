@@ -224,14 +224,6 @@ function Robotic() {
 
   return (
     <React.Fragment>
-      <MetaTage
-        title="As part of KOOMPI ACADEMY, Robotic Program is an extension initiative that focuses on an introduction to programming, robotic engineering and electronics | KOOMPI.org"
-        urls=" http://www.koompi.org/robotic"
-        desc="As part of KOOMPI ACADEMY, Robotic Program is an extension initiative that focuses on an introduction to programming, robotic engineering and electronics."
-        // thumbnail="./images/thumbnail/robotic-banner.png"
-        thumbnail="http://www.koompi.org/images/thumbnail/robotic-banner.png"
-      />
-
       <div className="robotic">
         <div className="container">
           <RoboticBanner />
@@ -242,6 +234,13 @@ function Robotic() {
           <ProgramsRobotic />
         </div>
       </div>
+      <MetaTage
+        title="As part of KOOMPI ACADEMY, Robotic Program is an extension initiative that focuses on an introduction to programming, robotic engineering and electronics | KOOMPI.org"
+        urls=" http://www.koompi.org/robotic"
+        desc="As part of KOOMPI ACADEMY, Robotic Program is an extension initiative that focuses on an introduction to programming, robotic engineering and electronics."
+        // thumbnail="./images/thumbnail/robotic-banner.png"
+        thumbnail="https://www.koompi.org/images/thumbnail/robotic-banner.png"
+      />
     </React.Fragment>
   );
 }

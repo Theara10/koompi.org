@@ -324,13 +324,6 @@ function Onelab() {
 
   return (
     <React.Fragment>
-      <MetaTage
-        title="Update. Synchronize. Connect. Efficient laboratory management with minimal internet dependency | KOOMPI.org"
-        urls=" http://www.koompi.org/onelab"
-        desc="Update. Synchronize. Connect. Efficient laboratory management with minimal internet dependency."
-        // thumbnail="./images/thumbnail/onelab-banner.png"
-        thumbnail="http://www.koompi.org/images/thumbnail/onelab-banner.png"
-      />
       <div className="onelab">
         <div className="container">
           <BannerOnelab />
@@ -344,6 +337,13 @@ function Onelab() {
           {/* <Contact /> */}
         </div>
       </div>
+      <MetaTage
+        title="Update. Synchronize. Connect. Efficient laboratory management with minimal internet dependency | KOOMPI.org"
+        urls=" http://www.koompi.org/onelab"
+        desc="Update. Synchronize. Connect. Efficient laboratory management with minimal internet dependency."
+        // thumbnail="./images/thumbnail/onelab-banner.png"
+        thumbnail="https://www.koompi.org/images/thumbnail/onelab-banner.png"
+      />
     </React.Fragment>
   );
 }

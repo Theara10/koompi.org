@@ -5,11 +5,11 @@ const Terms = () => {
   return (
     <React.Fragment>
       <MetaTage
-        title="No license fees. No limitations. Also, Open Source | KOOMPI.org"
+        title="No license fees. No limitations. Always open. | KOOMPI.org"
         urls=" http://www.koompi.org/terms-and-conditions"
         desc="No license fees. No limitations. Also, Open Source."
         // thumbnail="./images/thumbnail/terms.png"
-        thumbnail="http://www.koompi.org/images/thumbnail/terms.png"
+        thumbnail="https://www.koompi.org/images/thumbnail/terms.png"
       />
 
       <div className="container">

@@ -11,13 +11,6 @@ const why = require("../../lib/img/why2.png");
 function Sala() {
   return (
     <React.Fragment>
-      <MetaTage
-        title="Virtual platform for students, teachers, and content creators. | KOOMPI.org"
-        urls=" http://www.koompi.org/sala"
-        desc="Virtual platform for students, teachers, and content creators."
-        // thumbnail="./images/thumbnail/sala-banner.png"
-        thumbnail="http://www.koompi.org/images/thumbnail/sala-banner.png"
-      />
       <div className="sala">
         <div className="koompi-os-intro">
           <div className="container">
@@ -133,6 +126,13 @@ function Sala() {
         </div>
         {/* <Contact /> */}
       </div>
+      <MetaTage
+        title="Virtual platform for students, teachers, and content creators. | KOOMPI.org"
+        urls=" http://www.koompi.org/sala"
+        desc="Virtual platform for students, teachers, and content creators."
+        // thumbnail="./images/thumbnail/sala-banner.png"
+        thumbnail="https://www.koompi.org/images/thumbnail/sala-banner.png"
+      />
     </React.Fragment>
   );
 }
